@@ -41,7 +41,7 @@ img{
     transition: all 100ms cubic-bezier(0.42, 0, 0.58, 1);
 }
 
-.post-title {
+.post-template .post-title {
     margin-bottom: 0;
     color: white;
     position: relative;
