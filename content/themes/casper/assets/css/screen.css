@@ -4,8 +4,22 @@ img{
   width: 100%;
 }
 
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+}
+
 h1,h2,h3{
   font-family: 'europa';
+}
+
+.no-padding{
+  padding: 0px;
 }
 
 .post-home{
@@ -14,6 +28,43 @@ h1,h2,h3{
 
 .row{
   margin: 0px !important;
+}
+
+/* CUSTOM NAV*/
+
+#custom-navigation{
+  background-color: #191919;
+  position: fixed;
+  width: 100%;
+  z-index: 999999;
+}
+
+.top-nav-ul{
+  display: block;
+  text-align: right;
+  color: white;
+  word-spacing: 35px;
+}
+
+.top-nav-ul li{
+  display: inline;
+}
+.top-nav-ul li p{
+  display: inline;
+  position: relative;
+  top: 15px;
+}
+
+.nav-logo{
+  color: white;
+  position: relative;
+  top: 11px;
+  font-weight: 900;
+}
+
+.support-button{
+  background-color: #dda658;
+  padding: 36px;
 }
 
 /* POST STYLES */
