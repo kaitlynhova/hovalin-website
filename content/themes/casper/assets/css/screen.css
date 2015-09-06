@@ -168,6 +168,11 @@ h1,h2,h3{
   max-width: 230px;
   display: block;
   margin: 0 auto;
+  transition: .5s;
+}
+
+.download-button:hover{
+  background-color: #dda658;
 }
 
 #about-area{
@@ -250,6 +255,7 @@ h1,h2,h3{
 
 .post-title{
   text-align: left !important;
+  padding-top: 15px;
 }
 
 .post-meta-info{
@@ -317,7 +323,7 @@ h1,h2,h3{
 #support{
   padding-top: 75px;
   padding-bottom: 75px;
-  text-align:center;
+  text-align: center;
 }
 
 
@@ -1918,7 +1924,6 @@ body:not(.post-template) .post-title {
 
 .site-footer {
     position: relative;
-    margin: 8rem 0 0 0;
     font-family: "Open Sans", sans-serif;
     font-size: 15px;
     line-height: 1.75em;
