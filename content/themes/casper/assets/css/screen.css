@@ -4,6 +4,19 @@ img{
   width: 100%;
 }
 
+.black-bg{
+  background-color: black;
+}
+
+.black-bg img{
+  transition: .5s;
+}
+
+.black-bg img:hover{
+  transition: .5s;
+  opacity: .5;
+}
+
 ul, menu, dir {
     display: block;
     list-style-type: disc;
@@ -1278,10 +1291,12 @@ body:not(.post-template) .post-title {
   text-decoration: none;
   color: #dda658;
   border: 1px solid #dda658;
-  padding: 20px;
+  padding: 11px;
   position: relative;
-  top: 50px;
+  top: 16px;
   transition: .5s;
+  font-size: 15px;
+  float: left;
 }
 
 .read-more:hover{
@@ -1721,12 +1736,12 @@ body:not(.post-template) .post-title {
 }
 
 .read-next-story .post {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+  padding-top: 150px;
+  padding-bottom: 150px;
 }
 
 .read-next-story .post:before {
-    content: "Read This Next";
+    /*content: "Read This Next";*/
     padding: 4px 10px 5px;
     text-transform: uppercase;
     font-size: 1.1rem;
@@ -1737,7 +1752,7 @@ body:not(.post-template) .post-title {
     transition: all 0.5s ease;
 }
 .read-next-story.prev .post:before {
-    content: "You Might Enjoy";
+    /*content: "You Might Enjoy";*/
 }
 
 .read-next-story h2 {
@@ -1904,14 +1919,12 @@ body:not(.post-template) .post-title {
 .site-footer {
     position: relative;
     margin: 8rem 0 0 0;
-    padding: 1rem 15px;
     font-family: "Open Sans", sans-serif;
-    font-size: 1rem;
+    font-size: 15px;
     line-height: 1.75em;
     color: #3c4544;
     background-color: #1c2020;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: 50px 0 80px;
 }
 
 .site-footer a {
@@ -1926,15 +1939,13 @@ body:not(.post-template) .post-title {
 
 .poweredby {
     display: block;
-    width: 45%;
-    float: right;
-    text-align: right;
+    color: #BBC7CC;
+    text-align: center;
 }
 
 .copyright {
     display: block;
-    width: 45%;
-    float: left;
+    text-align: center;
 }
 
 
@@ -2414,6 +2425,13 @@ and (max-device-width : 667px) {
     margin-top: 3px;
   }
 
+}
+
+@media only screen and (max-width: 768px) {
+  .black-bg{
+    background-color: black;
+    margin-top: 75px;
+  }
 }
 
 /* NAV FIX */
