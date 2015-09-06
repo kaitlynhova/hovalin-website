@@ -22,11 +22,11 @@ h1,h2,h3{
   padding: 0px;
 }
 .push-body-toleft {
-
+  position: fixed !important;
 }
 
 .push-body-toleft .mobile-nav{
-  position: relative !important;
+
 }
 
 .post-home{
@@ -2260,6 +2260,19 @@ body:not(.post-template) .post-title {
    ========================================================================== */
 
 
+/*IPHONE 6 styles*/
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px) {
+  .toggle-menu {
+    margin-right: -30px;
+    margin-top: 3px;
+  }
+
+}
+
+/* NAV FIX */
 @media only screen and (min-width: 990px) {
   .push-body-toleft {
     left: 0px !important;

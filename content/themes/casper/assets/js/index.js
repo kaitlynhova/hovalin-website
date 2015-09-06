@@ -13,7 +13,6 @@
 
  $(window).scroll(function() {
     var height = $(window).scrollTop();
-    console.log(height);
     if(height  < 50) {
       $('#custom-navigation').css('background-color', 'rgba(26, 26, 26, 0.4)');
       $('.support-button').css('background-color', 'rgba(221, 166, 88, 0.4)');
