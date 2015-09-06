@@ -43,6 +43,17 @@ h1,h2,h3{
 }
 /* CUSTOM NAV*/
 
+.toggle-menu{
+  float: right;
+  background-color: transparent;
+  color: white;
+  border: 0;
+  font-size: 48px;
+  top: 5px;
+  outline: none;
+  margin-right: 20px;
+}
+
 #custom-mobile-nav{
   background-color: black;
   position: fixed;
@@ -643,9 +654,10 @@ margin on the iframe, cause it breaks stuff. */
 body.nav-opened .site-wrapper {
     overflow-x: hidden;
     z-index: -5;
-    -webkit-transform: translate3D(-145px, 0, 0);
-        -ms-transform: translate3D(-145px, 0, 0);
-            transform: translate3D(-145px, 0, 0);
+    transform: translate3D(-230px, 0, 0);
+    -webkit-transform: translate3D(-230px, 0, 0);
+        -ms-transform: translate3D(-230px, 0, 0);
+            transform: translate3D(-230px, 0, 0);
     position: fixed;
     -webkit-transition: -webkit-transform 0.3s ease;
             transition: transform 0.3s ease;
@@ -2234,3 +2246,10 @@ body:not(.post-template) .post-title {
    End of file. Animations should be the last thing here. Do not add stuff
    below this point, or it will probably fuck everything up.
    ========================================================================== */
+
+
+@media only screen and (min-width: 990px) {
+  .push-body-toleft {
+    left: 0px !important;
+  }
+}
