@@ -30,14 +30,26 @@ h1,h2,h3{
   margin: 0px !important;
 }
 
+.mobile-nav {
+  background-color: black;
+  height: 65px;
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+}
+
+.go-away{
+
+}
 /* CUSTOM NAV*/
 
 #custom-mobile-nav{
   background-color: black;
   position: fixed;
   width: 100%;
-  z-index: 99999;
+  z-index: 20;
   padding: 5px;
+  height: 65px;
 }
 
 #custom-navigation{
@@ -46,13 +58,18 @@ h1,h2,h3{
   width: 100%;
   z-index: 999999;
   transition: .5s;
+  height: 65px;
 }
 
 .top-nav-ul{
   display: block;
   text-align: right;
   color: white;
-  word-spacing: 35px;
+}
+
+.mobile-nav-logo{
+  float: left;
+  font-size: 30px;
 }
 
 .top-nav-ul li{
@@ -61,11 +78,14 @@ h1,h2,h3{
   text-transform: uppercase;
   font-weight: 900;
   letter-spacing: 1px;
+  padding: 39px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 .top-nav-ul li p{
   display: inline;
   position: relative;
-  top: 15px;
+  top: 16px;
 }
 
 .nav-logo{
@@ -73,11 +93,11 @@ h1,h2,h3{
   position: relative;
   top: 11px;
   font-weight: 900;
+  left: 25px;
 }
 
 .support-button{
   background-color: #dda658;
-  padding: 38px;
 }
 
 /* POST STYLES */
@@ -622,9 +642,11 @@ margin on the iframe, cause it breaks stuff. */
 
 body.nav-opened .site-wrapper {
     overflow-x: hidden;
-    -webkit-transform: translate3D(-240px, 0, 0);
-        -ms-transform: translate3D(-240px, 0, 0);
-            transform: translate3D(-240px, 0, 0);
+    z-index: -5;
+    -webkit-transform: translate3D(-145px, 0, 0);
+        -ms-transform: translate3D(-145px, 0, 0);
+            transform: translate3D(-145px, 0, 0);
+    position: fixed;
     -webkit-transition: -webkit-transform 0.3s ease;
             transition: transform 0.3s ease;
 }
@@ -698,6 +720,8 @@ body.nav-closed .nav {
 
 body.nav-opened .nav {
     opacity: 1;
+    position: fixed;
+    z-index: 99999;
     -webkit-transition: -webkit-transform 0.3s ease,
                         opacity 0s ease 0s;
             transition: transform 0.3s ease,
@@ -719,7 +743,7 @@ body.nav-opened .nav {
 
 .nav-close {
     position: absolute;
-    top: 38px;
+    top: 10px;
     right: 25px;
     width: 20px;
     height: 20px;
@@ -960,6 +984,7 @@ body.nav-opened .nav {
     position: relative;
     border: none;
     z-index: 9999999;
+    top: 10px;
 }
 .nav-closed .menu-button:hover {
     color: white;

@@ -2,6 +2,14 @@
  * Main JS file for Casper behaviours
  */
 
+ $('.menu-button').click(function(){
+   $('.menu-button').addClass('go-away');
+ });
+
+ $('.nav-close').click(function(){
+   $('.menu-button').removeClass('go-away');
+ });
+
 
  $(window).scroll(function() {
     var height = $(window).scrollTop();

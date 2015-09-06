@@ -26,7 +26,28 @@
 </head>
 <body class="{{body_class}} nav-closed">
 
-    {{navigation}}
+  <!-- CUSTOM HOVALIN NAV FOR NON MOBILE DISPLAYS-->
+  <div id="custom-navigation" class="hidden-sm hidden-xs row">
+    <div class="col-sm-2 no-padding">
+      <h2 class="nav-logo"> HOVALIN</h2>
+    </div>
+    <div class="col-sm-10 no-padding">
+      <ul class="top-nav-ul">
+        <li><p>About</p></li>
+        <li><p>Print</p></li>
+        <li><p>Buy</p></li>
+        <li><p>Contact</p></li>
+        <li class="support-button"><p>Support</p></li>
+      </ul>
+    </div>
+  </div>
+  <!-- /CUSTOM HOVALIN NAV FOR NON MOBILE DISPLAYS-->
+
+  <div class="row hidden-md hidden-lg mobile-nav">
+    <a class="menu-button icon-menu" href="#"></a>
+  </div>
+
+      {{navigation}}
 
     <div class="site-wrapper">
 
