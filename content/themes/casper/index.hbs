@@ -20,11 +20,14 @@
 </div>
 <!-- /CUSTOM HOVALIN NAV FOR NON MOBILE DISPLAYS-->
 
+<div id="custom-mobile-nav" class="row hidden-lg hidden-md hidden-sm">
+    <a class="menu-button icon-menu" href="#"></a>
+</div>
+
 <header class="main-header {{#if @blog.cover}}" style="background-image: url({{@blog.cover}}){{else}}no-cover{{/if}}">
     <nav class="main-nav overlay clearfix">
         {{#if @blog.logo}}<a class="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="{{@blog.title}}" /></a>{{/if}}
         {{#if @blog.navigation}}
-            <a class="menu-button icon-menu hidden-lg hidden-md hidden-sm" href="#"><span class="word">Menu</span></a>
         {{/if}}
     </nav>
     <div class="vertical">

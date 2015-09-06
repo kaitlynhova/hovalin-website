@@ -32,6 +32,14 @@ h1,h2,h3{
 
 /* CUSTOM NAV*/
 
+#custom-mobile-nav{
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  z-index: 99999;
+  padding: 5px;
+}
+
 #custom-navigation{
   background-color: rgba(26, 26, 26, 0.25);
   position: fixed;
@@ -929,17 +937,20 @@ body.nav-opened .nav {
     transition: all 0.5s ease;
 }
 .menu-button:before {
-    font-size: 12px;
+    font-size: 40px;
     font-weight: bold;
     margin-right: 6px;
     position: relative;
     top: 1px;
 }
 .menu-button:hover {
-    background: #fff;
+  opacity: 1;
+  color: white;
+  text-decoration: none;
 }
 .menu-button:focus {
     outline: 0;
+    opacity: .9;
 }
 
 /* When the navigation is closed */
@@ -947,16 +958,19 @@ body.nav-opened .nav {
     color: #fff;
     border-color: rgba(255, 255, 255, 0.6);
     position: relative;
+    border: none;
     z-index: 9999999;
 }
 .nav-closed .menu-button:hover {
-    color: #222;
+    color: white;
+    opacity: .7;
 }
 
 /* When the navigation is closed and there is no cover image */
 .nav-closed .no-cover .menu-button {
     border-color: #BFC8CD;
     color: #9EABB3;
+    border: none;
 }
 .nav-closed .no-cover .menu-button:hover {
     border-color: #555;
