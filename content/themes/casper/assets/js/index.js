@@ -2,6 +2,18 @@
  * Main JS file for Casper behaviours
  */
 
+
+ $(window).scroll(function() {
+    var height = $(window).scrollTop();
+    console.log(height);
+    if(height  < 50) {
+      $('#custom-navigation').css('background-color', 'rgba(26, 26, 26, 0.25)');
+    }
+    if(height  > 50) {
+      $('#custom-navigation').css('background-color', 'rgba(26, 26, 26, 0.9)');
+    }
+});
+
 /* globals jQuery, document */
 (function ($, undefined) {
     "use strict";
