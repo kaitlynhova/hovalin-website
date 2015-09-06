@@ -81,6 +81,11 @@ h1,h2,h3{
 .mobile-nav-logo{
   float: left;
   font-size: 30px;
+  color: white;
+  font-weight: 900;
+  position: relative;
+  top: 14px;
+  left: 20px;
 }
 
 .top-nav-ul li{
