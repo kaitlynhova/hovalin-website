@@ -4,6 +4,18 @@ img{
   width: 100%;
 }
 
+h1,h2,h3{
+  font-family: 'europa';
+}
+
+.post-home{
+  max-width: 100% !important;
+}
+
+.row{
+  margin: 0px !important;
+}
+
 /* POST STYLES */
 
 .post-head:before {
@@ -102,7 +114,7 @@ body { margin: 0; }
 a { background: transparent; }
 a:focus { outline: thin dotted; }
 a:active, a:hover { outline: 0; }
-h1 { font-size: 2em; margin: 0.67em 0; }
+h1 { font-size: 2em; margin: 0.67em 0;}
 abbr[title] { border-bottom: 1px dotted; }
 b, strong { font-weight: 700; }
 dfn { font-style: italic; }
