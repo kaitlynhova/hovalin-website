@@ -56,7 +56,6 @@ h1,h2,h3{
   color: white;
   border: 0;
   font-size: 48px;
-  padding-top: 8px;
   outline: none;
   padding-right: 11px;
   height: 65px;
@@ -236,14 +235,19 @@ h1,h2,h3{
 
 /* POST STYLES */
 
-#blog-posts-area h2{
-  text-align:center;
+.post-title{
+  text-align: left !important;
+}
+
+.post-meta-info{
+  text-align: left;
 }
 
 #blog-posts-area{
   padding-top: 75px;
   background-color: #f5f5f5;
   padding-bottom: 75px;
+  text-align:center;
 }
 
 .post-head:before {
@@ -1267,10 +1271,24 @@ body:not(.post-template) .post-title {
     margin: 0;
     font-size: 0.9em;
     line-height: 1.7em;
+    text-align: justify;
 }
 
 .read-more {
-    text-decoration: none;
+  text-decoration: none;
+  color: #dda658;
+  border: 1px solid #dda658;
+  padding: 20px;
+  position: relative;
+  top: 50px;
+  transition: .5s;
+}
+
+.read-more:hover{
+  text-decoration: none;
+  color: white;
+  background-color: #dda658;
+  border: 1px solid #dda658;
 }
 
 .post-meta {
@@ -1363,6 +1381,7 @@ body:not(.post-template) .post-title {
 
 .post-template .post-title {
     margin-bottom: 0;
+    text-align: center !Important;
 }
 
 .post-template .post-meta {
