@@ -16,6 +16,7 @@ ul, menu, dir {
 
 h1,h2,h3{
   font-family: 'europa';
+  color: #6d6d6d;
 }
 
 .no-padding{
@@ -131,10 +132,32 @@ h1,h2,h3{
   background-color: #dda658;
 }
 
+/*HERO*/
+#hero{
+  background: #f5f5f5 url(../images/square.jpg);
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+#hero img{
+  width: 100%;
+  max-width: 800px;
+  display: block;
+  margin: 0 auto;
+}
+
 /* ABOUT AREA ON HOME */
 
+.download-button{
+  background-color: #8fbfc8;
+  color: white;
+  padding: 15px;
+  max-width: 230px;
+  display: block;
+  margin: 0 auto;
+}
+
 #about-area{
-  background-color: #e4eaec;
   color: #6d6d6d;
   text-align: center;
   padding-top: 75px;
@@ -145,7 +168,64 @@ h1,h2,h3{
   color: #6d6d6d;
 }
 
+#about-area .subtitle{
+  text-align:center;
+  margin-bottom: 0px;
+}
+
+#about-area p{
+  text-align: center;
+}
+
+.about-violin-svg{
+  max-width: 700px;
+  display: block;
+  margin: 0 auto;
+}
+
+#about-grid{
+  /*background: #f5f5f5 url(../images/square.jpg); */
+  background-color: white;
+  text-align:center;
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+/* OPTIONS AREA */
+
+.do-it-area{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align:center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.icon-placeholder{
+  width: 60px;
+  height: 60px;
+  background: #cbd0d1;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Video Area*/
+
+#video-area{
+  background-color: #E8E8E8;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  text-align: center;
+  color: #6d6d6d;
+}
+
 /* POST STYLES */
+
+#blog-posts-area{
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
 
 .post-head:before {
     content: " ";
@@ -707,7 +787,6 @@ body.nav-opened .site-wrapper {
     position: relative;
     display: table;
     width: 100%;
-    height: 100vh;
     text-align: center;
     background: #222 no-repeat center center;
     background-size: cover;
@@ -1830,7 +1909,6 @@ body:not(.post-template) .post-title {
         height: auto;
         min-height: 240px;
         height: 60vh;
-        padding: 15% 0;
     }
 
     .scroll-down,
