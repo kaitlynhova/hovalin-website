@@ -1303,7 +1303,7 @@ body.nav-opened .nav {
 .post {
     position: relative;
     max-width: 710px;
-    margin: 4rem auto;
+    margin: 0 auto;
     padding-bottom: 4rem;
     word-wrap: break-word;
 }
