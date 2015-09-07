@@ -350,13 +350,25 @@ h1,h2,h3{
 
 #support{
   padding-top: 75px;
-  padding-bottom: 75px;
   text-align: center;
+}
+
+#support a{
+  color: #dda658;
 }
 
 .thehovas{
   max-width: 400px;
-  margin-bottom: 40px;
+}
+
+.donate{
+  color: white;
+  background-color: #dda658;
+  border: 0px;
+  padding: 20px;
+  text-transform: uppercase;
+  padding-right: 50px;
+  padding-left: 50px;
 }
 
 
@@ -2348,7 +2360,6 @@ body:not(.post-template) .post-title {
     }
 
     .site-footer {
-        margin-top: 3rem;
     }
 
     .author-profile {
