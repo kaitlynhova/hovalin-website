@@ -208,11 +208,12 @@ h1,h2,h3{
   color: #6d6d6d;
 }
 
-#about .subtitle{
+.subtitle{
   text-align: center;
   margin-bottom: 0px;
   font-style: italic;
   margin-bottom: 40px;
+  top: -10px;
 }
 
 #about p{
@@ -351,6 +352,11 @@ h1,h2,h3{
   padding-top: 75px;
   padding-bottom: 75px;
   text-align: center;
+}
+
+.thehovas{
+  max-width: 400px;
+  margin-bottom: 40px;
 }
 
 
