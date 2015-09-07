@@ -1352,6 +1352,10 @@ body:not(.post-template) .post-title {
   float: left;
 }
 
+a.read-more{
+  color: #dda658;
+}
+
 .read-more:hover{
   text-decoration: none;
   color: white;
