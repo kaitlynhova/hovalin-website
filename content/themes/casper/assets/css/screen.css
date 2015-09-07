@@ -1855,7 +1855,7 @@ a.read-more{
 /* Correctly position site-footer when next to the .read-next container */
 .read-next + .site-footer {
     position: absolute;
-    bottom: 0;
+    bottom: -150px;
     left: 0;
     right: 0;
     margin: 0;
