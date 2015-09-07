@@ -371,6 +371,49 @@ h1,h2,h3{
   padding-left: 50px;
 }
 
+/* MAILING LIST */
+
+#mailinglist{
+  background-color: #dda658;
+  color: white;
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+#mailinglist .subtitle{
+  margin: 0px;
+  text-align:left;
+}
+
+#mailinglist p{
+  margin-bottom: 10px;
+}
+
+input {
+  line-height: normal;
+  border: solid 1px #ccc;
+  padding: 20px;
+  color: gray;
+  outline: none;
+}
+
+.submit-button{
+  color: white;
+  border: none;
+  position: relative;
+  top: 42px;
+}
+
+
+
+.half-input{
+  width: 50%;
+}
+
+.full-input{
+  width: 100%;
+}
+
 
 /* ==========================================================================
    Table of Contents
@@ -2283,7 +2326,6 @@ a.read-more{
     }
 
     h2 {
-        font-size: 2.4rem;
         letter-spacing: 0;
     }
 
@@ -2486,6 +2528,14 @@ and (max-device-width : 667px) {
   .black-bg{
     background-color: black;
     margin-top: 75px;
+  }
+  #mailinglist{
+    text-align: center;
+    padding-bottom: 125px;
+  }
+  #mailinglist .subtitle{
+    text-align: center;
+    margin-bottom: 30px;
   }
 }
 
