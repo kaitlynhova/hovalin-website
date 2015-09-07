@@ -125,7 +125,14 @@ h1,h2,h3{
   padding: 39px;
   padding-left: 25px;
   padding-right: 25px;
+  margin-right: -5px;
+  transition: .5s;
 }
+
+.top-nav-ul li:hover{
+  background-color: rgba(60,69,68,.9);
+}
+
 .top-nav-ul li p{
   display: inline;
   position: relative;
@@ -143,6 +150,17 @@ h1,h2,h3{
 
 .support-button{
   background-color: #dda658;
+  transition: 5s;
+}
+
+.support-button a{
+  color: white !important;
+  opacity: 1 !important;
+}
+
+.support-button:hover{
+  background-color: #ffffff;
+  color: #dda658;
 }
 
 /*HERO*/
@@ -175,7 +193,7 @@ h1,h2,h3{
   background-color: #dda658;
 }
 
-#about-area{
+#about{
   color: #6d6d6d;
   background-color: #f5f5f5;
   text-align: center;
@@ -186,16 +204,16 @@ h1,h2,h3{
   background-color: #f5f5f5;
 }
 
-#about-area h2{
+#about h2{
   color: #6d6d6d;
 }
 
-#about-area .subtitle{
+#about .subtitle{
   text-align:center;
   margin-bottom: 0px;
 }
 
-#about-area p{
+#about p{
   text-align: center;
 }
 
@@ -252,6 +270,9 @@ h1,h2,h3{
 }
 
 /* POST STYLES */
+.home-post a {
+  color: #3A4145;
+}
 
 .post-title{
   text-align: left !important;
@@ -572,12 +593,14 @@ h6 {
 }
 
 a {
-    color: #4A4A4A;
+    color: #f5f5f5;
     transition: color 0.3s ease;
 }
 
 a:hover {
-    color: #111;
+    color: #f5f5f5;
+    text-decoration: none;
+
 }
 
 p, ul, ol, dl {

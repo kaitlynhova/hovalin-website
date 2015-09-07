@@ -2,6 +2,28 @@
  * Main JS file for Casper behaviours
  */
 
+ // handle links with @href started with '#' only
+$(document).on('click', 'a[href^="#"]', function(e) {
+    // target element id
+    var id = $(this).attr('href');
+
+    // target element
+    var $id = $(id);
+    if ($id.length === 0) {
+        return;
+    }
+
+    // prevent standard hash navigation (avoid blinking in IE)
+    e.preventDefault();
+
+    // top position relative to the document
+    var pos = $(id).offset().top;
+
+    // animated top scrolling
+    $('body, html').animate({scrollTop: pos});
+});
+
+
  $('.menu-button').click(function(){
    $('.menu-button').addClass('go-away');
  });
@@ -14,11 +36,11 @@
  $(window).scroll(function() {
     var height = $(window).scrollTop();
     if(height  < 50) {
-      $('#custom-navigation').css('background-color', 'rgba(26, 26, 26, 0.4)');
-      $('.support-button').css('background-color', 'rgba(221, 166, 88, 0.4)');
+      $('#custom-navigation').css('background-color', 'rgba(28, 32, 32, 0.7)');
+      $('.support-button').css('background-color', 'rgba(221, 166, 88, 0.7)');
     }
     if(height  > 50) {
-      $('#custom-navigation').css('background-color', 'rgba(26, 26, 26, 0.9)');
+      $('#custom-navigation').css('background-color', 'rgba(28, 32, 32, 0.9)');
       $('.support-button').css('background-color', 'rgba(221, 166, 88, 0.9)');
     }
 });
