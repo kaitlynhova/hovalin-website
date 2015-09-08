@@ -374,7 +374,7 @@ h1,h2,h3{
 /* MAILING LIST */
 
 #mailinglist{
-  background-color: #dda658;
+  background-color: #8fbfc8;
   color: white;
   padding-top: 75px;
   padding-bottom: 75px;
@@ -404,7 +404,17 @@ input {
   top: 42px;
 }
 
+input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+    color: white;
+    background-color: #3c4544;
+    transition: .5s;
+}
 
+input[type="submit"]:hover{
+  background-color: #dda658;
+}
 
 .half-input{
   width: 50%;
@@ -412,6 +422,10 @@ input {
 
 .full-input{
   width: 100%;
+}
+
+.no-border{
+  border: 0px !important;
 }
 
 
@@ -1347,7 +1361,7 @@ body.nav-opened .nav {
     position: relative;
     max-width: 710px;
     margin: 0 auto;
-    padding-bottom: 4rem;
+    padding-bottom: 11rem;
     word-wrap: break-word;
 }
 
@@ -2531,11 +2545,14 @@ and (max-device-width : 667px) {
   }
   #mailinglist{
     text-align: center;
-    padding-bottom: 125px;
+    padding-bottom: 140px;
+  }
+  #mailinglist p{
+    padding-top: 20px;
   }
   #mailinglist .subtitle{
     text-align: center;
-    margin-bottom: 30px;
+    margin-top: -20px;
   }
 }
 
