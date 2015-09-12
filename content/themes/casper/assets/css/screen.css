@@ -1687,6 +1687,7 @@ a.read-more{
     min-height: 0;
     margin-bottom: 0;
     background: transparent;
+    display: none;
 }
 
 .tag-head.main-header {
