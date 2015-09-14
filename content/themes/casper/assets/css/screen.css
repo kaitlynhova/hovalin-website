@@ -198,7 +198,21 @@ h2{
 #hero p {
   font-family: 'europaregular';
   letter-spacing: 2px;
+  font-size: 24px;
+}
+
+#hero .powered-by{
   font-size: 16px;
+  margin-top: -40px;
+  font-style: italic;
+}
+
+.powered-by a  {
+  color: #dda658;
+}
+
+.powered-by a:hover{
+  color: #dda658;
 }
 
 /* ABOUT AREA ON HOME */
@@ -213,6 +227,8 @@ h2{
   margin: 0 auto;
   transition: .5s;
 }
+
+
 
 .download-button:hover{
   background-color: #dda658;
@@ -1439,7 +1455,7 @@ body.nav-opened .nav {
 /* The details of your blog. Defined in ghost/settings/ */
 .page-title {
     margin: 0 auto;
-    font-size: 80px;
+    font-size: 100px;
     letter-spacing: -1px;
     font-weight: 700;
     font-family: "europa";
