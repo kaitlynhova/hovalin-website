@@ -2669,5 +2669,6 @@ and (max-device-width : 667px) {
 @media only screen and (min-width: 990px) {
   .push-body-toleft {
     left: 0px !important;
+    position: relative !important;
   }
 }
