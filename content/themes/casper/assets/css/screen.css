@@ -41,6 +41,7 @@ ul, menu, dir {
 h1,h2,h3{
   font-family: 'europaregular';
   color: inherit;
+  text-transform: uppercase;
 }
 
 h2{
@@ -239,6 +240,7 @@ h2{
 #about h2{
   color: #6d6d6d;
   font-weight: 100;
+  text-transform: uppercase;
 }
 
 .subtitle{
@@ -247,6 +249,7 @@ h2{
   font-style: italic;
   margin-bottom: 40px;
   top: -10px;
+  font-family: 'europa';
 }
 
 #about p{
