@@ -629,6 +629,7 @@ html {
 body {
     height: 100%;
     max-height: 100%;
+    font-family: 'europa';
     letter-spacing: 0.01rem;
     font-size: 1.8rem;
     line-height: 1.75em;
@@ -637,6 +638,18 @@ body {
     -moz-font-feature-settings: 'kern' 1;
     -o-font-feature-settings: 'kern' 1;
     text-rendering: geometricPrecision;
+}
+
+h1{
+  width: 80%;
+  color: #000;
+  font-size: 40px;
+  line-height: 60px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin: 0;
+  display: block;
+  margin: 0 auto;
 }
 
 ::-moz-selection {
@@ -968,7 +981,6 @@ body.nav-opened .site-wrapper {
 
 .main-nav a {
     text-decoration: none;
-    font-family: 'Open Sans', sans-serif;
 }
 
 /* Navigation */
@@ -1145,7 +1157,6 @@ body.nav-opened .nav {
     color: #111 !important; /* Overides `.nav a:link, .nav a:visited` colour */
     text-align: center;
     font-size: 12px;
-    font-family: "Open Sans", sans-serif;
     text-transform: uppercase;
     text-decoration: none;
     line-height: 35px;
@@ -1322,11 +1333,11 @@ body.nav-opened .nav {
 
 /* The details of your blog. Defined in ghost/settings/ */
 .page-title {
-    margin: 10px 0 10px 0;
+    margin: 0 auto;
     font-size: 5rem;
     letter-spacing: -1px;
     font-weight: 700;
-    font-family: "Open Sans", sans-serif;
+    font-family: "europa";
     color: #fff;
 }
 
@@ -1435,7 +1446,6 @@ a.read-more{
 .post-meta {
     display: block;
     margin: 1.75rem 0 0 0;
-    font-family: "Open Sans", sans-serif;
     font-size: 1.5rem;
     line-height: 2.2rem;
     color: #9EABB3;
@@ -1872,7 +1882,6 @@ a.read-more{
     padding: 4px 10px 5px;
     text-transform: uppercase;
     font-size: 1.1rem;
-    font-family: "Open Sans", sans-serif;
     color: rgba(255,255,255,0.8);
     border: rgba(255,255,255,0.5) 1px solid;
     border-radius: 4px;
@@ -1963,7 +1972,6 @@ a.read-more{
     width: 80%;
     max-width: 710px;
     margin: 4rem auto;
-    font-family: "Open Sans", sans-serif;
     font-size: 1.3rem;
     color: #9EABB3;
     text-align: center;
@@ -2045,7 +2053,6 @@ a.read-more{
 
 .site-footer {
     position: relative;
-    font-family: "Open Sans", sans-serif;
     font-size: 15px;
     line-height: 1.75em;
     color: #3c4544;
