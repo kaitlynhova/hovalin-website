@@ -2630,7 +2630,6 @@ a.read-more{
 and (min-device-width : 375px)
 and (max-device-width : 667px) {
   .toggle-menu {
-    margin-right: -30px;
     margin-top: 3px;
   }
 
