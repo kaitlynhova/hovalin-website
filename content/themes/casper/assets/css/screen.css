@@ -12,6 +12,17 @@ img{
   transition: .5s;
 }
 
+.hvr-icon-down:before {
+    content: "\f01a";
+    position: absolute;
+    right: 15px !important;
+    padding: 0 1px;
+    font-family: FontAwesome;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    font-size: 33px;
+}
+
 .black-bg img:hover{
   transition: .5s;
   opacity: .5;
@@ -144,12 +155,10 @@ h2{
 }
 
 .nav-logo{
-  color: white;
+  max-width: 40px;
   position: relative;
-  letter-spacing: 2px;
-  top: 11px;
-  font-weight: 900;
-  left: 25px;
+  top: 12px;
+  left: 15px;
 }
 
 .support-button{
@@ -169,16 +178,19 @@ h2{
 
 /*HERO*/
 #hero{
-  background: #f5f5f5 url(../images/square.jpg);
+  background: #ffffff url(../images/hovalins.svg);
   padding-top: 150px;
   padding-bottom: 150px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #hero img{
   width: 100%;
-  max-width: 800px;
+  position: absolute;
   display: block;
   margin: 0 auto;
+  top: 67px;
 }
 
 /* ABOUT AREA ON HOME */
@@ -187,6 +199,7 @@ h2{
   background-color: #8fbfc8;
   color: white;
   padding: 15px;
+  padding-right: 60px !important;
   max-width: 230px;
   display: block;
   margin: 0 auto;
@@ -1412,7 +1425,7 @@ body.nav-opened .nav {
 /* The details of your blog. Defined in ghost/settings/ */
 .page-title {
     margin: 0 auto;
-    font-size: 5rem;
+    font-size: 80px;
     letter-spacing: -1px;
     font-weight: 700;
     font-family: "europa";
@@ -2192,7 +2205,6 @@ a.read-more{
     }
 
     .page-title {
-        font-size: 4rem;
         letter-spacing: -1px;
     }
 
@@ -2416,7 +2428,7 @@ a.read-more{
     }
 
     .page-title {
-        font-size: 3rem;
+      font-size: 70px;
     }
 
     .post-excerpt p {
