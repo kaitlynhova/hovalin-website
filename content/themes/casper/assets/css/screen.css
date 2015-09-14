@@ -239,8 +239,9 @@ h2{
 
 #about h2{
   color: #6d6d6d;
-  font-weight: 100;
+  font-weight: 700;
   text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .subtitle{
@@ -781,8 +782,9 @@ h1 {
 }
 
 h2 {
-    font-size: 3.6rem;
-    letter-spacing: -1px;
+  font-size: 3.6rem;
+  letter-spacing: 2px;
+  font-weight: 700;
 }
 
 h3 {
