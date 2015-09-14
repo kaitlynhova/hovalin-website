@@ -277,10 +277,6 @@ h2{
   margin-bottom: 75px;
 }
 
-.do-it:hover{
-  color: white;
-}
-
 .do-it-area{
   transition: .5s;
   padding-top: 40px;
