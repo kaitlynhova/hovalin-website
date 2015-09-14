@@ -28,7 +28,7 @@ ul, menu, dir {
 }
 
 h1,h2,h3{
-  font-family: 'europa';
+  font-family: 'europaregular';
   color: inherit;
 }
 
@@ -122,7 +122,7 @@ h2{
 
 .top-nav-ul li{
   display: inline;
-  font-family: europa;
+  font-family: 'europaregular';
   text-transform: uppercase;
   font-weight: 900;
   letter-spacing: 1px;
@@ -560,6 +560,84 @@ table { border-collapse: collapse; border-spacing: 0; }
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'europaregular';
+    src: url('../fonts/europa-regular-webfont.eot');
+    src: url('../fonts/europa-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/europa-regular-webfont.woff2') format('woff2'),
+         url('../fonts/europa-regular-webfont.woff') format('woff'),
+         url('../fonts/europa-regular-webfont.ttf') format('truetype'),
+         url('../fonts/europa-regular-webfont.svg#europaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'europaitalic';
+    src: url('../fonts/europa-regularitalic-webfont.eot');
+    src: url('../fonts/europa-regularitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/europa-regularitalic-webfont.woff2') format('woff2'),
+         url('../fonts/europa-regularitalic-webfont.woff') format('woff'),
+         url('../fonts/europa-regularitalic-webfont.ttf') format('truetype'),
+         url('../fonts/europa-regularitalic-webfont.svg#europaitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'europabold';
+    src: url('../fonts/europa-bold-webfont.eot');
+    src: url('../fonts/europa-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/europa-bold-webfont.woff2') format('woff2'),
+         url('../fonts/europa-bold-webfont.woff') format('woff'),
+         url('../fonts/europa-bold-webfont.ttf') format('truetype'),
+         url('../fonts/europa-bold-webfont.svg#europabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'europabolditalic';
+    src: url('../fonts/europa-bolditalic-webfont.eot');
+    src: url('../fonts/europa-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/europa-bolditalic-webfont.woff2') format('woff2'),
+         url('../fonts/europa-bolditalic-webfont.woff') format('woff'),
+         url('../fonts/europa-bolditalic-webfont.ttf') format('truetype'),
+         url('../fonts/europa-bolditalic-webfont.svg#europabolditalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'europalight';
+    src: url('../fonts/europa-light-webfont.eot');
+    src: url('../fonts/europa-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/europa-light-webfont.woff2') format('woff2'),
+         url('../fonts/europa-light-webfont.woff') format('woff'),
+         url('../fonts/europa-light-webfont.ttf') format('truetype'),
+         url('../fonts/europa-light-webfont.svg#europalight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'europalightitalic';
+    src: url('../fonts/europa-lightitalic-webfont.eot');
+    src: url('../fonts/europa-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/europa-lightitalic-webfont.woff2') format('woff2'),
+         url('../fonts/europa-lightitalic-webfont.woff') format('woff'),
+         url('../fonts/europa-lightitalic-webfont.ttf') format('truetype'),
+         url('../fonts/europa-lightitalic-webfont.svg#europalightitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 /* Apply these base styles to all icons */
 [class^="icon-"]:before, [class*=" icon-"]:before {
     font-family: "casper-icons", "Open Sans", sans-serif;
@@ -629,7 +707,7 @@ html {
 body {
     height: 100%;
     max-height: 100%;
-    font-family: 'europa';
+    font-family: 'europaregular';
     letter-spacing: 0.01rem;
     font-size: 1.8rem;
     line-height: 1.75em;
@@ -667,7 +745,7 @@ h4, h5, h6 {
     -o-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
     line-height: 1.15em;
     margin: 0 0 0.4em 0;
-    font-family: "europa", sans-serif;
+    font-family: "europaregular", sans-serif;
     text-rendering: geometricPrecision;
 }
 
