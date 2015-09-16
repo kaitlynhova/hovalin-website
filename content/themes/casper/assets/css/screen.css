@@ -483,6 +483,104 @@ input[type="submit"]:hover{
   border: 0px !important;
 }
 
+/* DOCS PAGE */
+
+#docs-hero{
+  color: white;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-image: url('/content/images/2015/09/unnamed-11-31-08-AM.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#docs-hero h1{
+  color: white;
+}
+
+#docs-subnav .number{
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+#docs-subnav{
+  text-align:center;
+  padding-top: 40px;
+}
+
+/* STEPS */
+
+.step{
+  padding-top:75px;
+  padding-bottom: 75px;
+}
+
+.step .number{
+  font-size: 30px;
+  text-align:center;
+  margin-bottom: 10px;
+}
+
+.step .title{
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 75px;
+}
+
+#shoppinglist{
+  background-color: #8fbfc8;
+  color: white;
+}
+
+#shoppinglist .check{
+  max-width: 40px;
+}
+
+
+/* ==========================================================================
+   Bootstrap 5 col layout
+   ========================================================================== */
+
+
+
+.col-xs-5ths,
+.col-sm-5ths,
+.col-md-5ths,
+.col-lg-5ths {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.col-xs-5ths {
+    width: 20%;
+    float: left;
+}
+
+@media (min-width: 768px) {
+    .col-sm-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
 
 /* ==========================================================================
    Table of Contents
@@ -786,15 +884,12 @@ h4, h5, h6 {
     -moz-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
     -o-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
     line-height: 1.15em;
-    margin: 0 0 0.4em 0;
     font-family: "europaregular", sans-serif;
     text-rendering: geometricPrecision;
 }
 
 h1 {
     font-size: 5rem;
-    letter-spacing: -2px;
-    text-indent: -3px;
 }
 
 h2 {
