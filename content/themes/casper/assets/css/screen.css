@@ -525,7 +525,7 @@ input[type="submit"]:hover{
 
 .step .title{
   text-align: center;
-  font-size: 35px;
+  font-size: 32px;
   margin-bottom: 75px;
 }
 
@@ -534,8 +534,16 @@ input[type="submit"]:hover{
   color: white;
 }
 
+#shoppinglist h4{
+  font-weight: 600;
+  letter-spacing: 3px;
+  font-size: 18px;
+}
+
 #shoppinglist .check{
   max-width: 40px;
+  position: relative;
+  top: 10px;
 }
 
 
