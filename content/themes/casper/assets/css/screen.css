@@ -2914,7 +2914,7 @@ and (max-device-width : 667px) {
 
 @media only screen and (max-width: 990px) {
   .mobile-nav-logo {
-    top: 0px !important;
+    top: -4px !important;
   }
 }
 
@@ -2959,7 +2959,6 @@ and (max-device-width : 667px) {
     color: white;
     font-weight: 900;
     position: absolute;
-    top: 15px !important;
     left: 20px;
   }
 }
