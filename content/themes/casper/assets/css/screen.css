@@ -518,12 +518,25 @@ input[type="submit"]:hover{
   margin-bottom: 10px;
 }
 
-#docs-subnav{
-  text-align:center;
+#docs-subnav a{
+  color: #6D6D6D;
+}
+
+.step-index{
   padding-top: 40px;
+  text-align:center;
+  border: 1px solid #E4EAEC;
+  transition: .5s;
+}
+
+.step-index:hover{
+  background-color:#dda658;
+  border: 1px solid #dda658;
+  color: white;
 }
 
 /* STEPS */
+
 
 .step{
   padding-top:75px;
