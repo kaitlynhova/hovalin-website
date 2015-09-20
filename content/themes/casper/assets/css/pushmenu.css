@@ -2,7 +2,7 @@
 
 /* General styles for all menus */
 .cbp-spmenu {
-    background: #1E2222;
+    background: #DCA459;
     position: fixed;
     color: #f5f5f5;
     font-family: 'europaregular';
@@ -48,7 +48,7 @@
 }
 
 .cbp-spmenu-vertical a {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #E3B77B;
     padding: 1em;
 }
 

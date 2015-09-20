@@ -503,7 +503,7 @@ input[type="submit"]:hover{
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
-  background-image: url('/content/images/2015/09/unnamed-11-31-08-AM.jpg');
+  background-image: url('/content/images/makingit.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -572,6 +572,7 @@ input[type="submit"]:hover{
     display: block;
     margin: 0 auto;
     max-width: 500px;
+    opacity: .9;
 }
 
 
