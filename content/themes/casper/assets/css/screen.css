@@ -553,6 +553,7 @@ input[type="submit"]:hover{
   display: block;
   text-align:center;
   margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .step .title{
@@ -2921,7 +2922,6 @@ and (max-device-width : 667px) {
 @media only screen and (max-width: 768px) {
   .black-bg{
     background-color: black;
-    margin-top: 75px;
   }
   #mailinglist{
     text-align: center;
