@@ -21,6 +21,20 @@ var quotes = [
 	"that can give your kids, 'the talk'"
 ];
 
+$( document ).ready(function() {
+ var currentQuote = 0;
+ setInterval(function(){
+     $("#docs-subheadline").text(quotes[currentQuote]);
+     currentQuote = (currentQuote + 1) % quotes.length;
+ }, 5000);
+});
+
+var quotes = [
+ "with science",
+ "together",
+ "with math"
+];
+
  // handle links with @href started with '#' only
 $(document).on('click', 'a[href^="#"]', function(e) {
     // target element id
