@@ -8,6 +8,10 @@ img{
   background-color: black;
 }
 
+.justify{
+  text-align: justify;
+}
+
 .std-margin{
   margin-bottom: 75px;
   margin-top: 75px;
@@ -526,8 +530,9 @@ input[type="submit"]:hover{
   padding-bottom: 75px;
 }
 
-.step .number{
-  font-size: 30px;
+.number{
+  font-size: 45px;
+  display: block;
   text-align:center;
   margin-bottom: 10px;
 }
@@ -561,6 +566,12 @@ input[type="submit"]:hover{
   max-width: 40px;
   position: relative;
   top: 10px;
+}
+
+#know-your-3dprinter img{
+    display: block;
+    margin: 0 auto;
+    max-width: 500px;
 }
 
 
@@ -628,13 +639,25 @@ input[type="submit"]:hover{
   color: white;
   padding: 20px;
   margin-bottom: 50px;
+  text-align:center;
 }
 
 .buttons .white-btn{
   background-color: #ffffff;
   color: #444545;
+  text-align:center;
   padding: 20px;
   margin-bottom: 50px;
+}
+
+.part .description-text{
+  margin-top: 50px;
+}
+
+.part .fa-download{
+  color: #dda658;
+  padding-left: 11px;
+  font-size: 24px;
 }
 
 
@@ -2902,6 +2925,13 @@ and (max-device-width : 667px) {
   .hovalin-neck {
     width: 100%;
     max-width: 50px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .hovalin-top{
+    width: 100%;
+    max-width: 500px;
     display: block;
     margin: 0 auto;
   }
