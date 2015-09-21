@@ -2,6 +2,82 @@
  * Main JS file for Casper behaviours
  */
 
+ $( document ).ready(function() {
+	var currentQuote = 0;
+	setInterval(function(){
+	    $("#subheadline").text(quotes[currentQuote]);
+	    currentQuote = (currentQuote + 1) % quotes.length;
+	}, 5000);
+});
+
+var quotes = [
+	"that you told your mom about",
+  "that your friend tweeted about",
+	"that can cat-sit while you're on vacation",
+	"programmed to remember your birthday",
+	"that can travel to Mars",
+	"that can do your taxes",
+	"that knows how to parallel park",
+	"that can give your kids, 'the talk'"
+];
+
+$( document ).ready(function() {
+ var currentQuote = 0;
+ setInterval(function(){
+     $("#docs-subheadline").text(quotes[currentQuote]);
+     currentQuote = (currentQuote + 1) % quotes.length;
+ }, 5000);
+});
+
+var quotes = [
+ "with science",
+ "together",
+ "with math"
+];
+
+ // handle links with @href started with '#' only
+$(document).on('click', 'a[href^="#"]', function(e) {
+    // target element id
+    var id = $(this).attr('href');
+
+    // target element
+    var $id = $(id);
+    if ($id.length === 0) {
+        return;
+    }
+
+    // prevent standard hash navigation (avoid blinking in IE)
+    e.preventDefault();
+
+    // top position relative to the document
+    var pos = $(id).offset().top;
+
+    // animated top scrolling
+    $('body, html').animate({scrollTop: pos});
+});
+
+
+ $('.menu-button').click(function(){
+   $('.menu-button').addClass('go-away');
+ });
+
+ $('.nav-close').click(function(){
+   $('.menu-button').removeClass('go-away');
+ });
+
+
+ $(window).scroll(function() {
+    var height = $(window).scrollTop();
+    if(height  < 50) {
+      $('#custom-navigation').css('background-color', 'rgba(68, 68, 68, 0.7)');
+      $('.support-button').css('background-color', 'rgba(221, 166, 88, 0.7)');
+    }
+    if(height  > 50) {
+      $('#custom-navigation').css('background-color', 'rgba(68, 68, 68, 0.9)');
+      $('.support-button').css('background-color', 'rgba(221, 166, 88, 0.9)');
+    }
+});
+
 /* globals jQuery, document */
 (function ($, undefined) {
     "use strict";

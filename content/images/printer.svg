@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 364 316" enable-background="new 0 0 364 316" xml:space="preserve">
+<path fill="none" stroke="#ED1E70" stroke-width="6" stroke-miterlimit="10" d="M152,114"/>
+<g>
+	<rect x="798.3" y="-264.5" fill="none" stroke="#CE1C65" stroke-width="6" stroke-miterlimit="10" width="469.5" height="292.5"/>
+	<line fill="none" stroke="#CE1C65" stroke-width="6" stroke-miterlimit="10" x1="826.3" y1="-310.6" x2="1232.1" y2="-310.6"/>
+	<line fill="none" stroke="#CE1C65" stroke-width="9" stroke-miterlimit="10" x1="1226.6" y1="-310.6" x2="1267.8" y2="-271.4"/>
+	<rect x="865.9" y="-213.6" fill="none" stroke="#CE1C65" stroke-width="6" stroke-miterlimit="10" width="330.5" height="176.6"/>
+	<rect x="1196.3" y="-150.8" fill="#CE1C65" width="19.5" height="50.8"/>
+	<polygon fill="none" stroke="#CE1C65" stroke-width="6" stroke-miterlimit="10" points="1267.8,96.6 1196.3,96.6 1175.4,74 
+		886.7,73.9 865.9,96.6 798.3,96.6 798.3,28 1267.8,28 	"/>
+	<line fill="none" stroke="#CE1C65" stroke-width="9" stroke-miterlimit="10" x1="798.3" y1="-275.8" x2="832.8" y2="-310.6"/>
+	<line fill="none" stroke="#CE1C65" stroke-width="6" stroke-miterlimit="10" x1="798.3" y1="-281.3" x2="798.3" y2="-255.4"/>
+	<line fill="none" stroke="#CE1C65" stroke-width="6" stroke-miterlimit="10" x1="1267.8" y1="-277.5" x2="1267.8" y2="-251.6"/>
+</g>
+<rect x="8.9" y="37.3" fill="#A3A19D" width="343.4" height="221.4"/>
+<polygon fill="#304B90" points="353.3,28.5 353.3,37.3 8.7,37.3 8.7,29 45.8,4.7 318.8,4.5 "/>
+<polygon fill="#383C45" points="305,199.5 56.3,199.5 56.3,67.8 305.7,67.8 306.3,110.2 313.3,110 313.3,156.2 306.2,156.5 "/>
+<rect x="236.2" y="213.3" fill="#313D66" width="56" height="37"/>
+<text transform="matrix(0.7905 0 0 1 236.1667 279.7183)" fill="#233F83" font-family="'Arial-Black'" font-size="19.4415">PRINTER</text>
+<rect x="9.9" y="46" fill="none" stroke="#626160" stroke-width="2" stroke-miterlimit="10" width="15.1" height="212.7"/>
+<rect x="337.4" y="46" fill="none" stroke="#626160" stroke-width="2" stroke-miterlimit="10" width="14.9" height="212.7"/>
+<line fill="none" stroke="#626160" stroke-width="2" stroke-miterlimit="10" x1="56.3" y1="208.7" x2="305" y2="208.7"/>
+<polygon fill="#5773B8" points="353.3,29 8.7,29 21,20.9 343.2,20.9 "/>
+<polygon fill="#626160" points="65.8,208.7 56.3,208.7 56.3,246.7 64.2,210.3 "/>
+<polygon fill="#626160" points="295.5,208.7 305,208.7 305,246.7 297.2,210.3 "/>
+<rect x="8.7" y="37.3" fill="#A7A7A8" width="344.7" height="10.9"/>
+<polygon fill="#C5C6C5" points="353.3,310.3 311.3,310.3 302.9,302.5 60.7,302.1 52.7,310.3 8.7,310.3 8.7,257.3 353.3,257.3 "/>
+<polygon fill="#42454E" points="263.3,182.8 103.2,182.8 111.3,159 253.2,160.2 "/>
+<rect x="717.3" y="158.3" fill="#6F7072" width="247.3" height="9.7"/>
+<rect x="798.3" y="209.4" fill="#6F7072" width="70.6" height="21.3"/>
+</svg>

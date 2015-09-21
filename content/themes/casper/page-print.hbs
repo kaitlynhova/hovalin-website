@@ -1,0 +1,284 @@
+{{!< default}}
+
+{{! This is a page template. A page outputs content just like any other post, and has all the same
+    attributes by default, but you can also customise it to behave differently if you prefer. }}
+
+{{! Everything inside the #post tags pulls data from the page }}
+{{#post}}
+
+<header class="main-header post-head {{#if image}}" style="background-image: url({{image}}){{else}}no-cover{{/if}}">
+    <nav class="main-nav {{#if image}}overlay{{/if}} clearfix">
+        {{#if @blog.logo}}<a class="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="{{@blog.title}}" /></a>{{/if}}
+        {{#if @blog.navigation}}
+        {{/if}}
+    </nav>
+</header>
+
+<main class="content" role="main">
+    <article class="">
+      <div class="black-bg">
+        <div id="docs-hero">
+          <h1>Let's make a violin</h1>
+          <p id="docs-subheadline" class="powered-by">Awesome</p>
+        </div><!--/hero -->
+      </div>
+
+      <div id="docs-subnav" class="hidden-xs">
+        <div class="row">
+          <a href="#shoppinglist">
+            <div class="col-md-2 col-sm-6 col-xs-6 step-index">
+              <p class="number">1</p>
+              <p>Shopping list</p>
+            </div>
+          </a>
+          <a href="#know-your-3dprinter">
+            <div class="col-md-2 col-sm-6 col-xs-6 step-index">
+              <p class="number">2</p>
+              <p>3D printer check in</p>
+            </div>
+          </a>
+          <a href="#print-the-parts">
+            <div class="col-md-2 col-sm-6 col-xs-6 step-index">
+              <p class="number">3</p>
+              <p>Print parts</p>
+            </div>
+          </a>
+          <div class="col-md-2 col-sm-6 col-xs-6 step-index">
+            <p class="number">4</p>
+            <p>Install pegs</p>
+          </div>
+          <div class="col-md-2 col-sm-6 col-xs-6 step-index">
+            <p class="number">5</p>
+            <p>Asseble parts</p>
+          </div>
+          <div class="col-md-2 col-sm-6 col-xs-6 step-index">
+            <p class="number">6</p>
+            <p>Install strings</p>
+          </div>
+        </div><!--/row -->
+      </div> <!--/docs-subnav -->
+
+      <div id="shoppinglist" class="step">
+        <div class="container">
+          <p class="number">1</p>
+          <p class="title">Shopping List</p>
+
+          <div class="row">
+            <div class="col-md-6">
+
+              <div class="list-item">
+                <div class="col-xs-2">
+                  <img class="check" src="/assets/images/check.svg">
+                </div>
+                <div class="col-xs-10">
+                  <h4>3D PRINTER</h4>
+                  <p>We recommend using the super awesome printer called the dremmel.printer called the dremmel.  </p>
+                </div>
+              </div><!--/list-item --->
+
+              <div class="list-item">
+                <div class="col-xs-2">
+                  <img class="check" src="/assets/images/check.svg">
+                </div>
+                <div class="col-xs-10">
+                  <h4>PLASTIC</h4>
+                  <p>We recommend using the super awesome printer called the dremmel.printer called the dremmel.  </p>
+                </div>
+              </div><!--/list-item --->
+
+              <div class="list-item">
+                <div class="col-xs-2">
+                  <img class="check" src="/assets/images/check.svg">
+                </div>
+                <div class="col-xs-10">
+                  <h4>TUNERS</h4>
+                  <p>We recommend using the super awesome printer called the dremmel.printer called the dremmel.  </p>
+                </div>
+              </div><!--/list-item --->
+
+            </div>
+            <div class="col-md-6">
+
+              <div class="list-item">
+                <div class="col-xs-2">
+                  <img class="check" src="/assets/images/check.svg">
+                </div>
+                <div class="col-xs-10">
+                  <h4>STRINGS</h4>
+                  <p>We recommend using the super awesome printer called the dremmel.printer called the dremmel.  </p>
+                </div>
+              </div><!--/list-item --->
+
+              <div class="list-item">
+                <div class="col-xs-2">
+                  <img class="check" src="/assets/images/check.svg">
+                </div>
+                <div class="col-xs-10">
+                  <h4>CARBON FIBER RODS</h4>
+                  <p>We recommend using the super awesome printer called the dremmel.printer called the dremmel.  </p>
+                </div>
+              </div><!--/list-item --->
+
+              <div class="list-item">
+                <div class="col-xs-2">
+                  <img class="check" src="/assets/images/check.svg">
+                </div>
+                <div class="col-xs-10">
+                  <h4>BOW</h4>
+                  <p>We recommend using the super awesome printer called the dremmel.printer called the dremmel.  </p>
+                </div>
+              </div><!--/list-item --->
+
+            </div>
+          </div><!--/row -->
+        </div><!--/container -->
+      </div>
+
+      <div id="know-your-3dprinter" class="step">
+        <p class="number">2</p>
+        <p class="title">3D printer check in</p>
+        <div class="row">
+          <div class="col-sm-6">
+            <img class="3dprinter-icon" src="/content/images/printer.svg">
+          </div>
+          <div class="col-sm-6">
+            <p>This is where you describe what is going on with all of the different info and stats you are about to give</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="print-the-parts" class="step">
+        <div class="container">
+          <div class="row">
+            <p class="number">3</p>
+            <p class="title">Print the parts</p>
+            <div class="col-md-12">
+              <p>All together, the violin will take ~600 grams of plastic to print. Assuming there aren't too many failed prints, you should be able to make the entire hovalin with a single 1kg roll of plastic.This is where you describe what is going on with all of the different info and stats you are about to give This is where you describe what is going on with all of the different info and stats you are about to give</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="the-neck" class="std-padding part">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-7">
+              <h2>The Neck <i class="fa fa-download"></i></h2>
+              <h4>PARAMETERS</h4>
+              <p>Layer Height: .1mm </p>
+              <p>Infill: 50%</p>
+              <p>Perimeters: 3  </p>
+              <p class="justify hidden-xs description-text">maybe describe a few things maybe describe a few things  maybe describe a few things  maybe describe a few things  maybe describe a few things maybe describe a few things  maybe describe a few things  maybe describe a few thingsmaybe describe a few things  maybe describe a few things  maybe describe a few thingsmaybe describe a few things  maybe describe a few things  maybe describe a few things</p>
+            </div>
+            <div class="col-xs-5">
+              <img class="hovalin-neck"src="/content/images/parts/hovalin_neck.svg">
+            </div>
+            <div class="col-xs-12">
+              <p class="justify visible-xs description-text">maybe describe a few things maybe describe a few things  maybe describe a few things  maybe describe a few things  maybe describe a few things maybe describe a few things  maybe describe a few things  maybe describe a few thingsmaybe describe a few things  maybe describe a few things  maybe describe a few thingsmaybe describe a few things  maybe describe a few things  maybe describe a few things</p>
+            </div>
+          </div>
+          <div class="buttons">
+            <div class="col-xs-6 gray-btn">
+              <p><span class="number">8</span> PRINT HOURS</p>
+            </div>
+            <div class="col-xs-6 white-btn">
+              <p><span class="number">80</span>g PLASTIC</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="the-top" class="std-padding part">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-7">
+              <h2>The Top <i class="fa fa-download"></i></h2>
+              <h4>PARAMETERS</h4>
+              <p>Layer Height: .3mm </p>
+              <p>Infill: 50%</p>
+              <p>Perimeters: 3  </p>
+              <p class="justify hidden-xs description-text">maybe describe a few things maybe describe a few things  maybe describe a few things  maybe describe a few things  maybe describe a few things maybe describe a few things  maybe describe a few things  maybe describe a few thingsmaybe describe a few things  maybe describe a few things  maybe describe a few thingsmaybe describe a few things  maybe describe a few things  maybe describe a few things</p>
+            </div>
+            <div class="col-xs-5">
+              <img class="hovalin-top"src="/content/images/parts/hovalin_top.svg">
+            </div>
+            <div class="col-xs-12">
+              <p class="justify visible-xs description-text">maybe describe a few things maybe describe a few things  maybe describe a few things  maybe describe a few things  maybe describe a few things maybe describe a few things  maybe describe a few things  maybe describe a few thingsmaybe describe a few things  maybe describe a few things  maybe describe a few thingsmaybe describe a few things  maybe describe a few things  maybe describe a few things</p>
+            </div>
+          </div>
+          <div class="buttons">
+            <div class="col-xs-6 gray-btn">
+              <p><span class="number">11</span> PRINT HOURS</p>
+            </div>
+            <div class="col-xs-6 white-btn">
+              <p><span class="number">147</span>g PLASTIC</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="the-face" class="std-padding part">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-7">
+              <h2>The Face <i class="fa fa-download"></i></h2>
+              <h4>PARAMETERS</h4>
+              <p>Layer Height: 0.3mm </p>
+              <p>Infill: 50%</p>
+              <p>Perimeters: 3  </p>
+              <p class="justify hidden-xs description-text">maybe describe a few things maybe describe a few things  maybe describe a few things  maybe describe a few things  maybe describe a few things maybe describe a few things  maybe describe a few things  maybe describe a few thingsmaybe describe a few things  maybe describe a few things  maybe describe a few thingsmaybe describe a few things  maybe describe a few things  maybe describe a few things</p>
+            </div>
+            <div class="col-xs-5">
+              <img class="hovalin-face"src="/content/images/parts/hovalin_face.svg">
+            </div>
+            <div class="col-xs-12">
+              <p class="justify visible-xs description-text">maybe describe a few things maybe describe a few things  maybe describe a few things  maybe describe a few things  maybe describe a few things maybe describe a few things  maybe describe a few things  maybe describe a few thingsmaybe describe a few things  maybe describe a few things  maybe describe a few thingsmaybe describe a few things  maybe describe a few things  maybe describe a few things</p>
+            </div>
+          </div>
+          <div class="buttons">
+            <div class="col-xs-6 gray-btn">
+              <p><span class="number">7</span> PRINT HOURS</p>
+            </div>
+            <div class="col-xs-6 white-btn">
+              <p><span class="number">94</span>g PLASTIC</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="the-bottom" class="std-padding part">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-7">
+              <h2>The Bottom<i class="fa fa-download"></i></h2>
+              <h4>PARAMETERS</h4>
+              <p>Layer Height: 0.3mm </p>
+              <p>Infill: 50%</p>
+              <p>Perimeters: 3  </p>
+              <p class="justify hidden-xs description-text">maybe describe a few things maybe describe a few things  maybe describe a few things  maybe describe a few things  maybe describe a few things maybe describe a few things  maybe describe a few things  maybe describe a few thingsmaybe describe a few things  maybe describe a few things  maybe describe a few thingsmaybe describe a few things  maybe describe a few things  maybe describe a few things</p>
+            </div>
+            <div class="col-xs-5">
+              <img class="hovalin-bottom"src="/content/images/parts/hovalin_bottom.svg">
+            </div>
+            <div class="col-xs-12">
+              <p class="justify visible-xs description-text">maybe describe a few things maybe describe a few things  maybe describe a few things  maybe describe a few things  maybe describe a few things maybe describe a few things  maybe describe a few things  maybe describe a few thingsmaybe describe a few things  maybe describe a few things  maybe describe a few thingsmaybe describe a few things  maybe describe a few things  maybe describe a few things</p>
+            </div>
+          </div>
+          <div class="buttons">
+            <div class="col-xs-6 gray-btn">
+              <p><span class="number">7</span> PRINT HOURS</p>
+            </div>
+            <div class="col-xs-6 white-btn">
+              <p><span class="number">94</span>g PLASTIC</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--<section class="post-content">
+          {{content}}
+      </section> -->
+
+    </article>
+</main>
+{{/post}}

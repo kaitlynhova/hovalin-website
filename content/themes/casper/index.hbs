@@ -2,26 +2,128 @@
 {{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
 
 {{! The big featured header }}
+
 <header class="main-header {{#if @blog.cover}}" style="background-image: url({{@blog.cover}}){{else}}no-cover{{/if}}">
     <nav class="main-nav overlay clearfix">
         {{#if @blog.logo}}<a class="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="{{@blog.title}}" /></a>{{/if}}
         {{#if @blog.navigation}}
-            <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
         {{/if}}
     </nav>
-    <div class="vertical">
-        <div class="main-header-content inner">
-            <h1 class="page-title">{{@blog.title}}</h1>
-            <h2 class="page-description">{{@blog.description}}</h2>
-        </div>
+    <div id="hero" class="">
+      <img src="assets/images/hovalin-square.svg">
+      <h1 class="page-title">{{@blog.title}}</h1>
+      <p>3D PRINTED VIOLINS</p>
+      <p class="powered-by">powered by <a href="http://thehovas.com/" target="_blank">The Hovas</a></p>
+      <!--<h2 class="page-description">{{@blog.description}}</h2> -->
+      <a href="assets/files/Archive.zip" class="download-button hvr-icon-down">Download files</a>
     </div>
     <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
 </header>
 
 {{! The main content area on the homepage }}
 <main id="content" class="content" role="main">
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <h2>The first open source 3D printable acoustic violin</h2>
+          <p id="subheadline"class="subtitle">brought to you by <a href="http://thehovas.com/" target="_blank">The Hovas</a></p>
+        </div>
+
+        <p>The hovalin is a functional acoustic violin that can be produced using most standard consumer 3d printers. The total cost of raw materials for a Hovalin (4/4) is currently about $70.  The hovalin was designed with <a href="http://fusion360.autodesk.com" target="_blank">Autodesk Fusion 360</a>. It's shape and dimensions are inspired by the stradivarius violin model.</p>
+
+        <strong><p>CHOOSE YOUR OWN ADVENTURE: </p></strong>
+      </div>
+    </div>
+    <div id="options">
+      <div class="row">
+        <div class="col-md-4 do-it">
+          <div class="do-it-area">
+            <div class="icon-placeholder"></div>
+            <h2>Print it</h2>
+            <p>Well versed in 3D printing? Get the STL files and follow the instruction manual. </p>
+            <i class="fa fa-arrow-right"></i>
+          </div>
+        </div>
+        <div class="col-md-4 do-it">
+          <div class="do-it-area">
+            <div class="icon-placeholder"></div>
+            <h2>Get the kit</h2>
+            <p>A fan of lego-like activities? Buy the kit and put the 3d printed parts together.</p>
+            <i class="fa fa-arrow-right"></i>
+          </div>
+        </div>
+        <div class="col-md-4 do-it">
+          <div class="do-it-area">
+            <div class="icon-placeholder"></div>
+            <h2>Buy it </h2>
+            <p>Ain’t nobody got time for all those other things. Get it fully assembled.</p>
+            <i class="fa fa-arrow-right"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="video-area">
+      <div class="container">
+        <h2>See it in action</h2>
+        <p class="subtitle">It sounds really good</p>
+        <iframe width="100%" height="515" src="https://www.youtube.com/embed/dI4DpHnbX_Q" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
 
     {{! The tag below includes the post loop - partials/loop.hbs }}
-    {{> "loop"}}
+    <div id="blog-posts-area">
+      <h2>The Blog</h2>
+      <p class="subtitle">history & news</p>
+      {{> "loop"}}
+    </div>
+    <div id="support">
+      <div class="container">
+        <h2>Support the project</h2>
+        <p class="subtitle">powered by <a href="http://thehovas.com/" target="_blank">The Hovas</a></p>
+        <p>About text lorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem About text lorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem  About text lorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem About text lorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem </p>
+        <button class="donate">Donate</button>
+      </div>
+      <img class="thehovas" src="assets/images/thehovassmile.jpg">
+    </div>
 
+    <div id="mailinglist">
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="col-xs-12">
+            <h2>Join the mailing list</h2>
+            <p class="subtitle">get all the updates and news</p>
+          </div>
+        </div>
+        <div class="col-sm-9">
+          <!-- Begin MailChimp Signup Form -->
+            <div id="mc_embed_signup">
+            <form action="//kaitlynhova.us11.list-manage.com/subscribe/post?u=f6c89e3652944c4095fdc687f&amp;id=8839b7db22" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <div class="row">
+              <div class="col-sm-5 col-xs-12">
+                <p >FIRST & LAST NAME</p>
+                <input type="text" value="" class="half-input" placeholder="Hansel" name="FNAME" class="" id="mce-FNAME"><input class="half-input" type="text" placeholder="Hova" value="" name="LNAME" class="" id="mce-LNAME">
+              </div>
+              <div class="col-sm-4 col-xs-12">
+                <p>EMAIL</p>
+                <input class="full-input" type="email" value="" placeholder="Awesome@email.com" name="EMAIL" class="required email" id="mce-EMAIL">
+              </div>
+
+              <div id="mce-responses" class="clear">
+                <div class="response" id="mce-error-response" style="display:none"></div>
+                <div class="response" id="mce-success-response" style="display:none"></div>
+              </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                <div style="position: absolute; left: -5000px;"><input type="text" name="b_f6c89e3652944c4095fdc687f_8839b7db22" tabindex="-1" value=""></div>
+              <div class="col-sm-3 col-xs-12">
+                <div class="clear submit-button"><input class="full-input no-border" type="submit" value="Huzzah!" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+              </div>
+              </div>
+            </form>
+            </div>
+
+          <!--End mc_embed_signup-->
+
+        </div>
+      </div>
+    </div>
 </main>
