@@ -192,7 +192,7 @@ h2{
 
 /*HERO*/
 #hero{
-  background: #ffffff url(../images/hovalins.svg);
+  background: #444545 url(../images/hovalin-hero.png);
   padding-top: 150px;
   padding-bottom: 150px;
   background-repeat: no-repeat;
@@ -212,6 +212,7 @@ h2{
   font-family: 'europaregular';
   letter-spacing: 2px;
   font-size: 24px;
+  color: rgba(255,255,255,.7);
 }
 
 #hero .powered-by{
@@ -231,10 +232,9 @@ h2{
 /* ABOUT AREA ON HOME */
 
 .download-button{
-  background-color: #8fbfc8;
+  background-color: #dda658;
   color: white;
   padding: 15px;
-  padding-right: 60px !important;
   max-width: 230px;
   display: block;
   margin: 0 auto;
@@ -244,7 +244,7 @@ h2{
 
 
 .download-button:hover{
-  background-color: #dda658;
+  opacity: .7;
 }
 
 #about{
@@ -1716,11 +1716,11 @@ body.nav-opened .nav {
 }
 
 .no-cover .page-title {
-    color: rgba(0,0,0,0.8);
+    color: #f5f5f5;
 }
 
 .no-cover .page-description {
-    color: rgba(0,0,0,0.5);
+    color: #f5f5f5;
 }
 
 /* Add subtle load-in animation for content on the home page */
