@@ -442,7 +442,7 @@ h2{
 /* MAILING LIST */
 
 #mailinglist{
-  background-color: #8fbfc8;
+  background-color: #3c4544;
   color: white;
   padding-top: 75px;
   padding-bottom: 75px;
@@ -476,7 +476,7 @@ input[type="submit"] {
     -webkit-appearance: button;
     cursor: pointer;
     color: white;
-    background-color: #3c4544;
+    background-color: #1c2020;
     transition: .5s;
 }
 
