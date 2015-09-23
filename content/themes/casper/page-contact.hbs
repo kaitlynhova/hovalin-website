@@ -12,20 +12,48 @@
         {{#if @blog.navigation}}
         {{/if}}
     </nav>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
 </header>
 
 <main class="content" role="main">
-    <article class="{{post_class}}">
-
-        <header class="post-header">
-            <h1 class="post-title">{{title}}</h1>
-        </header>
-
-        <section class="post-content">
-            {{content}}
-            <h1>CONTACT</h1>
-        </section>
-
+    <article class="">
+        <div class="black-bg">
+            <div id="docs-hero">
+            <h1>Contact</h1>
+        </div><!--/hero -->
+        </div>
+        <div class="sample-form">
+            <form method="POST">
+                <fieldset>
+                    <legend>Sample Form with ReCAPTCHA</legend>
+                    <ul>
+                        <li>
+                            <label for="input1">First Name</label>
+                            <input class="jfk-textinput" id="input1" name="input1" type="text" value="Jane" disabled="" aria-disabled="true">
+                        </li>
+                        <li>
+                            <label for="input2">Last Name</label>
+                            <input class="jfk-textinput" id="input2" name="input2" type="text" value="Smith" disabled="" aria-disabled="true">
+                        </li>
+                        <li>
+                            <label for="input3">Email</label>
+                            <input class="jfk-textinput" id="input3" name="input3" type="text" value="stopallbots@gmail.com" disabled="" aria-disabled="true">
+                        </li>
+                        <li>
+                            <p>Pick your favorite color:</p>
+                            <label class="jfk-radiobutton-label" for="option1"><input class="jfk-radiobutton-checked" type="radio" id="option1" name="radios" value="option1" disabled="" aria-disabled="true" checked="" aria-checked="true">Red</label>
+                            <label class="jfk-radiobutton-label" for="option2">
+                            <input class="jfk-radiobutton" type="radio" id="option2" name="radios" value="option2" disabled="" aria-disabled="true">Green</label>
+                        </li>
+                        <li>
+                            <input type="submit" value="Submit">
+                        </li>
+                    </ul>
+                </fieldset>
+                <div class="g-recaptcha" data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"></div>
+            </form>
+        </div>
+        {{content}}
     </article>
 </main>
 {{/post}}
