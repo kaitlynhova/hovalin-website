@@ -11,10 +11,9 @@
 });
 
 var quotes = [
-	"that you told your mom about",
-  "that your friend tweeted about",
+	"that you mom told you about",
+    "programmed to remember your birthday",
 	"that can cat-sit while you're on vacation",
-	"programmed to remember your birthday",
 	"that can travel to Mars",
 	"that can do your taxes",
 	"that knows how to parallel park",
@@ -29,11 +28,11 @@ $( document ).ready(function() {
  }, 5000);
 });
 
-var quotes = [
- "with science",
- "together",
- "with math"
-];
+// var quotes = [
+//  "with science",
+//  "together",
+//  "with math"
+// ];
 
  // handle links with @href started with '#' only
 $(document).on('click', 'a[href^="#"]', function(e) {
