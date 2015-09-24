@@ -5,12 +5,12 @@
  $( document ).ready(function() {
 	var currentQuote = 0;
 	setInterval(function(){
-	    $("#subheadline").text(quotes[currentQuote]);
-	    currentQuote = (currentQuote + 1) % quotes.length;
+	    $("#subheadline").text(home_page_quotes[currentQuote]);
+	    currentQuote = (currentQuote + 1) % home_page_quotes.length;
 	}, 5000);
 });
 
-var quotes = [
+var home_page_quotes = [
 	"that you mom told you about",
     "programmed to remember your birthday",
 	"that can cat-sit while you're on vacation",
@@ -20,19 +20,20 @@ var quotes = [
 	"that can give your kids, 'the talk'"
 ];
 
+
 $( document ).ready(function() {
- var currentQuote = 0;
- setInterval(function(){
-     $("#docs-subheadline").text(quotes[currentQuote]);
-     currentQuote = (currentQuote + 1) % quotes.length;
- }, 5000);
+    var currentQuote = 0;
+    setInterval(function(){
+        $("#docs-subheadline").text(print_page_quotes[currentQuote]);
+        currentQuote = (currentQuote + 1) % print_page_quotes.length;
+    }, 5000);
 });
 
-// var quotes = [
-//  "with science",
-//  "together",
-//  "with math"
-// ];
+var print_page_quotes = [
+ "with science",
+ "together",
+ "with math"
+];
 
  // handle links with @href started with '#' only
 $(document).on('click', 'a[href^="#"]', function(e) {
