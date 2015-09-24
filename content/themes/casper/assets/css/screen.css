@@ -229,6 +229,11 @@ h2{
   color: #dda658;
 }
 
+#hero-text{
+  position: relative;
+  top: -50px;
+}
+
 /* ABOUT AREA ON HOME */
 
 .download-button{
