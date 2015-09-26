@@ -61,7 +61,7 @@ h2{
 }
 
 .no-padding{
-  padding: 0px;
+  padding: 0px !important;
 }
 .push-body-toleft {
   position: fixed !important;
@@ -124,16 +124,21 @@ h2{
   width: 100%;
   z-index: 999999;
   transition: .5s;
-  height: 66px;
+  height: 61px;
 }
 
 .top-nav-ul{
   display: block;
   text-align: right;
-  color: white;
+  color:  #ffffff !important;
 }
 
-.top-nav-ul a:hover{
+.top-nav-ul > a{
+  color: white;
+  text-decoration: none;
+}
+
+.top-nav-ul > a:hover{
   color: white;
   text-decoration: none;
 }
@@ -197,8 +202,8 @@ h2{
 /*HERO*/
 #hero{
   background: #444545 url(../images/hovalin-hero.png);
-  padding-top: 150px;
-  padding-bottom: 75px;
+  padding-top: 120px;
+  padding-bottom: 150px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -227,7 +232,6 @@ h2{
 
 #hero .powered-by{
   font-size: 16px;
-  margin-top: -40px;
   font-style: italic;
   animation: fade-in-down 0.6s;
   -webkit-animation-delay: 0.2s;
@@ -235,11 +239,12 @@ h2{
 }
 
 .powered-by a  {
-  color: #dda658;
+  color: #dda658 !important;
 }
 
 .powered-by a:hover{
   color: #dda658;
+  text-decoration: none;
 }
 
 #hero-text{
@@ -559,6 +564,8 @@ input[type="submit"]:hover{
 
 #docs-hero h1{
   color: white;
+  margin: 0px;
+  width: 100%;
 }
 
 #docs-hero .powered-by{
@@ -577,6 +584,7 @@ input[type="submit"]:hover{
 
 .step-index{
   padding-top: 20px;
+  padding-bottom: 20px;
   text-align:center;
   border: 1px solid #E4EAEC;
   transition: .5s;
