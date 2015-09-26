@@ -109,7 +109,6 @@ h2{
   background-color: #dda658;
 }
 
-
 #custom-mobile-nav{
   background-color: black;
   position: fixed;
@@ -125,7 +124,7 @@ h2{
   width: 100%;
   z-index: 999999;
   transition: .5s;
-  height: 65px;
+  height: 66px;
 }
 
 .top-nav-ul{
@@ -193,7 +192,7 @@ h2{
 #hero{
   background: #444545 url(../images/hovalin-hero.png);
   padding-top: 150px;
-  padding-bottom: 150px;
+  padding-bottom: 75px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -230,10 +229,13 @@ h2{
 
 #hero-text{
   position: relative;
-  top: -50px;
 }
 
 /* ABOUT AREA ON HOME */
+
+.quotes{
+  display: none;
+}
 
 .download-button{
   background-color: #dda658;
@@ -268,6 +270,10 @@ h2{
   font-weight: 700;
   letter-spacing: 0px;
   margin-top: 30px;
+}
+
+#options .options-text{
+  height: 100px;
 }
 
 #about h2{
@@ -315,7 +321,6 @@ h2{
 }
 
 .do-it-area{
-  transition: .5s;
   padding-top: 40px;
   padding-bottom: 40px;
   text-align:center;
@@ -324,9 +329,33 @@ h2{
   padding-right: 20px;
 }
 
-.do-it-area:hover{
-  background-color: #dda658;
+.print-it{
+  background-color: #444545;
   color: white;
+  transition: .5s;
+}
+
+.print-it:hover{
+  background-color: rgba(68,69,69,.6);
+}
+
+.get-kit{
+  background-color: #cbd0d1;
+  transition: .5s;
+}
+
+.get-kit:hover{
+  background-color: rgba(203,208,209,.4);
+}
+
+.buy-it{
+  background-color: #dda658;
+  transition: 5s;
+  color: white;
+}
+
+.buy-it:hover{
+  background-color: rgba(221,166,88,.3);
 }
 
 .icon-placeholder{
