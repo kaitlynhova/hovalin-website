@@ -128,7 +128,7 @@ h2{
   width: 100%;
   z-index: 999999;
   transition: .5s;
-  height: 61px;
+  height: 62px;
 }
 
 .top-nav-ul{
@@ -476,12 +476,12 @@ h2{
 
 /* SUPPORT AREA */
 
-#support{
+#donate{
   padding-top: 75px;
   text-align: center;
 }
 
-#support a{
+#donate a{
   color: #dda658;
 }
 
