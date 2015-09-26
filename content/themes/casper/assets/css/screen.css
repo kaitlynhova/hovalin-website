@@ -2953,6 +2953,11 @@ and (max-device-width : 667px) {
 }
 
 @media only screen and (max-width: 768px) {
+
+  #hero .powered-by{
+    margin-top: -25px;
+  }
+  
   .black-bg{
     background-color: black;
   }
