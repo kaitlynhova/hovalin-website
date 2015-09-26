@@ -350,12 +350,12 @@ h2{
 
 .buy-it{
   background-color: #dda658;
-  transition: 5s;
+  transition: .5s;
   color: white;
 }
 
 .buy-it:hover{
-  background-color: rgba(221,166,88,.3);
+  background-color: rgba(221,166,88,.7);
 }
 
 .icon-placeholder{
