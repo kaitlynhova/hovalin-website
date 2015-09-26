@@ -253,6 +253,7 @@ h2{
 
 #hero-text{
   position: relative;
+  top: 50px;
 }
 
 /* ABOUT AREA ON HOME */
@@ -2721,7 +2722,7 @@ a.read-more{
 
     .post {
         width: auto;
-        margin-top: 2rem;
+        margin-top: 15rem;
         margin-bottom: 2rem;
         margin-left: 16px;
         margin-right: 16px;
@@ -2977,13 +2978,10 @@ and (max-device-width : 667px) {
 
 @media only screen and (max-width: 768px) {
 
-  #hero .powered-by{
-    margin-top: -25px;
-  }
-
   .black-bg{
     background-color: black;
   }
+
   #mailinglist{
     text-align: center;
     padding-bottom: 140px;
