@@ -489,14 +489,19 @@ h2{
   max-width: 400px;
 }
 
-.donate{
+.donate-submit input[type="submit"]{
   color: white;
+  margin-top: 50px;
   background-color: #dda658;
   border: 0px;
   padding: 20px;
   text-transform: uppercase;
   padding-right: 50px;
   padding-left: 50px;
+}
+
+.donate-submit input[type="submit"]:hover{
+  background-color: #3c4544;
 }
 
 /* MAILING LIST */
