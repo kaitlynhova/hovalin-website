@@ -746,6 +746,16 @@ input[type="submit"]:hover{
 /* ==========================================================================
   CONTACT PAGE STYLES
    ========================================================================== */
+#contact-hero{
+  color: white;
+  text-align: center;
+  padding-top: 125px;
+  padding-bottom: 75px;
+  background-image: url('/content/images/makingit.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
 #contact-form{
   max-width: 675px;
