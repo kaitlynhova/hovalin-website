@@ -763,7 +763,7 @@ input[type="submit"]:hover{
   margin: 0 auto;
 }
 
-#contact-form li, .contact-information-area li{
+#contact-form li, .contact-information-area li {
   list-style: none;
 }
 
@@ -825,6 +825,20 @@ input[type="submit"]:hover{
 
 .contact-information-area ul{
   margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.contact-information-area li:before{
+  list-style: none;
+  position: relative;
+  top: -7px;
+  display: inline-block;
+  content: " ";
+  width: 40px;
+  height: 1px;
+  margin: 0 40px 0 0;
+  background: #b3b3b3;
 }
 
 .contact-information-area a{
