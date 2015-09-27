@@ -753,7 +753,7 @@ input[type="submit"]:hover{
   margin: 0 auto;
 }
 
-#contact-form li{
+#contact-form li, .contact-information-area li{
   list-style: none;
 }
 
@@ -777,7 +777,7 @@ input[type="submit"]:hover{
 #contact-form textarea{
   width: 100%;
   outline: none;
-  height: 300px;
+  height: 145px;
   border: solid 1px #ccc;
   resize: none;
 }
@@ -813,8 +813,18 @@ input[type="submit"]:hover{
   letter-spacing: 2px;
 }
 
+.contact-information-area ul{
+  margin-left: 20px;
+}
+
 .contact-information-area a{
   color: #dda658;
+  transition: .5s;
+}
+
+.contact-information-area a:hover{
+  color: #dda658;
+  opacity: .7;
 }
 
 
