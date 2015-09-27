@@ -2,6 +2,23 @@
  * Main JS file for Casper behaviours
  */
 
+
+ $( document ).ready(function() {
+   var days = [
+      'SUNDAY',
+      'MONDAY',
+      'TUESDAY',
+      'WED',
+      'THURSDAY',
+      'FRIDAY',
+      'SATURDAY'
+  ];
+
+  d = new Date();
+  x = d.getDay();
+  $("#today").text(days[x]); 
+ }
+
  $( document ).ready(function() {
 	var currentQuote = 0;
 	setInterval(function(){
