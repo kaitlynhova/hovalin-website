@@ -1,52 +1,78 @@
 {{!< default}}
 
 {{! This is a page template. A page outputs content just like any other post, and has all the same
-    attributes by default, but you can also customise it to behave differently if you prefer. }}
+attributes by default, but you can also customise it to behave differently if you prefer. }}
 
 {{! Everything inside the #post tags pulls data from the page }}
 {{#post}}
 
 <header class="main-header post-head {{#if image}}" style="background-image: url({{image}}){{else}}no-cover{{/if}}">
-    <nav class="main-nav {{#if image}}overlay{{/if}} clearfix">
-        {{#if @blog.logo}}<a class="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="{{@blog.title}}" /></a>{{/if}}
-        {{#if @blog.navigation}}
-        {{/if}}
-    </nav>
-    <script src='https://www.google.com/recaptcha/api.js'></script>
+  <nav class="main-nav {{#if image}}overlay{{/if}} clearfix">
+    {{#if @blog.logo}}<a class="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="{{@blog.title}}" /></a>{{/if}}
+    {{#if @blog.navigation}}
+    {{/if}}
+  </nav>
+  <script src='https://www.google.com/recaptcha/api.js'></script>
 </header>
 
 <main class="content" role="main">
-    <article class="">
-        <div class="black-bg">
-            <div id="docs-hero">
-            <h1>Contact</h1>
-        </div><!--/hero -->
+  <article class="">
+    <div class="black-bg">
+      <div id="contact-hero">
+        <h1>Contact us</h1>
+      </div><!--/hero -->
+    </div>
+
+    <div id="contact-area">
+      <div class="row">
+        <div class="col-sm-6 contact-information-area">
+          <h1>HIT US UP</h1>
+          <p>We're interested in your feedback and questions! If you can't find what you're looking for on our FAQ's page, we're down to help you out. </p>
+          <p>We're also interested in:</p>
+          <ul>
+            <li>Giving Hovalin talks</li>
+            <li>Promoting STEM education</li>
+            <li>Giving performances on the Hovalin</li>
+            <li>and coffee</li>
+          </ul>
+
+          <p>Thanks!</p>
+          <p>Happy Saturday,</p>
+
+          <p><a href="http://matthova.com/" target="_blank">MATT HOVA</a> & <a href="http://www.kaitlynhova.com/" target="blank">KAITLYN HOVA</a></p>
         </div>
-            <form id="contact-form" method="POST">
-                <fieldset>
-                    <legend>Say Hello!</legend>
+        <div class="col-sm-6 contact-form-area">
+          <div id="contact-form">
+            <div class="row">
+              <div class="col-xs-12 no-padding">
+                <form id="contact-form" method="POST">
+                  <fieldset>
                     <ul>
-                        <li>
-                            <label for="email">Email</label>
-                            <input id="form-email" name="email" type="text" value="awesome@email.com">
-                        </li>
-                        <li>
-                            <label for="msg"></label>
-                            <input id="form-msg" name="msg" type="text">
-                        </li>
-                        <li>
-                            <div class="g-recaptcha" data-sitekey="6LeRzAwTAAAAADpDxn8jJJ4T32cAh-sH4hLW-FyW"></div>
-                        </li>
-                        <li>
-                            <input type="submit" value="Submit">
-                        </li>
+                      <li>
+                        <label for="email">Email</label>
+                        <input id="form-email" name="email" type="text" placeholder="awesome@email.com">
+                      </li>
+                      <li>
+                        <label for="msg">Message</label>
+                        <textarea id="form-msg" name="msg" type="text" placeholder="what's up?"></textarea>
+                      </li>
+                      <li>
+                        <div class="g-recaptcha" data-sitekey="6LeRzAwTAAAAADpDxn8jJJ4T32cAh-sH4hLW-FyW"></div>
+                      </li>
+                      <li>
+                        <input type="submit" value="Submit">
+                      </li>
                     </ul>
-                </fieldset>
-            </form>
-            <div id="form-feedback"></div>
-        </div>
-        {{content}}
-    </article>
+                  </fieldset>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div id="form-feedback"></div>
+        </div> {{! end col xs 6}}
+      </div>
+    </div>
+  </article>
 </main>
 {{/post}}
 <script type="text/javascript" src="{{asset "js/jquery-1.11.3.min.js"}}"></script>

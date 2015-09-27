@@ -128,7 +128,7 @@ h2{
   width: 100%;
   z-index: 999999;
   transition: .5s;
-  height: 62px;
+  height: 64px;
 }
 
 .top-nav-ul{
@@ -563,7 +563,7 @@ input[type="submit"]:hover{
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
-  background-image: url('/content/images/makingit.png');
+  background-image: url('../images/makingit.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -741,6 +741,101 @@ input[type="submit"]:hover{
   color: #dda658;
   padding-left: 11px;
   font-size: 24px;
+}
+
+/* ==========================================================================
+  CONTACT PAGE STYLES
+   ========================================================================== */
+#contact-hero{
+  color: white;
+  text-align: center;
+  padding-top: 125px;
+  padding-bottom: 75px;
+  background-image: url('../images/makingit.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#contact-form{
+  max-width: 675px;
+  display: block;
+  margin: 0 auto;
+}
+
+#contact-form li, .contact-information-area li{
+  list-style: none;
+}
+
+#contact-form label{
+  display: block;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: block;
+  font-size: 22px;
+  line-height: 22px;
+  letter-spacing: 2px;
+  font-size: 15px;
+  padding-bottom: 5px;
+}
+
+#contact-form input{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#contact-form textarea{
+  width: 100%;
+  outline: none;
+  height: 145px;
+  border: solid 1px #ccc;
+  resize: none;
+  padding: 20px;
+}
+
+#contact-form input[type="submit"] {
+  margin-top: 25px;
+  background-color: #1c2020;
+  border: 1px solid #1c2020;
+  transition: .5s;
+}
+
+#contact-form input[type="submit"]:hover {
+  margin-top: 25px;
+  background-color: #dda658;
+  border: 1px solid #dda658;
+}
+
+.contact-form-area{
+  padding-top: 75px;
+  padding-bottom: 75px;
+  background-color: #444545;
+  color: white;
+}
+
+.contact-information-area{
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+.contact-information-area h1{
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.contact-information-area ul{
+  margin-left: 20px;
+}
+
+.contact-information-area a{
+  color: #dda658;
+  transition: .5s;
+}
+
+.contact-information-area a:hover{
+  color: #dda658;
+  opacity: .7;
 }
 
 
@@ -1064,7 +1159,6 @@ body {
 }
 
 h1{
-  width: 80%;
   color: #000;
   font-size: 40px;
   line-height: 60px;
@@ -1130,16 +1224,6 @@ p, ul, ol, dl {
     -o-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
     margin: 0 0 1.75em 0;
     text-rendering: geometricPrecision;
-}
-
-ol, ul {
-    padding-left: 3rem;
-}
-
-ol ol, ul ul,
-ul ol, ol ul {
-    margin: 0 0 0.4em 0;
-    padding-left: 2em;
 }
 
 dl dt {
@@ -2547,10 +2631,6 @@ a.read-more{
 
     hr {
         margin: 2.4em 0;
-    }
-
-    ol, ul {
-        padding-left: 2em;
     }
 
     h1 {
