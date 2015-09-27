@@ -2,7 +2,6 @@
  * Main JS file for Casper behaviours
  */
 
-
  $( document ).ready(function() {
    var days = [
       'SUNDAY',
@@ -16,7 +15,7 @@
 
   d = new Date();
   x = d.getDay();
-  $("#today").text(days[x]); 
+  $("#today").text(days[x]);
  }
 
  $( document ).ready(function() {
