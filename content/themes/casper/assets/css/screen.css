@@ -347,6 +347,10 @@ h2{
   margin-bottom: 75px;
 }
 
+.option-icon{
+  max-width: 80px;
+}
+
 .do-it-area{
   padding-top: 40px;
   padding-bottom: 40px;
@@ -354,6 +358,15 @@ h2{
   padding-left: 20px;
   background-color: white;
   padding-right: 20px;
+}
+
+.white-icon{
+  max-width: 50px;
+  display: block;
+  margin: 0 auto;
+  background-color: white;
+  padding: 35px;
+  border-radius: 100px;
 }
 
 .print-it{
