@@ -422,6 +422,7 @@ h2{
 .post-title{
   text-align: left !important;
   padding-top: 15px;
+  top: -0px;
 }
 
 .post-meta-info{
@@ -857,6 +858,17 @@ input[type="submit"]:hover{
 #faq-content{
   padding-top: 75px;
   padding-bottom: 75px;
+}
+
+#faq-hero{
+  color: white;
+  text-align: center;
+  padding-top: 125px;
+  padding-bottom: 75px;
+  background-image: url('../images/faq-hero.JPG');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 
@@ -3076,6 +3088,15 @@ and (max-device-width : 667px) {
 }
 
 @media only screen and (max-width: 768px) {
+
+  .post-template .post-title{
+    top: -60px;
+  }
+
+  .post-date{
+    position: relative;
+    top: -50px;
+  }
 
   .black-bg{
     background-color: black;
