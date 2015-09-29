@@ -856,8 +856,13 @@ input[type="submit"]:hover{
 
 
 #faq-content{
-  padding-top: 75px;
+  padding-top: 40px;
   padding-bottom: 75px;
+}
+
+#faq-content h2{
+  color: #333;
+  padding-top: 35px;
 }
 
 #faq-hero{
