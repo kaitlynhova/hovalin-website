@@ -352,8 +352,8 @@ h2{
 }
 
 .do-it-area{
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 17%;
+  padding-bottom: 17%;
   text-align:center;
   padding-left: 20px;
   background-color: white;
@@ -854,6 +854,12 @@ input[type="submit"]:hover{
 .contact-information-area a:hover{
   color: #dda658;
   opacity: .7;
+}
+
+
+#faq-content{
+  padding-top: 75px;
+  padding-bottom: 75px;
 }
 
 
