@@ -6,14 +6,11 @@
 {{! Everything inside the #post tags pulls data from the page }}
 {{#post}}
 
-<header class="main-header post-head {{#if image}}" style="background-image: url({{image}}){{else}}no-cover{{/if}}">
-    <nav class="main-nav {{#if image}}overlay{{/if}} clearfix">
-        {{#if @blog.logo}}<a class="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="{{@blog.title}}" /></a>{{/if}}
-        {{#if @blog.navigation}}
-        {{/if}}
-        <h1 class="post-title">{{title}}</h1>
-    </nav>
-</header>
+<div class="black-bg">
+  <div id="faq-hero">
+    <h1>FAQ</h1>
+  </div><!--/hero -->
+</div>
 
 
 <div id="faq-content">
