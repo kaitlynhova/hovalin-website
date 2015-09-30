@@ -523,6 +523,12 @@ h2{
   max-width: 400px;
 }
 
+#share-btns{
+  max-width: 800px;
+  display: block;
+  margin: 0 auto;
+}
+
 .donate-submit input[type="submit"]{
   color: white;
   background-color: #dda658;
