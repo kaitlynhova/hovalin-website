@@ -537,6 +537,7 @@ input {
   line-height: normal;
   border: solid 1px #ccc;
   padding: 20px;
+  background: #fff;
   color: gray;
   outline: none;
 }
@@ -774,7 +775,6 @@ input[type="submit"]:hover{
 }
 
 #contact-form{
-  max-width: 675px;
   display: block;
   margin: 0 auto;
 }
@@ -811,22 +811,30 @@ input[type="submit"]:hover{
 
 #contact-form input[type="submit"] {
   margin-top: 25px;
-  background-color: #1c2020;
-  border: 1px solid #1c2020;
+  background-color: #dda658;
+  border: 1px solid #dda658;
   transition: .5s;
+  border-radius: 0px;
 }
 
 #contact-form input[type="submit"]:hover {
   margin-top: 25px;
   background-color: #dda658;
   border: 1px solid #dda658;
+  border-radius: 0px;
+}
+
+#contact-form h1{
+  margin-top: 0px;
+  font-size: 33px;
+  font-weight: 700;
+  color: #333;
+  padding-bottom: 35px;
 }
 
 .contact-form-area{
   padding-top: 75px;
   padding-bottom: 75px;
-  background-color: #444545;
-  color: white;
 }
 
 .contact-information-area{
@@ -840,6 +848,10 @@ input[type="submit"]:hover{
   letter-spacing: 2px;
 }
 
+.contact-information-area .also-interested{
+ padding-top: 35px;
+}
+
 .contact-information-area ul{
   margin-left: 20px;
 }
@@ -847,6 +859,25 @@ input[type="submit"]:hover{
 .contact-information-area a{
   color: #dda658;
   transition: .5s;
+}
+
+.contact-information-area li{
+  font-weight: 700;
+  margin: 0 0 50px 0;
+  font-weight: bold;
+  font-size: 21px;
+  list-style: none;
+}
+
+.contact-information-area li:before{
+  position: relative;
+  top: -7px;
+  display: inline-block;
+  content: " ";
+  width: 40px;
+  height: 1px;
+  margin: 0 40px 0 0;
+  background: #b3b3b3;
 }
 
 .contact-information-area a:hover{
@@ -875,7 +906,6 @@ input[type="submit"]:hover{
   background-repeat: no-repeat;
   background-position: center;
 }
-
 
 /* ==========================================================================
    Bootstrap 5 col layout
@@ -3093,6 +3123,14 @@ and (max-device-width : 667px) {
 }
 
 @media only screen and (max-width: 768px) {
+
+  .contact-information-area li {
+    font-size: 20px;
+}
+
+  .contact-information-area{
+    padding-top: 0px;
+  }
 
   .post-template .post-title{
     top: -60px;
