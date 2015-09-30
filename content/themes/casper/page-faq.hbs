@@ -6,21 +6,29 @@
 {{! Everything inside the #post tags pulls data from the page }}
 {{#post}}
 
-<header class="main-header post-head {{#if image}}" style="background-image: url({{image}}){{else}}no-cover{{/if}}">
-    <nav class="main-nav {{#if image}}overlay{{/if}} clearfix">
-        {{#if @blog.logo}}<a class="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="{{@blog.title}}" /></a>{{/if}}
-        {{#if @blog.navigation}}
-        {{/if}}
-    </nav>
-</header>
+<div class="black-bg">
+  <div id="faq-hero">
+    <h1>FAQ</h1>
+  </div><!--/hero -->
+</div>
 
-<main class="content" role="main">
-    <article class="">
-      <div class="black-bg">
-        <div id="docs-hero">
-          <h1>FAQ</h1>
-        </div><!--/hero -->
-      </div>
-    </article>
-</main>
+
+<div id="faq-content">
+  <div class="container">
+    <h2>How much plastic does it take? What does that mean?</h2>
+    <p>It takes about 1/3 of a 1.75 wheel of plastic. </p>
+
+    <h2>What are the copyrights to the hovalin? </h2>
+    <p>It is under the Creative Commons license. That means you can do whatever you want with it but once you start making money you have to give us money. Please. </p>
+
+    <h2>How do you play violin?</h2>
+    <p>It takes years or practice,
+
+    <h2>Can you print in any other size other than a full size violin? </h2>
+    <p>Yes. You can rescale the hovalin in your CAD program by 1/2s for the rest of the standard violin sizes : 3/4 1/2 1/4 1/8 & christams ornament sizes.
+
+    <h2>Why don’t I just buy a cheap violin outfit through amazon? </h2>
+    <p>	Yes, yes you can. Here is the link to the cheapest, best deal we’ve found. They point is to do other stuff.</p>
+  </div>
+</div>
 {{/post}}

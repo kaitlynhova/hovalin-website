@@ -24,53 +24,70 @@ attributes by default, but you can also customise it to behave differently if yo
     </div>
 
     <div id="contact-area">
-      <div class="row">
-        <div class="col-sm-6 contact-information-area">
-          <h1>HIT US UP</h1>
-          <p>We're interested in your feedback and questions! If you can't find what you're looking for on our FAQ's page, we're down to help you out. </p>
-          <p>We're also interested in:</p>
-          <ul>
-            <li>Giving Hovalin talks</li>
-            <li>Promoting STEM education</li>
-            <li>Giving performances on the Hovalin</li>
-            <li>and coffee</li>
-          </ul>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 contact-information-area hidden-xs">
+            <p>We're interested in your feedback and questions! If you can't find what you're looking for on our FAQ's page, we're down to help you out.We're interested in your feedback and questions! If you can't find what you're looking for on our FAQ's page, we're down to help you out. We are also: </p>
+            <div class="also-interested">
+              <ul>
+                <li>Give Hovalin performances</li>
+                <li>Promote STEM education</li>
+                <li>Give Maker/DIY talks</li>
+                <li>Give highfives</li>
+              </ul>
+            </div>
 
-          <p>Thanks!</p>
-          <p>Happy <span id="today">Saturday</span>,</p>
+            <p>Thanks!</p>
+            <p>Happy <span id="today">Saturday</span>,</p>
 
-          <p><a href="http://matthova.com/" target="_blank">MATT HOVA</a> & <a href="http://www.kaitlynhova.com/" target="blank">KAITLYN HOVA</a></p>
-        </div>
-        <div class="col-sm-6 contact-form-area">
-          <div id="contact-form">
-            <div class="row">
-              <div class="col-xs-12 no-padding">
-                <form id="contact-form" method="POST">
-                  <fieldset>
-                    <ul>
-                      <li>
-                        <label for="email">Email</label>
-                        <input id="form-email" name="email" type="email" placeholder="awesome@email.com" required>
-                      </li>
-                      <li>
-                        <label for="msg">Message</label>
-                        <textarea id="form-msg" name="msg" type="text" placeholder="what's up?" required></textarea>
-                      </li>
-                      <li>
-                        <center><div class="g-recaptcha" data-sitekey="6LeRzAwTAAAAADpDxn8jJJ4T32cAh-sH4hLW-FyW"></div></center>
-                      </li>
-                      <li>
-                        <input type="submit" value="Submit">
-                      </li>
-                    </ul>
-                  </fieldset>
-                </form>
+            <p><a href="http://matthova.com/" target="_blank">MATT HOVA</a> & <a href="http://www.kaitlynhova.com/" target="blank">KAITLYN HOVA</a></p>
+          </div>
+          <div class="col-sm-6 contact-form-area">
+            <div id="contact-form">
+              <div class="row">
+                <div class="col-xs-12 no-padding">
+                  <form id="contact-form" method="POST">
+                    <fieldset>
+                      <ul>
+                        <li>
+                          <label for="email">Email</label>
+                          <input id="form-email" name="email" type="email" placeholder="awesome@email.com" required>
+                        </li>
+                        <li>
+                          <label for="msg">Message</label>
+                          <textarea id="form-msg" name="msg" type="text" placeholder="what's up?" required></textarea>
+                        </li>
+                        <li>
+                          <div style="color:'red'"class="g-recaptcha" data-sitekey="6LeRzAwTAAAAADpDxn8jJJ4T32cAh-sH4hLW-FyW"></div>
+                        </li>
+                        <li>
+                          <input type="submit" value="Submit">
+                        </li>
+                      </ul>
+                    </fieldset>
+                  </form>
+                </div>
               </div>
             </div>
+            <center><div id="form-feedback"></div></center>
+          </div> {{! end col xs 6}}
+          <div class="col-sm-6 contact-information-area hidden-sm hidden-md hidden-lg">
+            <p>We're interested in your feedback and questions! If you can't find what you're looking for on our FAQ's page, we're down to help you out. We also: </p>
+            <div class="also-interested">
+              <ul>
+                <li>Give Hovalin performances</li>
+                <li>Promote STEM education</li>
+                <li>Give Maker/DIY talks</li>
+                <li>Give highfives</li>
+              </ul>
+            </div>
+
+            <p>Thanks!</p>
+            <p>Happy <span id="today">Saturday</span>,</p>
+
+            <p><a href="http://matthova.com/" target="_blank">MATT HOVA</a> & <a href="http://www.kaitlynhova.com/" target="blank">KAITLYN HOVA</a></p>
           </div>
-          <center><div id="form-feedback"></div></center>
-          <center><img style="width:20%" id="email-gif" src="{{asset "images/email_holder.png"}}"/></center>
-        </div> {{! end col xs 6}}
+        </div>
       </div>
     </div>
   </article>

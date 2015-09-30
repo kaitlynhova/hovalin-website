@@ -7,6 +7,16 @@ body{
   font-family: "europaregular";
 }
 
+body p a{
+  border-bottom: 3px solid #dda658;
+  box-shadow: inset 0 -2px 0 #dda658;
+  transition: background .15s cubic-bezier(.33,.66,.66,1);
+}
+
+body p a:hover{
+  background-color: #dda658;
+}
+
 .black-bg{
   background-color: black;
 }
@@ -67,9 +77,6 @@ h2{
 .no-padding{
   padding: 0px !important;
 }
-.push-body-toleft {
-  position: fixed !important;
-}
 
 .push-body-toleft .mobile-nav{
 
@@ -84,7 +91,7 @@ h2{
 }
 
 .mobile-nav {
-  background-color: black;
+  background-color: #444545;
   height: 65px;
   position: fixed;
   z-index: 99;
@@ -244,6 +251,8 @@ h2{
 
 .powered-by a  {
   color: #dda658 !important;
+  border-bottom: 0;
+  box-shadow: none;
 }
 
 .powered-by a:hover{
@@ -280,15 +289,14 @@ h2{
 
 #about{
   color: #6d6d6d;
-  background-color: #f5f5f5;
+  background-color: #fff;
   text-align: center;
   padding-top: 75px;
   padding-bottom: 75px;
 }
 
 #options{
-  background-color: #f5f5f5;
-  padding-bottom: 40px;
+  background-color: #fff;
 }
 
 #options h2{
@@ -311,20 +319,17 @@ h2{
 }
 
 .subtitle{
-  text-align: center;
+  text-align: center !important;
   margin-bottom: 0px;
   font-style: italic;
   margin-bottom: 40px;
   top: -10px;
-  font-family: 'europa';
-}
-
-#about p{
+  font-family: 'europaregular';
   text-align: center;
 }
 
-#about a {
-  color: #dda658;
+#about p{
+  text-align: justify;
 }
 
 .about-violin-svg{
@@ -343,17 +348,13 @@ h2{
 
 /* OPTIONS AREA */
 
-.do-it{
-  margin-bottom: 75px;
-}
-
 .option-icon{
   max-width: 80px;
 }
 
 .do-it-area{
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 17%;
+  padding-bottom: 17%;
   text-align:center;
   padding-left: 20px;
   background-color: white;
@@ -376,7 +377,7 @@ h2{
 }
 
 .print-it:hover{
-  background-color: rgba(68,69,69,.6);
+  opacity: .7;
 }
 
 .get-kit{
@@ -385,17 +386,17 @@ h2{
 }
 
 .get-kit:hover{
-  background-color: rgba(203,208,209,.4);
+  opacity: .7;
 }
 
 .buy-it{
-  background-color: #dda658;
+  background-color: #424755;
   transition: .5s;
   color: white;
 }
 
 .buy-it:hover{
-  background-color: rgba(221,166,88,.7);
+  opacity: .7;
 }
 
 .icon-placeholder{
@@ -410,11 +411,12 @@ h2{
 /* Video Area*/
 
 #video-area{
-  background-color: #ffffff;
   padding-top: 75px;
   padding-bottom: 75px;
   text-align: center;
   color: #6d6d6d;
+  background-color: #E4EAEC;
+  background-size: 29px 30px;
 }
 
 /* POST STYLES */
@@ -425,6 +427,7 @@ h2{
 .post-title{
   text-align: left !important;
   padding-top: 15px;
+  top: -0px;
 }
 
 .post-meta-info{
@@ -494,8 +497,14 @@ h2{
   text-align: center;
 }
 
+#donate p{
+  text-align: justify;
+}
+
 #donate a{
   color: #dda658;
+  border-bottom: 0px;
+  box-shadow: none;
 }
 
 .thehovas{
@@ -539,6 +548,7 @@ input {
   line-height: normal;
   border: solid 1px #ccc;
   padding: 20px;
+  background: #fff;
   color: gray;
   outline: none;
 }
@@ -776,7 +786,6 @@ input[type="submit"]:hover{
 }
 
 #contact-form{
-  max-width: 675px;
   display: block;
   margin: 0 auto;
 }
@@ -813,22 +822,30 @@ input[type="submit"]:hover{
 
 #contact-form input[type="submit"] {
   margin-top: 25px;
-  background-color: #1c2020;
-  border: 1px solid #1c2020;
+  background-color: #dda658;
+  border: 1px solid #dda658;
   transition: .5s;
+  border-radius: 0px;
 }
 
 #contact-form input[type="submit"]:hover {
   margin-top: 25px;
   background-color: #dda658;
   border: 1px solid #dda658;
+  border-radius: 0px;
+}
+
+#contact-form h1{
+  margin-top: 0px;
+  font-size: 33px;
+  font-weight: 700;
+  color: #333;
+  padding-bottom: 35px;
 }
 
 .contact-form-area{
   padding-top: 75px;
   padding-bottom: 75px;
-  background-color: #444545;
-  color: white;
 }
 
 .contact-information-area{
@@ -842,6 +859,10 @@ input[type="submit"]:hover{
   letter-spacing: 2px;
 }
 
+.contact-information-area .also-interested{
+ padding-top: 35px;
+}
+
 .contact-information-area ul{
   margin-left: 20px;
 }
@@ -851,11 +872,51 @@ input[type="submit"]:hover{
   transition: .5s;
 }
 
+.contact-information-area li{
+  font-weight: 700;
+  margin: 0 0 50px 0;
+  font-weight: bold;
+  font-size: 21px;
+  list-style: none;
+}
+
+.contact-information-area li:before{
+  position: relative;
+  top: -7px;
+  display: inline-block;
+  content: " ";
+  width: 40px;
+  height: 1px;
+  margin: 0 40px 0 0;
+  background: #b3b3b3;
+}
+
 .contact-information-area a:hover{
   color: #dda658;
   opacity: .7;
 }
 
+
+#faq-content{
+  padding-top: 40px;
+  padding-bottom: 75px;
+}
+
+#faq-content h2{
+  color: #333;
+  padding-top: 35px;
+}
+
+#faq-hero{
+  color: white;
+  text-align: center;
+  padding-top: 125px;
+  padding-bottom: 75px;
+  background-image: url('../images/hovalinparts.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
 /* ==========================================================================
    Bootstrap 5 col layout
@@ -2236,6 +2297,7 @@ a.read-more{
     padding: 0 15px 5rem 15px;
     border-bottom: #EBF2F6 1px solid;
     text-align: center;
+    margin-top: 150px;
 }
 
 /* Add a little circle in the middle of the border-bottom */
@@ -3072,6 +3134,23 @@ and (max-device-width : 667px) {
 }
 
 @media only screen and (max-width: 768px) {
+
+  .contact-information-area li {
+    font-size: 20px;
+}
+
+  .contact-information-area{
+    padding-top: 0px;
+  }
+
+  .post-template .post-title{
+    top: -60px;
+  }
+
+  .post-date{
+    position: relative;
+    top: -50px;
+  }
 
   .black-bg{
     background-color: black;

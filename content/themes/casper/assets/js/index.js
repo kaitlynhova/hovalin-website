@@ -4,13 +4,13 @@
 
 $( document ).ready(function() {
   var days = [
-    'SUNDAY',
-    'MONDAY',
-    'TUESDAY',
-    'WED',
-    'THURSDAY',
-    'FRIDAY',
-    'SATURDAY'
+    'Sunday',
+    'Monday',
+    'Tuesday',
+    'Wednesday',
+    'Thursday',
+    'Friday',
+    'Saturday'
   ];
 
   d = new Date();
