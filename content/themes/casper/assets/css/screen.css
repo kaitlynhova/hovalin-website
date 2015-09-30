@@ -222,7 +222,7 @@ h2{
 
 /*HERO*/
 #hero{
-  background: #444545 url(../images/hovalin-hero.png);
+  background: #000000 url(../images/hovalin-hero.png);
   padding-top: 120px;
   padding-bottom: 150px;
   background-repeat: no-repeat;
@@ -426,7 +426,7 @@ h2{
   padding-bottom: 75px;
   text-align: center;
   color: #6d6d6d;
-  background-color: #e1e3e4;
+  background-color: #fff;
   background-size: 29px 30px;
 }
 
@@ -447,7 +447,7 @@ h2{
 
 #blog-posts-area{
   padding-top: 75px;
-  background-color: #f5f5f5;
+  background-color: #E8E8E8;
   padding-bottom: 75px;
   text-align:center;
 }
