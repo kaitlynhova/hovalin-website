@@ -7,6 +7,16 @@ body{
   font-family: "europaregular";
 }
 
+body p a{
+  border-bottom: 3px solid #dda658;
+  box-shadow: inset 0 -2px 0 #dda658;
+  transition: background .15s cubic-bezier(.33,.66,.66,1);
+}
+
+body p a:hover{
+  background-color: #dda658;
+}
+
 .black-bg{
   background-color: black;
 }
@@ -241,6 +251,8 @@ h2{
 
 .powered-by a  {
   color: #dda658 !important;
+  border-bottom: 0;
+  box-shadow: none;
 }
 
 .powered-by a:hover{
@@ -285,7 +297,6 @@ h2{
 
 #options{
   background-color: #fff;
-  padding-bottom: 40px;
 }
 
 #options h2{
@@ -308,20 +319,17 @@ h2{
 }
 
 .subtitle{
-  text-align: center;
+  text-align: center !important;
   margin-bottom: 0px;
   font-style: italic;
   margin-bottom: 40px;
   top: -10px;
-  font-family: 'europa';
-}
-
-#about p{
+  font-family: 'europaregular';
   text-align: center;
 }
 
-#about a {
-  color: #dda658;
+#about p{
+  text-align: justify;
 }
 
 .about-violin-svg{
@@ -339,10 +347,6 @@ h2{
 }
 
 /* OPTIONS AREA */
-
-.do-it{
-  margin-bottom: 75px;
-}
 
 .option-icon{
   max-width: 80px;
@@ -373,7 +377,7 @@ h2{
 }
 
 .print-it:hover{
-  background-color: rgba(68,69,69,.6);
+  opacity: .7;
 }
 
 .get-kit{
@@ -382,7 +386,7 @@ h2{
 }
 
 .get-kit:hover{
-  background-color: rgba(203,208,209,.4);
+  opacity: .7;
 }
 
 .buy-it{
@@ -392,7 +396,7 @@ h2{
 }
 
 .buy-it:hover{
-  background-color: rgba(221,166,88,.7);
+  opacity: .7;
 }
 
 .icon-placeholder{
@@ -493,8 +497,14 @@ h2{
   text-align: center;
 }
 
+#donate p{
+  text-align: justify;
+}
+
 #donate a{
   color: #dda658;
+  border-bottom: 0px;
+  box-shadow: none;
 }
 
 .thehovas{
