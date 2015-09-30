@@ -524,13 +524,33 @@ h2{
 
 .donate-submit input[type="submit"]{
   color: white;
-  margin-top: 50px;
   background-color: #dda658;
   border: 0px;
   padding: 20px;
   text-transform: uppercase;
-  padding-right: 50px;
-  padding-left: 50px;
+  width: 100%;
+}
+
+a.donate-tweet{
+  border-bottom: 2px solid #dda658 !important;
+}
+
+a.donate-tweet:hover{
+  color: #3c4544 !important;
+  border-bottom: 2px solid #3c4544 !important;
+}
+
+.donate-tweet{
+  padding: 20px;
+  display: block;
+  width: 100%;
+  border: 2px solid #dda658;
+  transition: .5s;
+}
+
+.donate-tweet:hover{
+  border: 2px solid #3c4544;
+  color: #3c4544;
 }
 
 .donate-submit input[type="submit"]:hover{
