@@ -81,7 +81,7 @@ h2{
 }
 
 .mobile-nav {
-  background-color: black;
+  background-color: #444545;
   height: 65px;
   position: fixed;
   z-index: 99;
@@ -277,14 +277,14 @@ h2{
 
 #about{
   color: #6d6d6d;
-  background-color: #f5f5f5;
+  background-color: #fff;
   text-align: center;
   padding-top: 75px;
   padding-bottom: 75px;
 }
 
 #options{
-  background-color: #f5f5f5;
+  background-color: #fff;
   padding-bottom: 40px;
 }
 
@@ -386,7 +386,7 @@ h2{
 }
 
 .buy-it{
-  background-color: #dda658;
+  background-color: #424755;
   transition: .5s;
   color: white;
 }
@@ -407,11 +407,12 @@ h2{
 /* Video Area*/
 
 #video-area{
-  background-color: #ffffff;
   padding-top: 75px;
   padding-bottom: 75px;
   text-align: center;
   color: #6d6d6d;
+  background-color: #E4EAEC;
+  background-size: 29px 30px;
 }
 
 /* POST STYLES */
