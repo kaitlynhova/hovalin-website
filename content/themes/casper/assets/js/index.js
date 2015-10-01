@@ -21,8 +21,7 @@ $( document ).ready(function() {
  $( document ).ready(function() {
   var currentQuote = 0;
   setInterval(function(){
-    var randQuote = Math.floor(Math.random() * home_page_quotes.length);
-    $("#subheadline").text(home_page_quotes[randQuote]);
+    $("#subheadline").text(home_page_quotes[currentQuote++]);
   }, 10000);
 });
 
@@ -30,9 +29,9 @@ var home_page_quotes = [
   "that you mom told you about",
   "programmed to remember your birthday",
   "that can cat-sit while you're on vacation",
-  "that can travel to Mars",
   "that can do your taxes",
   "that knows how to parallel park",
+  "that can travel to Mars",
   "that can give your kids, 'the talk'"
 ];
 
