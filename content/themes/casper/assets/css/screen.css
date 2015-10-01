@@ -657,6 +657,16 @@ input[type="submit"]:hover{
   color: #6D6D6D;
 }
 
+#maker-warning{
+  background-color: #E4EAEC;
+  text-align:center;
+}
+
+#maker-warning .fa{
+  font-size: 30px;
+  padding-bottom: 40px;
+}
+
 .step-index{
   padding-top: 20px;
   padding-bottom: 20px;
@@ -702,7 +712,6 @@ input[type="submit"]:hover{
 }
 
 #shopping-list{
-  background-color: #E4EAEC;
   color: #6D6D6D;
 }
 
