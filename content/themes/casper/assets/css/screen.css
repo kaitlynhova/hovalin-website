@@ -661,18 +661,18 @@ input[type="submit"]:hover{
    letter-spacing: 3px;
 }
 
-#shoppinglist{
+#shopping-list{
   background-color: #E4EAEC;
   color: #6D6D6D;
 }
 
-#shoppinglist h4{
+#shopping-list h4{
   font-weight: 600;
   letter-spacing: 3px;
   font-size: 18px;
 }
 
-#shoppinglist .check{
+#shopping-list .check{
   max-width: 40px;
   position: relative;
   top: 10px;
