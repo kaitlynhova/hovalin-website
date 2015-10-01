@@ -260,7 +260,7 @@ h2{
 }
 
 .powered-by a  {
-  color: #dda658 !important;
+  color: #3c948b !important;
   border-bottom: 0;
   box-shadow: none;
 }
@@ -268,6 +268,8 @@ h2{
 .powered-by a:hover{
   color: #dda658;
   text-decoration: none;
+  box-shadow: none !important;
+  border: 0 !important;
 }
 
 #hero-text{
