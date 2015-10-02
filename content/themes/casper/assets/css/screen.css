@@ -1005,7 +1005,7 @@ input[type="submit"]:hover{
   color: white;
 }
 
-.buy-it{
+#shopping-items .buy-it{
   color: #dda656;
   background: transparent;
   border: 2px solid #dda656;
@@ -1015,7 +1015,7 @@ input[type="submit"]:hover{
   transition: .5s;
 }
 
-.buy-it:hover{
+#shopping-items .buy-it:hover{
   color: white;
   background: #dda656;;
 }
