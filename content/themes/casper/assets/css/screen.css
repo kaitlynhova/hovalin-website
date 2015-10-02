@@ -20,6 +20,7 @@ body p a{
 
 body p a:hover{
   background-color: #b4e7f8;
+  color: inherit;
 }
 
 .black-bg{
