@@ -435,7 +435,8 @@ h2{
   text-align: center;
   color: white;
   background-color: #27282d;
-  background-size: 29px 30px;
+  background-image: url('../images/structure.svg');
+  background-size: cover;
 }
 
 /* POST STYLES */
