@@ -715,6 +715,21 @@ input[type="submit"]:hover{
   color: #6D6D6D;
 }
 
+#shopping-list li{
+  list-style: none;
+}
+
+#shopping-list li:before{
+  position: relative;
+  top: -7px;
+  display: inline-block;
+  content: " ";
+  width: 40px;
+  height: 1px;
+  margin: 0 40px 0 0;
+  background: #b3b3b3;
+}
+
 #shopping-list h4{
   font-weight: 600;
   letter-spacing: 3px;
@@ -737,6 +752,21 @@ input[type="submit"]:hover{
 
 #print-the-parts{
   background-color: #E8E8E8;
+}
+
+#print-the-parts li{
+  list-style: none;
+}
+
+#print-the-parts li:before{
+  position: relative;
+  top: -7px;
+  display: inline-block;
+  content: " ";
+  width: 40px;
+  height: 1px;
+  margin: 0 40px 0 0;
+  background: #b3b3b3;
 }
 
 .part p {
