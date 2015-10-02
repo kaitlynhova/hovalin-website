@@ -997,6 +997,50 @@ input[type="submit"]:hover{
   background-position: center;
 }
 
+
+
+#shopping-items{
+  text-align: center;
+  background-color: #4d5756;
+  color: white;
+}
+
+.buy-it{
+  color: #dda656;
+  background: transparent;
+  border: 2px solid #dda656;
+  outline: 0;
+  padding: 20px 90px 20px 90px;
+  margin-top: 50px;
+  transition: .5s;
+}
+
+.buy-it:hover{
+  color: white;
+  background: #dda656;;
+}
+
+.item{
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+#fully-assembled-hovalin{
+  background-image: url('../images/hovalin-product-background.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 10%;
+}
+
+#kit{
+  background-image: url('../images/hovalinparts.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 10%;
+}
+
 /* ==========================================================================
    Bootstrap 5 col layout
    ========================================================================== */
