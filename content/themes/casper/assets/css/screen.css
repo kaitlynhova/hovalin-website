@@ -13,8 +13,8 @@ h1.hero-title{
 }
 
 body p a{
-  border-bottom: 3px solid #3c948b;
-  box-shadow: inset 0 -2px 0 #3c948b;
+  border-bottom: 3px solid #F2B449;
+  box-shadow: inset 0 -2px 0 #F2B449;
   transition: background .15s cubic-bezier(.33,.66,.66,1);
 }
 
@@ -265,7 +265,7 @@ h2{
 }
 
 .powered-by a  {
-  color: #3c948b !important;
+  color: #F2B449 !important;
   border-bottom: 0;
   box-shadow: none;
 }
@@ -306,7 +306,7 @@ h2{
 
 #about{
   color: #6d6d6d;
-  background-color: #e1e3e4;
+  background-color: #f5f5f5;
   text-align: center;
   padding-top: 75px;
   padding-bottom: 75px;
@@ -388,7 +388,7 @@ h2{
 }
 
 .print-it{
-  background-color: #444545;
+  background-color: #ed583a;
   color: white;
   transition: .5s;
 }
@@ -398,7 +398,7 @@ h2{
 }
 
 .get-kit{
-  background-color: #3c948b;
+  background-color: #f3724a;
   transition: .5s;
   color: white;
 }
@@ -408,7 +408,7 @@ h2{
 }
 
 .buy-it{
-  background-color: #424755;
+  background-color: #ed583a;
   transition: .5s;
   color: white;
 }
@@ -432,8 +432,8 @@ h2{
   padding-top: 75px;
   padding-bottom: 75px;
   text-align: center;
-  color: #6d6d6d;
-  background-color: #fff;
+  color: white;
+  background-color: #27282d;
   background-size: 29px 30px;
 }
 
@@ -538,7 +538,7 @@ h2{
 
 .donate-submit input[type="submit"]{
   color: white;
-  background-color: #dda658;
+  background-color: #F2B449;
   border: 0px;
   padding: 20px;
   text-transform: uppercase;
@@ -546,7 +546,7 @@ h2{
 }
 
 a.donate-tweet{
-  border-bottom: 2px solid #dda658 !important;
+  border-bottom: 2px solid #F2B449 !important;
 }
 
 a.donate-tweet:hover{
@@ -558,7 +558,7 @@ a.donate-tweet:hover{
   padding: 20px;
   display: block;
   width: 100%;
-  border: 2px solid #dda658;
+  border: 2px solid #F2B449;
   transition: .5s;
 }
 
@@ -574,7 +574,7 @@ a.donate-tweet:hover{
 /* MAILING LIST */
 
 #mailinglist{
-  background-color: #424755;
+  background-color: #ED583A;
   color: white;
   padding-top: 75px;
   padding-bottom: 75px;

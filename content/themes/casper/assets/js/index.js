@@ -85,11 +85,11 @@ $(window).scroll(function() {
   var height = $(window).scrollTop();
   if(height  < 50) {
     $('#custom-navigation').css('background-color', 'rgba(68, 68, 68, 0.7)');
-    $('.support-button').css('background-color', 'rgba(221, 166, 88, 0.7)');
+    $('.support-button').css('background-color', 'rgba(243, 181, 74, 0.7)');
   }
   if(height  > 50) {
     $('#custom-navigation').css('background-color', 'rgba(68, 68, 68, 0.9)');
-    $('.support-button').css('background-color', 'rgba(221, 166, 88, 0.9)');
+    $('.support-button').css('background-color', 'rgba(243, 181, 74, 0.9)');
   }
 });
 
