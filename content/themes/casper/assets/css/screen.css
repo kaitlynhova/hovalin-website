@@ -13,13 +13,13 @@ h1.hero-title{
 }
 
 body p a{
-  border-bottom: 3px solid #F2B449;
-  box-shadow: inset 0 -2px 0 #F2B449;
+  border-bottom: 3px solid #b4e7f8;
+  box-shadow: inset 0 -2px 0 #b4e7f8;
   transition: background .15s cubic-bezier(.33,.66,.66,1);
 }
 
 body p a:hover{
-  background-color: #3c948b;
+  background-color: #b4e7f8;
 }
 
 .black-bg{
