@@ -18,6 +18,10 @@
     "node": "~0.10.0"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev": "npm start & node_modules/node-sass/bin/node-sass content/themes/casper/assets/sass/input.scss -o content/themes/casper/assets/css/ -w content/themes/casper/assets/scss/"
+  },
+  "devDependencies": {
+    "node-sass": "^3.3.3"
   }
 }
