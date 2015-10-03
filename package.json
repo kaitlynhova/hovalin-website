@@ -21,9 +21,7 @@
     "start": "npm run build-sass & node server.js",
     "watch-sass": "node_modules/node-sass/bin/node-sass -w content/themes/casper/assets/sass/",
     "build-sass": "node_modules/node-sass/bin/node-sass content/themes/casper/assets/sass/input.scss -o content/themes/casper/assets/css/",
-    "dev": "npm run watch-sass & npm start"
-  },
-  "devDependencies": {
+    "dev": "npm run watch-sass & npm start",
     "node-sass": "^3.3.3"
   }
 }
