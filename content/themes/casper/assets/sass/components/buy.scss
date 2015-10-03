@@ -17,34 +17,30 @@
       background: #dda656;;
     }
   }
+  #fully-assembled-hovalin{
+    background-image: url('../images/hovalin-product-background.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
   h1{
     margin-top: 0px;
     color: white;
   }
-}
-
-.item{
-  padding-top: 125px;
-  padding-bottom: 125px;
-}
-
-#fully-assembled-hovalin{
-  background-image: url('../images/hovalin-product-background.png');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-#kit{
-  background-image: url('../images/hovalinparts.png');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-#parts{
-  background-image: url('../images/parts.png');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  .item{
+    padding-top: 125px;
+    padding-bottom: 125px;
+  }
+  #kit{
+    background-image: url('../images/hovalinparts.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #parts{
+    background-image: url('../images/parts.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 }
