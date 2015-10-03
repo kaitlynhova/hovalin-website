@@ -1,0 +1,33 @@
+.productpage {
+  background-color: #f4f4f4;
+  padding-top: 150px;
+  .price{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  p{
+    margin: 0;
+  }
+  li{
+    list-style: none;
+  }
+  li:before{
+    position: relative;
+    top: -7px;
+    display: inline-block;
+    content: " ";
+    width: 40px;
+    height: 1px;
+    margin: 0 40px 0 0;
+    background: #b3b3b3;
+  }
+}
+
+#hovalin-productpage{
+  .product-image{
+    max-width: 200px;
+    display: block;
+    margin: 0 auto;
+  }
+}
