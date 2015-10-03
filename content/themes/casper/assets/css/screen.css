@@ -1010,6 +1010,7 @@ input[type="submit"]:hover{
   text-align: center;
   background-color: #313131;
   color: white;
+  padding-top: 64px;
 }
 
 #shopping-items .buy-it{
@@ -1020,6 +1021,10 @@ input[type="submit"]:hover{
   padding: 20px 90px 20px 90px;
   margin-top: 15px;
   transition: .5s;
+}
+
+#shopping-items h1{
+  margin-top: 0px;
 }
 
 #shopping-items .buy-it:hover{
@@ -1037,7 +1042,6 @@ input[type="submit"]:hover{
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  padding-bottom: 10%;
 }
 
 #kit{
@@ -1045,7 +1049,6 @@ input[type="submit"]:hover{
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  padding-bottom: 10%;
 }
 
 #parts{
@@ -1053,7 +1056,6 @@ input[type="submit"]:hover{
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  padding-bottom: 10%;
 }
 
 /* ==========================================================================
