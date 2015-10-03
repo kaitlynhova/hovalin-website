@@ -1,0 +1,405 @@
+
+/*HERO*/
+#hero{
+  background: #27282d url(../images/hovalin-hero.png);
+  padding-top: 120px;
+  padding-bottom: 150px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#hero img{
+  width: 100%;
+  max-width: 70px;
+  display: block;
+  margin: 0 auto;
+  top: 67px;
+  animation: fade-in-down 0.6s;
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+}
+
+#hero p {
+  font-family: 'europaregular';
+  letter-spacing: 2px;
+  font-size: 24px;
+  animation: fade-in-down 0.6s;
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+  color: rgba(255,255,255,.7);
+}
+
+#hero .powered-by{
+  font-size: 16px;
+  font-style: italic;
+  animation: fade-in-down 0.6s;
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+}
+
+.powered-by a  {
+  color: #F2B449 !important;
+  border-bottom: 0;
+  box-shadow: none;
+}
+
+.powered-by a:hover{
+  color: #dda658;
+  text-decoration: none;
+  box-shadow: none !important;
+  border: 0 !important;
+}
+
+#hero-text{
+  position: relative;
+  top: 50px;
+}
+
+/* ABOUT AREA ON HOME */
+
+.quotes{
+  display: none;
+}
+
+.download-button{
+  background-color: #F2B449;
+  color: white;
+  padding: 15px;
+  max-width: 230px;
+  display: block;
+  margin: 0 auto;
+  transition: .5s;
+}
+
+
+
+.download-button:hover{
+  opacity: .7;
+}
+
+#about{
+  color: #6d6d6d;
+  background-color: #fff;
+  text-align: center;
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+#options{
+  background-color: #fff;
+}
+
+#options h2{
+  text-transform: uppercase;
+  font-size: 19px;
+  font-weight: 700;
+  letter-spacing: 0px;
+  margin-top: 30px;
+}
+
+#options .options-text{
+  height: 100px;
+}
+
+#about h2{
+  color: #6d6d6d;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.subtitle{
+  text-align: center !important;
+  margin-bottom: 0px;
+  font-style: italic;
+  margin-bottom: 40px;
+  top: -10px;
+  font-family: 'europaregular';
+  text-align: center;
+}
+
+#about p{
+  text-align: justify;
+}
+
+.about-violin-svg{
+  max-width: 700px;
+  display: block;
+  margin: 0 auto;
+}
+
+#about-grid{
+  /*background: #f5f5f5 url(../images/square.jpg); */
+  background-color: white;
+  text-align:center;
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+/* OPTIONS AREA */
+
+.option-icon{
+  max-width: 80px;
+}
+
+.do-it-area{
+  padding-top: 17%;
+  padding-bottom: 17%;
+  text-align:center;
+  padding-left: 20px;
+  background-color: white;
+  padding-right: 20px;
+}
+
+.white-icon{
+  max-width: 50px;
+  display: block;
+  margin: 0 auto;
+  background-color: white;
+  padding: 35px;
+  border-radius: 100px;
+}
+
+.print-it{
+  background-color: #ed583a;
+  color: white;
+  transition: .5s;
+}
+
+.print-it:hover{
+  opacity: .7;
+}
+
+.get-kit{
+  background-color: #f3724a;
+  transition: .5s;
+  color: white;
+}
+
+.get-kit:hover{
+  opacity: .7;
+}
+
+.buy-it{
+  background-color: #ed583a;
+  transition: .5s;
+  color: white;
+}
+
+.buy-it:hover{
+  opacity: .7;
+}
+
+.icon-placeholder{
+  width: 60px;
+  height: 60px;
+  background: #cbd0d1;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Video Area*/
+
+#video-area{
+  padding-top: 75px;
+  padding-bottom: 75px;
+  text-align: center;
+  color: white;
+  background-color: #27282d;
+  background-image: url('../images/structure.svg');
+  background-size: cover;
+}
+
+/* POST STYLES */
+.home-post a {
+  color: #3A4145;
+}
+
+.post-title{
+  text-align: left !important;
+  padding-top: 15px;
+  top: -0px;
+}
+
+.post-meta-info{
+  text-align: left;
+}
+
+#blog-posts-area{
+  padding-top: 75px;
+  background-color: #E8E8E8;
+  padding-bottom: 75px;
+  text-align:center;
+}
+
+.post-head:before {
+    content: " ";
+    display: block;
+    height: 351px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(0,0,0,0) 1%, rgba(0,0,0,0.07) 26%, rgba(0,0,0,0.5) 71%, rgba(0,0,0,0.7) 100%);
+    background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(0,0,0,0) 1%, rgba(0,0,0,0.05) 26%, rgba(0,0,0,0.5) 71%, rgba(0,0,0,0.7) 100%);
+    background: -o-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(0,0,0,0) 1%, rgba(0,0,0,0.07) 26%, rgba(0,0,0,0.5) 71%, rgba(0,0,0,0.7) 100%);
+    background: -ms-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(0,0,0,0) 1%, rgba(0,0,0,0.07) 26%, rgba(0,0,0,0.5) 71%, rgba(0,0,0,0.7) 100%);
+    -webkit-transition: all 100ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 100ms cubic-bezier(0.42, 0, 0.58, 1);
+    -ms-transition: all 100ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 100ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 100ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.post-head:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    -webkit-transition: all 100ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 100ms cubic-bezier(0.42, 0, 0.58, 1);
+    -ms-transition: all 100ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 100ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 100ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.post-template .post-title {
+    margin-bottom: 0;
+    color: white;
+    position: relative;
+    z-index: 999999;
+    margin-top: 200px;
+}
+
+.post-time{
+  color: white;
+  position: relative;
+  z-index: 9999;
+}
+
+/* SUPPORT AREA */
+
+#donate{
+  padding-top: 75px;
+  text-align: center;
+}
+
+#donate p{
+  text-align: justify;
+}
+
+#donate a{
+  color: #dda658;
+  border-bottom: 0px;
+  box-shadow: none;
+  font-weight: 600;
+}
+
+.thehovas{
+  max-width: 400px;
+}
+
+#share-btns{
+  max-width: 800px;
+  display: block;
+  margin: 0 auto;
+}
+
+.donate-submit input[type="submit"]{
+  color: white;
+  background-color: #F2B449;
+  border: 0px;
+  padding: 20px;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+a.donate-tweet{
+  border-bottom: 2px solid #F2B449 !important;
+}
+
+a.donate-tweet:hover{
+  color: #3c4544 !important;
+  border-bottom: 2px solid #3c4544 !important;
+}
+
+.donate-tweet{
+  padding: 20px;
+  display: block;
+  width: 100%;
+  border: 2px solid #F2B449;
+  transition: .5s;
+}
+
+.donate-tweet:hover{
+  border: 2px solid #3c4544;
+  color: #3c4544;
+}
+
+.donate-submit input[type="submit"]:hover{
+  background-color: #3c4544;
+}
+
+/* MAILING LIST */
+
+#mailinglist{
+  background-color: #ED583A;
+  color: white;
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+#mailinglist .subtitle{
+  margin: 0px;
+  text-align:left;
+}
+
+#mailinglist p{
+  margin-bottom: 10px;
+}
+
+input {
+  line-height: normal;
+  border: solid 1px #ccc;
+  padding: 20px;
+  background: #fff;
+  color: gray;
+  outline: none;
+}
+
+.submit-button{
+  color: white;
+  border: none;
+  position: relative;
+  top: 42px;
+}
+
+input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+    color: white;
+    background-color: #1c2020;
+    transition: .5s;
+}
+
+input[type="submit"]:hover{
+  background-color: #dda658;
+}
+
+.half-input{
+  width: 50%;
+}
+
+.full-input{
+  width: 100%;
+}
+
+.no-border{
+  border: 0px !important;
+}
