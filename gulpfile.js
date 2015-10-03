@@ -53,7 +53,7 @@ gulp.task('sass', function (){
   .on('error', function(err){
     displayError(err);
   })
-  // Pass the compiled sass through the prefixer with defined 
+  // Pass the compiled sass through the prefixer with defined
   .pipe(prefix(
     'last 2 version', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1', 'ios 6', 'android 4'
   ))
@@ -65,7 +65,7 @@ gulp.task('develop', function () {
   nodemon({
     script: 'server.js',
     ext: 'html js',
-    env: { 'NODE_ENV': 'development' }
+    env: { 'NODE_ENV': 'production' }
   })
     .on('restart', function () {
       console.log('restarted!')
@@ -74,7 +74,7 @@ gulp.task('develop', function () {
 
 // This is the default task - which is run when `gulp` is run
 // The tasks passed in as an array are run before the tasks within the function
-gulp.task('default', ['develop', 'sass'], function() { 
+gulp.task('default', ['develop', 'sass'], function() {
   // Watch the files in the paths object, and when there is a change, fun the functions in the array
   gulp.watch(paths.styles.watch, ['sass'])
   // Also when there is a change, display what file was changed, only showing the path after the 'sass folder'
