@@ -12,16 +12,17 @@
   "dependencies": {
     "ghost": "0.7.0",
     "ghost-s3-storage": "~0.2.1",
-    "pg": "latest",
-    "node-sass": "^3.3.3"
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.0.2",
+    "gulp-nodemon": "^2.0.4",
+    "gulp-sass": "^2.0.4",
+    "pg": "latest"
   },
   "engines": {
-    "node": "~0.10.0"
+    "node": "~0.12.0"
   },
   "scripts": {
-    "start": "npm run build-sass & node server.js",
-    "watch-sass": "node_modules/node-sass/bin/node-sass -w content/themes/casper/assets/sass/",
-    "build-sass": "node_modules/node-sass/bin/node-sass content/themes/casper/assets/sass/input.scss -o content/themes/casper/assets/css/",
-    "dev": "npm run watch-sass & npm start"
+    "start": "node server.js",
+    "gulp": "node_modules/gulp/bin/gulp.js"
   }
 }
