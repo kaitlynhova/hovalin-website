@@ -26,7 +26,7 @@ $( document ).ready(function() {
 });
 
 var home_page_quotes = [
-  "that you mom told you about",
+  "that your mom told you about",
   "programmed to remember your birthday",
   "that can cat-sit while you're on vacation",
   "that can do your taxes",
