@@ -1008,7 +1008,7 @@ input[type="submit"]:hover{
 
 #shopping-items{
   text-align: center;
-  background-color: #4d5756;
+  background-color: #313131;
   color: white;
 }
 
@@ -1018,7 +1018,7 @@ input[type="submit"]:hover{
   border: 2px solid #dda656;
   outline: 0;
   padding: 20px 90px 20px 90px;
-  margin-top: 50px;
+  margin-top: 15px;
   transition: .5s;
 }
 
@@ -1042,6 +1042,14 @@ input[type="submit"]:hover{
 
 #kit{
   background-image: url('../images/hovalinparts.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 10%;
+}
+
+#parts{
+  background-image: url('../images/parts.png');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
