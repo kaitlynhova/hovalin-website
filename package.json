@@ -19,7 +19,7 @@
     "pg": "latest"
   },
   "engines": {
-    "node": "~0.12.0"
+    "node": "~0.12.0" 
   },
   "scripts": {
     "start": "node_modules/gulp/bin/gulp.js"
