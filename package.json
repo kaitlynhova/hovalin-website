@@ -18,10 +18,10 @@
     "node": "~0.10.0"
   },
   "scripts": {
-    "start": "node server.js",
+    "start": "npm run build-sass & node server.js",
     "watch-sass": "node_modules/node-sass/bin/node-sass -w content/themes/casper/assets/sass/",
     "build-sass": "node_modules/node-sass/bin/node-sass content/themes/casper/assets/sass/input.scss -o content/themes/casper/assets/css/",
-    "dev": "npm run build-sass & npm run watch-sass & npm start"
+    "dev": "npm run watch-sass & npm start"
   },
   "devDependencies": {
     "node-sass": "^3.3.3"
