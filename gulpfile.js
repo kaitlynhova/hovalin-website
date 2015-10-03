@@ -6,6 +6,12 @@ var sass = require('gulp-sass');
 var prefix = require('gulp-autoprefixer');
 var nodemon = require('gulp-nodemon');
 
+var environment;
+if (process.platform === 'linux') {
+  environment = 'production';
+} else {
+  environment = 'development';
+}
 // This is an object which defines paths for the styles.
 // Can add paths for javascript or images for example
 // The folder, files to look for and destination are all required for sass
@@ -65,7 +71,7 @@ gulp.task('develop', function () {
   nodemon({
     script: 'server.js',
     ext: 'html js',
-    env: { 'NODE_ENV': 'production' }
+    env: { 'NODE_ENV': environment }
   })
     .on('restart', function () {
       console.log('restarted!')
