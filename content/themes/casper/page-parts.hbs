@@ -1,0 +1,34 @@
+{{!< default}}
+
+{{! This is a page template. A page outputs content just like any other post, and has all the same
+    attributes by default, but you can also customise it to behave differently if you prefer. }}
+
+{{! Everything inside the #post tags pulls data from the page }}
+{{#post}}
+
+<div id="hovalin-productpage" class="productpage">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <img class="product-image" src="../assets/images/product-image-hovalin.png">
+      </div>
+      <div class="col-sm-6">
+        <h1>The 3D Printed Parts</h1>
+        <p class="product-subtitle">No need for a 3d printer</p>
+        <p class="price"> $200</p>
+
+        <p>INCLUDES</p>
+        <ul>
+          <li>3D printed parts</li>
+        </ul>
+        <ul>
+          <button class="buy-it">
+            <p>BUY</p>
+          </butotn>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{{/post}}
