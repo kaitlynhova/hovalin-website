@@ -1,0 +1,50 @@
+
+#shopping-items{
+  text-align: center;
+  background-color: #313131;
+  color: white;
+  padding-top: 64px;
+  .buy-it{
+    color: #dda656;
+    background: transparent;
+    border: 2px solid #dda656;
+    outline: 0;
+    padding: 20px 90px 20px 90px;
+    margin-top: 15px;
+    transition: .5s;
+    &:hover{
+      color: white;
+      background: #dda656;;
+    }
+  }
+  h1{
+    margin-top: 0px;
+    color: white;
+  }
+}
+
+.item{
+  padding-top: 125px;
+  padding-bottom: 125px;
+}
+
+#fully-assembled-hovalin{
+  background-image: url('../images/hovalin-product-background.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#kit{
+  background-image: url('../images/hovalinparts.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#parts{
+  background-image: url('../images/parts.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
