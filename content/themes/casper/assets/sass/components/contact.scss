@@ -131,6 +131,19 @@
   a{
     color: inherit;
   }
+  li{
+    list-style: none;
+    &:before{
+      position: relative;
+      top: -7px;
+      display: inline-block;
+      content: " ";
+      width: 40px;
+      height: 1px;
+      margin: 0 40px 0 0;
+      background: #b3b3b3;
+    }
+  }
 }
 
 
