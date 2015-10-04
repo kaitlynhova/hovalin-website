@@ -2,81 +2,65 @@
 /*HERO*/
 #hero{
   background: #27282d url(../images/hovalin-hero.png);
-  padding-top: 120px;
-  padding-bottom: 150px;
+  padding-top: 170px;
+  padding-bottom: 100px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  img{
+    width: 100%;
+    max-width: 70px;
+    display: block;
+    margin: 0 auto;
+    top: 67px;
+    animation: fade-in-down 0.6s;
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+  }
+  p{
+    font-family: 'europaregular';
+    letter-spacing: 2px;
+    font-size: 24px;
+    margin: 0;
+    animation: fade-in-down 0.6s;
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+    color: rgba(255,255,255,.7);
+  }
+  .page-title{
+    margin: 0 auto;
+    font-size: 100px;
+    letter-spacing: -1px;
+    font-weight: 700;
+    font-family: europaregular,sans-serif;
+    margin-top: 40px;
+    margin-bottom: 25px;
+  }
+  .powered-by{
+    font-size: 16px;
+    font-style: italic;
+    animation: fade-in-down 0.6s;
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+  }
+  a  {
+    color: #F2B449 !important;
+    border-bottom: 0;
+    box-shadow: none;
+    &:hover{
+      color: #dda658;
+      text-decoration: none;
+      box-shadow: none !important;
+      border: 0 !important;
+    }
+  }
 }
 
-#hero img{
-  width: 100%;
-  max-width: 70px;
-  display: block;
-  margin: 0 auto;
-  top: 67px;
-  animation: fade-in-down 0.6s;
-  -webkit-animation-delay: 0.2s;
-  animation-delay: 0.2s;
-}
 
-#hero p {
-  font-family: 'europaregular';
-  letter-spacing: 2px;
-  font-size: 24px;
-  animation: fade-in-down 0.6s;
-  -webkit-animation-delay: 0.2s;
-  animation-delay: 0.2s;
-  color: rgba(255,255,255,.7);
-}
 
-#hero .powered-by{
-  font-size: 16px;
-  font-style: italic;
-  animation: fade-in-down 0.6s;
-  -webkit-animation-delay: 0.2s;
-  animation-delay: 0.2s;
-}
-
-.powered-by a  {
-  color: #F2B449 !important;
-  border-bottom: 0;
-  box-shadow: none;
-}
-
-.powered-by a:hover{
-  color: #dda658;
-  text-decoration: none;
-  box-shadow: none !important;
-  border: 0 !important;
-}
-
-#hero-text{
-  position: relative;
-  top: 50px;
-}
 
 /* ABOUT AREA ON HOME */
 
-.quotes{
-  display: none;
-}
-
-.download-button{
-  background-color: #F2B449;
-  color: white;
-  padding: 15px;
-  max-width: 230px;
-  display: block;
-  margin: 0 auto;
-  transition: .5s;
-}
-
-
-
-.download-button:hover{
-  opacity: .7;
-}
 
 #about{
   color: #6d6d6d;
@@ -84,30 +68,28 @@
   text-align: center;
   padding-top: 75px;
   padding-bottom: 75px;
+  h2{
+    color: #6d6d6d;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
 }
 
 #options{
   background-color: #fff;
+  h2{
+    text-transform: uppercase;
+    font-size: 19px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    margin-top: 30px;
+  }
+  .options-text{
+    height: 100px;
+  }
 }
 
-#options h2{
-  text-transform: uppercase;
-  font-size: 19px;
-  font-weight: 700;
-  letter-spacing: 0px;
-  margin-top: 30px;
-}
-
-#options .options-text{
-  height: 100px;
-}
-
-#about h2{
-  color: #6d6d6d;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-}
 
 .subtitle{
   text-align: center !important;
@@ -136,6 +118,7 @@
   padding-top: 75px;
   padding-bottom: 75px;
 }
+
 
 /* OPTIONS AREA */
 
