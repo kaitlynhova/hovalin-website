@@ -1,6 +1,35 @@
 .productpage {
   background-color: #f4f4f4;
   padding-top: 150px;
+  #selected-color-box{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    float: left;
+  }
+  select{
+    margin-top: 20px;
+    display: block;
+    -webkit-appearance: none;
+    border-radius: 0;
+    padding: 20px 60px;
+    width: 100%;
+    outline: 0;
+    max-width: 300px;
+    text-align: center;
+    transition: .5s;
+    background-image: url("../images/arrow.png");
+    background-repeat: no-repeat;
+    background-position: 95%;
+    &:hover{
+      background-color: #d8d8d8;
+      border: 1px solid #d8d8d8;
+    }
+  }
+  ul{
+    margin-bottom: 35px;
+  }
   .price{
     color: #333;
     font-size: 30px;
@@ -12,12 +41,18 @@
     background: transparent;
     border: 2px solid #dda656;
     outline: 0;
-    padding: 20px 90px 20px 90px;
+    padding: 20px 30px;
     margin-top: 15px;
     transition: .5s;
     &:hover{
       color: white;
       background: #dda656;;
+    }
+    p{
+      float: right;
+      padding-left: 20px;
+      position: relative;
+      top: 10px;
     }
   }
   p{
@@ -44,7 +79,7 @@
     text-align: center;
     background-color: #313131;
     color: white;
-    margin-top: 50px;
+    margin-top: 75px;
     h1{
       color: white;
     }
