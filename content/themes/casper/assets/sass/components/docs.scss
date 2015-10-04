@@ -77,13 +77,20 @@
 
 #shopping-list{
   color: #6D6D6D;
-  a{
+ a{
+    border-bottom: 3px solid #b4e7f8;
+    color: inherit;
+    box-shadow: inset 0 -2px 0 #b4e7f8;
+    transition: background .15s cubic-bezier(.33,.66,.66,1);
+  }
+  a:hover{
+    background-color: #b4e7f8;
     color: inherit;
   }
   .check{
     max-width: 40px;
     position: relative;
-    top: 10px;
+    top: 20px;
   }
   h4{
     font-weight: 600;
