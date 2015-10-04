@@ -1,114 +1,123 @@
-.foo {   
-    float: left;
-    width: 20px;
-    height: 20px;
-    margin: 5px;
-    border-width: 1px;
+.color-block{
+    display: inline-block;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 12.5px;
+    color: #f5f5f5;
+    cursor: pointer;
     border-style: solid;
-    border-color: rgba(0,0,0,.2);
+    border-width: 2px;
+    border-color: #000000;
+    width: 12.5%;
+    height: 60px;
+    text-align: center;
 }
 
-.buy-form .black{
-    background-color: #000000;
+#hovalin-buy-black{
+    background: #000000;
 }
 
-.buy-form .white{
+#hovalin-buy-white{
     background-color: #ffffff;
+    color: #000000;
 }
 
-.buy-form .gray{
+#hovalin-buy-gray{
     background-color: #808080;
 }
 
-.buy-form .brown{
-    background-color: #a52a2a;
+#hovalin-buy-brown{
+    background-color: #654321;
 }
 
-.buy-form .pink{
+#hovalin-buy-pink{
     background-color: #ff00ff;
 }
 
-.buy-form .neon-green{
+#hovalin-buy-neon-green{
     background-color: #00ff00;
+    color: #000000;
 }
 
-.buy-form .glow-in-the-dark{
+#hovalin-buy-glow-in-the-dark{
     background-color: #88ff88;
+    color: #000000;
 }
 
-.buy-form .red{
+#hovalin-buy-red{
     background-color: #ff0000;
 }
 
-.buy-form .orange{
+#hovalin-buy-orange{
     background-color: #ffa500;
 }
 
-.buy-form .yellow{
+#hovalin-buy-yellow{
     background-color: #ffff00;
+    color: #000000;
 }
 
-.buy-form .green{
+#hovalin-buy-green{
     background-color: #008000;
 }
 
-.buy-form .blue{
+#hovalin-buy-blue{
     background-color: #0000ff;
 }
 
-.buy-form .purple{
+#hovalin-buy-purple{
     background-color: #800080;
 }
 
-.buy-form .black-transparent{
-    background-color: #000000;
+#hovalin-buy-black-transparent{
+    background-color: #222222;
 }
 
-.buy-form .white-transparent{
+#hovalin-buy-white-transparent{
     background-color: #ffffff;
+    color: #666666;
 }
 
-.buy-form .red-transparent{
+#hovalin-buy-red-transparent{
     background-color: #ff0000;
 }
 
-.buy-form .orange-transparent{
-    background-color: #ffa500;
+#hovalin-buy-orange-transparent{
+    background-color: #ffa566;
+    color: #444444;
 }
 
-.buy-form .yellow-transparent{
+#hovalin-buy-yellow-transparent{
     background-color: #ffff00;
+    color: #000000;
 }
 
-.buy-form .green-transparent{
+#hovalin-buy-green-transparent{
     background-color: #008000;
 }
 
-.buy-form .blue-transparent{
+#hovalin-buy-blue-transparent{
     background-color: #0000ff;
 }
 
-.buy-form .purple-transparent{
+#hovalin-buy-purple-transparent{
     background-color: #800080;
 }
 
-.buy-form .gold{
+#hovalin-buy-gold{
     background-color: #ffd700;
+    color: #000000;
 }
 
-.buy-form .silver{
+#hovalin-buy-silver{
     background-color: #c0c0c0;
+    color: #000000;
 }
 
-.buy-form .bronze{
+#hovalin-buy-bronze{
     background-color: #cd7f32;
 }
 
-.buy-form .copper{
+#hovalin-buy-copper{
     background-color: #b87333;
-}
-
-.buy-form form{
-    text-align: center;
-    margin: 100px auto;
 }
