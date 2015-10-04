@@ -9,111 +9,97 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-}
-
-#docs-hero h1{
-  color: white;
-  margin: 0px;
-  width: 100%;
-}
-
-#docs-hero .powered-by{
-  font-size: 16px;
-  font-style: italic;
-}
-
-#docs-subnav .number{
-  font-size: 30px;
-  margin-bottom: 10px;
-}
-
-#docs-subnav a{
-  color: #6D6D6D;
+  h1{
+    color: white;
+    margin: 0px;
+    width: 100%;
+  }
+  .powered-by{
+    font-size: 16px;
+    font-style: italic;
+  }
 }
 
 #maker-warning{
   background-color: #E4EAEC;
   text-align:center;
+  .fa{
+    font-size: 30px;
+    padding-bottom: 40px;
+  }
 }
 
-#maker-warning .fa{
-  font-size: 30px;
-  padding-bottom: 40px;
-}
+
 
 .step-index{
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 35px 0 35px 0;
   text-align:center;
   border: 1px solid #E4EAEC;
   transition: .5s;
+  color: #6D6D6D;
+  &:hover{
+    background-color: #F2B449;
+    border: 1px solid #F2B449;
+    color: white;
+  }
+  .number{
+    font-size: 30px;
+  }
+  p{
+    margin: 0;
+  }
 }
-
-.step-index:hover{
-  background-color: #F2B449;
-  border: 1px solid #F2B449;
-  color: white;
-}
-
-/* STEPS */
 
 
 .step{
   padding-top:75px;
   padding-bottom: 75px;
-}
-
-.number{
-  font-size: 45px;
-  display: block;
-  text-align:center;
-  margin-bottom: 10px;
-  margin-top: 10px;
-}
-
-.step .title{
-  text-align: center;
-  font-size: 32px;
-  margin-bottom: 75px;
-}
-
-.step h4{
-  font-size: 20px;
-   margin-top: 25px;
-   margin-bottom: 10px;
-   font-weight: 600;
-   letter-spacing: 3px;
+  h4{
+    font-size: 20px;
+     margin-top: 25px;
+     margin-bottom: 10px;
+     font-weight: 600;
+     letter-spacing: 3px;
+  }
+  .title{
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 75px;
+  }
+  .number{
+    font-size: 45px;
+    display: block;
+    text-align:center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
 }
 
 #shopping-list{
   color: #6D6D6D;
-}
-
-#shopping-list li{
-  list-style: none;
-}
-
-#shopping-list li:before{
-  position: relative;
-  top: -7px;
-  display: inline-block;
-  content: " ";
-  width: 40px;
-  height: 1px;
-  margin: 0 40px 0 0;
-  background: #b3b3b3;
-}
-
-#shopping-list h4{
-  font-weight: 600;
-  letter-spacing: 3px;
-  font-size: 18px;
-}
-
-#shopping-list .check{
-  max-width: 40px;
-  position: relative;
-  top: 10px;
+  .check{
+    max-width: 40px;
+    position: relative;
+    top: 10px;
+  }
+  h4{
+    font-weight: 600;
+    letter-spacing: 3px;
+    font-size: 18px;
+  }
+  li{
+    list-style: none;
+    &:before{
+      position: relative;
+      top: -7px;
+      display: inline-block;
+      content: " ";
+      width: 40px;
+      height: 1px;
+      margin: 0 40px 0 0;
+      background: #b3b3b3;
+    }
+  }
 }
 
 #know-your-3dprinter img{
@@ -126,41 +112,79 @@
 
 #print-the-parts{
   background-color: #E8E8E8;
+  li{
+    list-style: none;
+  }
+  &:before{
+    position: relative;
+    top: -7px;
+    display: inline-block;
+    content: " ";
+    width: 40px;
+    height: 1px;
+    margin: 0 40px 0 0;
+    background: #b3b3b3;
+  }
 }
 
-#print-the-parts li{
-  list-style: none;
+.part {
+  .description-text{
+    margin-top: 50px;
+  }
+  .fa-download{
+    color: #dda658;
+    padding-left: 11px;
+    font-size: 24px;
+  }
+  p {
+    margin-bottom: 0px !important;
+  }
+  h4{
+   font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    letter-spacing: 3px;
+ }
+ .buttons{
+   margin-top: 50px;
+   margin-bottom: 50px;
+   .gray-btn{
+     background-color: #444545;
+     color: white;
+     padding: 20px;
+     margin-bottom: 50px;
+     text-align:center;
+   }
+   .white-btn{
+     background-color: #ffffff;
+     color: #444545;
+     text-align:center;
+     padding: 20px;
+     margin-bottom: 50px;
+   }
+ }
 }
 
-#print-the-parts li:before{
-  position: relative;
-  top: -7px;
-  display: inline-block;
-  content: " ";
-  width: 40px;
-  height: 1px;
-  margin: 0 40px 0 0;
-  background: #b3b3b3;
-}
-
-.part p {
-  margin-bottom: 0px !important;
-}
-
-.part h4{
-  font-size: 20px;
-   margin-top: 25px;
-   margin-bottom: 10px;
-   font-weight: 600;
-   letter-spacing: 3px;
-}
 
 #the-neck{
   background-color: #f5f5f5;
+  .hovalin-neck{
+    width: 100%;
+    max-width: 70px;
+    display: block;
+    margin: 0 auto;
+  }
 }
 
 #the-top{
   background-color: #E8E8E8;
+  .hovalin-top{
+    width: 100%;
+    max-width: 410px;
+    display: block;
+    margin: 0 auto;
+  }
 }
 
 #the-face{
@@ -169,57 +193,10 @@
 
 #the-bottom{
   background-color: #E8E8E8;
-}
-
-
-.hovalin-neck{
-  width: 100%;
-  max-width: 70px;
-  display: block;
-  margin: 0 auto;
-}
-
-.hovalin-top{
-  width: 100%;
-  max-width: 410px;
-  display: block;
-  margin: 0 auto;
-}
-
-.hovalin-bottom{
-  max-width: 550px;
-  display: block;
-  margin: 0 auto;
-  width: 100%;
-}
-
-.buttons{
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-
-.buttons .gray-btn{
-  background-color: #444545;
-  color: white;
-  padding: 20px;
-  margin-bottom: 50px;
-  text-align:center;
-}
-
-.buttons .white-btn{
-  background-color: #ffffff;
-  color: #444545;
-  text-align:center;
-  padding: 20px;
-  margin-bottom: 50px;
-}
-
-.part .description-text{
-  margin-top: 50px;
-}
-
-.part .fa-download{
-  color: #dda658;
-  padding-left: 11px;
-  font-size: 24px;
+  .hovalin-bottom{
+    max-width: 550px;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+  }
 }
