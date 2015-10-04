@@ -124,12 +124,15 @@
 #faq-content{
   padding-top: 40px;
   padding-bottom: 75px;
+  h2{
+    color: #ed583a;
+    padding-top: 35px;
+  }
+  a{
+    color: inherit;
+  }
 }
 
-#faq-content h2{
-  color: #333;
-  padding-top: 35px;
-}
 
 #faq-hero{
   color: white;
