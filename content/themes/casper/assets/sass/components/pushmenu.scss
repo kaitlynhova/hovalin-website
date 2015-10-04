@@ -111,7 +111,7 @@
 /* Push classes applied to the body */
 .push-body {
     overflow-x: hidden;
-    position: relative;
+    position: relative !important;
     left: 0;
 }
 

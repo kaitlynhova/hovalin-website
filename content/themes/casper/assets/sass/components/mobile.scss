@@ -4,9 +4,6 @@
 @media only screen
 and (min-device-width : 375px)
 and (max-device-width : 667px) {
- .toggle-menu{
-   position: fixed;
- }
 }
 
 @media only screen and (max-width: 990px) {
@@ -27,6 +24,10 @@ and (max-device-width : 667px) {
 
   .post-template .post-title{
     top: -60px;
+  }
+
+  #hero .page-title {
+    font-size: 65px;
   }
 
   .post-date{

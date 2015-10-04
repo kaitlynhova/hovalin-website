@@ -124,12 +124,28 @@
 #faq-content{
   padding-top: 40px;
   padding-bottom: 75px;
+  h2{
+    color: #ed583a;
+    padding-top: 35px;
+  }
+  a{
+    color: inherit;
+  }
+  li{
+    list-style: none;
+    &:before{
+      position: relative;
+      top: -7px;
+      display: inline-block;
+      content: " ";
+      width: 40px;
+      height: 1px;
+      margin: 0 40px 0 0;
+      background: #b3b3b3;
+    }
+  }
 }
 
-#faq-content h2{
-  color: #333;
-  padding-top: 35px;
-}
 
 #faq-hero{
   color: white;
