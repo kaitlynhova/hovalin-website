@@ -77,6 +77,9 @@
 
 #shopping-list{
   color: #6D6D6D;
+  a{
+    color: inherit;
+  }
   .check{
     max-width: 40px;
     position: relative;
@@ -112,6 +115,9 @@
 
 #print-the-parts{
   background-color: #E8E8E8;
+  a{
+    color: inherit;
+  }
   li{
     list-style: none;
   }
