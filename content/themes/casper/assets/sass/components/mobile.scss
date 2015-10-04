@@ -14,6 +14,10 @@ and (max-device-width : 667px) {
 
 @media only screen and (max-width: 768px) {
 
+  #blog-page {
+    padding-top: 0px !important;
+  }
+
   .contact-information-area li {
     font-size: 20px;
   }
