@@ -2029,8 +2029,8 @@ svg:not(:root) {
 	content: "\f608";
 }
 .icon-menu:before {
-
 }
+
 .nav-opened .menu-button {
 	padding: 0 12px;
 	background: $color_woodsmoke_approx;
@@ -2079,4 +2079,8 @@ svg:not(:root) {
 }
 .content .embedPastebin {
 	margin-bottom: 1.75em;
+}
+
+.step-photo {
+	width: 80%;
 }
