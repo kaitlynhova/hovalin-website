@@ -27,20 +27,8 @@
         <button class="buy-it">
           <p>BUY</p>
         </button>
-
-        <div id="myDropdown">
-          <select id="selectMenu">
-            <option value="0" data-imagesrc="http://dl.dropbox.com/u/40036711/Images/facebook-icon-32.png"
-                      data-description="Description with Facebook">Facebook</option>
-            <option value="1" data-imagesrc="http://dl.dropbox.com/u/40036711/Images/twitter-icon-32.png"
-                      data-description="Description with Twitter">Twitter</option>
-            <option value="2" selected="selected" data-imagesrc="http://dl.dropbox.com/u/40036711/Images/linkedin-icon-32.png"
-                      data-description="Description with LinkedIn">LinkedIn</option>
-            <option value="3" data-imagesrc="http://dl.dropbox.com/u/40036711/Images/foursquare-icon-32.png"
-                      data-description="Description with Foursquare">Foursquare</option>
-          </select>
-        </div>
       </div>
+      {{> "color-selector"}}
     </div>
   </div>
   <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
@@ -55,17 +43,7 @@
       <tr>
         <td>
           <select name="os0">
-            <option value="Black">Black </option>
-            <option value="White">White </option>
-            <option value="Opaque">Opaque </option>
-            <option value="Brown">Brown </option>
-            <option value="Grey">Grey </option>
-            <option value="Red">Red </option>
-            <option value="Orange">Orange </option>
-            <option value="Yellow">Yellow </option>
-            <option value="Green">Green </option>
-            <option value="Blue">Blue </option>
-            <option value="Purple">Purple </option>
+            <option id="paypal-violin-color" value="Black">Black</option>
           </select>
         </td>
       </tr>
