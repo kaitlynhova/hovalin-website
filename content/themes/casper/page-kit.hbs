@@ -5,7 +5,6 @@
 
 {{! Everything inside the #post tags pulls data from the page }}
 {{#post}}
-
 <div id="hovalin-productpage" class="productpage">
   <div class="container">
     <div class="row">
@@ -24,13 +23,57 @@
           <li>Tuners</li>
           <li>Strings</li>
         </ul>
-        <ul>
-          <button class="buy-it">
-            <p>BUY</p>
-          </butotn>
+
+        <button class="buy-it">
+          <p>BUY</p>
+        </button>
+
+        <div id="myDropdown">
+          <select id="selectMenu">
+            <option value="0" data-imagesrc="http://dl.dropbox.com/u/40036711/Images/facebook-icon-32.png"
+                      data-description="Description with Facebook">Facebook</option>
+            <option value="1" data-imagesrc="http://dl.dropbox.com/u/40036711/Images/twitter-icon-32.png"
+                      data-description="Description with Twitter">Twitter</option>
+            <option value="2" selected="selected" data-imagesrc="http://dl.dropbox.com/u/40036711/Images/linkedin-icon-32.png"
+                      data-description="Description with LinkedIn">LinkedIn</option>
+            <option value="3" data-imagesrc="http://dl.dropbox.com/u/40036711/Images/foursquare-icon-32.png"
+                      data-description="Description with Foursquare">Foursquare</option>
+          </select>
+        </div>
       </div>
     </div>
   </div>
+  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+    <input type="hidden" name="cmd" value="_s-xclick">
+    <input type="hidden" name="hosted_button_id" value="WPJ9L8UH5JLAS">
+    <table>
+      <tr>
+        <td>
+          <input type="hidden" name="on0" value="Color">Color
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <select name="os0">
+            <option value="Black">Black </option>
+            <option value="White">White </option>
+            <option value="Opaque">Opaque </option>
+            <option value="Brown">Brown </option>
+            <option value="Grey">Grey </option>
+            <option value="Red">Red </option>
+            <option value="Orange">Orange </option>
+            <option value="Yellow">Yellow </option>
+            <option value="Green">Green </option>
+            <option value="Blue">Blue </option>
+            <option value="Purple">Purple </option>
+          </select>
+        </td>
+      </tr>
+    </table>
+    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+  </form>
+
   <div id="recommended-items">
     <div class="row">
 
@@ -52,5 +95,4 @@
     </div>
   </div>
 </div>
-
 {{/post}}
