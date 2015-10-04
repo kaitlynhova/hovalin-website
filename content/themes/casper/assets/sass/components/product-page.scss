@@ -11,6 +11,7 @@
   select{
     margin-top: 20px;
     display: block;
+    cursor: pointer;
     -webkit-appearance: none;
     border-radius: 0;
     padding: 20px 60px;
@@ -22,10 +23,6 @@
     background-image: url("../images/arrow.png");
     background-repeat: no-repeat;
     background-position: 95%;
-    &:hover{
-      background-color: #d8d8d8;
-      border: 1px solid #d8d8d8;
-    }
   }
   ul{
     margin-bottom: 35px;
