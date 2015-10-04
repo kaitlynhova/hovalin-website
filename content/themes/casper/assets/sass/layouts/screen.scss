@@ -846,7 +846,7 @@ iframe {
 	}
 	a {
 		&:link {
-			color: $color_pink_swan_approx;
+			color: $white_20;
 		}
 		&:visited {
 			color: $color_pink_swan_approx;
@@ -1255,7 +1255,7 @@ iframe {
 		font-size: 1.8rem;
 		margin: 0;
 		a {
-			color: $color_mine_shaft_approx;
+			color: $white_20;
 			text-decoration: none;
 			&:hover {
 				text-decoration: underline;
@@ -1279,7 +1279,7 @@ iframe {
 			font-size: 1.8rem;
 			display: inline-block;
 			margin: 1rem 1.6rem 1.6rem 0;
-			color: $color_submarine_approx;
+			color: $white_20;
 			text-decoration: none;
 		}
 		.icon-twitter:hover {

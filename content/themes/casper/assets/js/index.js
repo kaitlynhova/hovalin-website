@@ -25,10 +25,6 @@ $( document ).ready(function() {
   }, 10000);
 });
 
-$('.toggle-menu').click(function(){
-  $('#mobile-nav').toggleClass('push-body');
-});
-
 var home_page_quotes = [
   "that your mom told you about",
   "programmed to remember your birthday",
