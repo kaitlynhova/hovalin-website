@@ -18,6 +18,16 @@
     font-size: 16px;
     font-style: italic;
   }
+  .download-button{
+    background-color: #F2B449;
+    border: 2px solid #F2B449;
+    padding: 20px 60px 20px 60px;
+    transition: .5s;
+    &:hover{
+      background-color: transparent;
+      color: #F2B449;
+    }
+  }
 }
 
 #maker-warning{
