@@ -25,9 +25,6 @@ $( document ).ready(function() {
   }, 10000);
 });
 
-$(".toggle-menu").click(function(){
-    $('#mobile-nav').toggleClass('push-nav-toleft');
-});
 
 var home_page_quotes = [
   "that your mom told you about",

@@ -115,23 +115,6 @@
     left: 0;
 }
 
-/* Chrome*/
-@media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) {
-  .push-nav-toleft{
-     -webkit-transform: translate(0, 0) !important;
-     transform:  translate(0, 0);
-   }
-}
-
-
-/* SAFARI*/
-@media screen and (-webkit-min-device-pixel-ratio:0){
-  .push-nav-toleft{
-     -webkit-transform: translate(0, 0); /** Chrome & Safari **/
-     transform:  translate(0, 0);
-   }
-}
-
 .push-body-toright {
     left: 240px;
 }
