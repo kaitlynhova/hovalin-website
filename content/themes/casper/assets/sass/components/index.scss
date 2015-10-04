@@ -302,6 +302,7 @@
   background-color: #F2B449;
   border: 0px;
   padding: 27px;
+  border-radius: 0;
   text-transform: uppercase;
   width: 100%;
 }
@@ -330,6 +331,7 @@ a.donate-tweet:hover{
 
 .donate-submit input[type="submit"]:hover{
   background-color: #3c4544;
+  border-radius: 0;
 }
 
 /* MAILING LIST */
@@ -354,6 +356,7 @@ input {
   line-height: normal;
   border: solid 1px #ccc;
   padding: 20px;
+  border-radius: 0;
   background: #fff;
   color: gray;
   outline: none;
@@ -367,11 +370,12 @@ input {
 }
 
 input[type="submit"] {
-    -webkit-appearance: button;
-    cursor: pointer;
-    color: white;
-    background-color: #1c2020;
-    transition: .5s;
+  -webkit-appearance: button;
+  cursor: pointer;
+  color: white;
+  border-radius: 0;
+  background-color: #1c2020;
+  transition: .5s;
 }
 
 input[type="submit"]:hover{
