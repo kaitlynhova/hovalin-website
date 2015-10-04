@@ -1,0 +1,225 @@
+/* DOCS PAGE */
+
+#docs-hero{
+  color: white;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-image: url('../images/makingit.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#docs-hero h1{
+  color: white;
+  margin: 0px;
+  width: 100%;
+}
+
+#docs-hero .powered-by{
+  font-size: 16px;
+  font-style: italic;
+}
+
+#docs-subnav .number{
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+#docs-subnav a{
+  color: #6D6D6D;
+}
+
+#maker-warning{
+  background-color: #E4EAEC;
+  text-align:center;
+}
+
+#maker-warning .fa{
+  font-size: 30px;
+  padding-bottom: 40px;
+}
+
+.step-index{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align:center;
+  border: 1px solid #E4EAEC;
+  transition: .5s;
+}
+
+.step-index:hover{
+  background-color: #F2B449;
+  border: 1px solid #F2B449;
+  color: white;
+}
+
+/* STEPS */
+
+
+.step{
+  padding-top:75px;
+  padding-bottom: 75px;
+}
+
+.number{
+  font-size: 45px;
+  display: block;
+  text-align:center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.step .title{
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 75px;
+}
+
+.step h4{
+  font-size: 20px;
+   margin-top: 25px;
+   margin-bottom: 10px;
+   font-weight: 600;
+   letter-spacing: 3px;
+}
+
+#shopping-list{
+  color: #6D6D6D;
+}
+
+#shopping-list li{
+  list-style: none;
+}
+
+#shopping-list li:before{
+  position: relative;
+  top: -7px;
+  display: inline-block;
+  content: " ";
+  width: 40px;
+  height: 1px;
+  margin: 0 40px 0 0;
+  background: #b3b3b3;
+}
+
+#shopping-list h4{
+  font-weight: 600;
+  letter-spacing: 3px;
+  font-size: 18px;
+}
+
+#shopping-list .check{
+  max-width: 40px;
+  position: relative;
+  top: 10px;
+}
+
+#know-your-3dprinter img{
+    display: block;
+    margin: 0 auto;
+    max-width: 500px;
+    opacity: .9;
+}
+
+
+#print-the-parts{
+  background-color: #E8E8E8;
+}
+
+#print-the-parts li{
+  list-style: none;
+}
+
+#print-the-parts li:before{
+  position: relative;
+  top: -7px;
+  display: inline-block;
+  content: " ";
+  width: 40px;
+  height: 1px;
+  margin: 0 40px 0 0;
+  background: #b3b3b3;
+}
+
+.part p {
+  margin-bottom: 0px !important;
+}
+
+.part h4{
+  font-size: 20px;
+   margin-top: 25px;
+   margin-bottom: 10px;
+   font-weight: 600;
+   letter-spacing: 3px;
+}
+
+#the-neck{
+  background-color: #f5f5f5;
+}
+
+#the-top{
+  background-color: #E8E8E8;
+}
+
+#the-face{
+  background-color: #f5f5f5;
+}
+
+#the-bottom{
+  background-color: #E8E8E8;
+}
+
+
+.hovalin-neck{
+  width: 100%;
+  max-width: 70px;
+  display: block;
+  margin: 0 auto;
+}
+
+.hovalin-top{
+  width: 100%;
+  max-width: 410px;
+  display: block;
+  margin: 0 auto;
+}
+
+.hovalin-bottom{
+  max-width: 550px;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.buttons{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.buttons .gray-btn{
+  background-color: #444545;
+  color: white;
+  padding: 20px;
+  margin-bottom: 50px;
+  text-align:center;
+}
+
+.buttons .white-btn{
+  background-color: #ffffff;
+  color: #444545;
+  text-align:center;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+.part .description-text{
+  margin-top: 50px;
+}
+
+.part .fa-download{
+  color: #dda658;
+  padding-left: 11px;
+  font-size: 24px;
+}

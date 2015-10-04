@@ -6,16 +6,16 @@
 {{! Everything inside the #post tags pulls data from the page }}
 {{#post}}
 
-<div id="hovalin-productpage" class="productpage">
+<div id="parts-productpage" class="productpage">
   <div class="container">
     <div class="row">
       <div class="col-sm-6">
-        <img class="product-image" src="../assets/images/product-image-hovalin.png">
+        <img class="product-image" src="../assets/images/productimage-parts.png">
       </div>
       <div class="col-sm-6">
-        <h1>The 3D Printed Parts</h1>
-        <p class="product-subtitle">No need for a 3d printer</p>
-        <p class="price"> $200</p>
+        <h1>3D printed parts</h1>
+        <p class="product-subtitle">Assemble it yourself</p>
+        <p class="price"> $300</p>
 
         <p>INCLUDES</p>
         <ul>
@@ -28,7 +28,26 @@
       </div>
     </div>
   </div>
-</div>
+  <div id="recommended-items">
+    <div class="row">
 
+      <div id="kit" class="col-sm-6 item">
+        <h1>DIY kit</h1>
+        <p>Everything you need</p>
+        <a href="../kit">
+          <button class="buy-it">BUY</button>
+        </a>
+      </div>
+
+      <div id="fully-assembled-hovalin" class="col-sm-6 item">
+        <h1>The Hovalin</h1>
+        <p>No assembly required</p>
+        <a href="../hovalin">
+          <button class="buy-it">BUY</button>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
 
 {{/post}}
