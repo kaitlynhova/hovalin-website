@@ -26,6 +26,12 @@
   height: 65px;
 }
 
+#mobile-nav{
+  -webkit-transition: all .3s ease;
+     -moz-transition: all .3s ease;
+          transition: all .3s ease;
+}
+
 #custom-navigation{
   background-color: rgba(26, 26, 26, 0.25);
   position: fixed;
