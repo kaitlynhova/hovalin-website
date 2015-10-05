@@ -17,6 +17,19 @@
       background: #dda656;;
     }
   }
+  #checkout{
+    color: #dda656;
+    background: transparent;
+    border: 2px solid #dda656;
+    outline: 0;
+    padding: 20px 90px 20px 90px;
+    margin-top: 15px;
+    transition: .5s;
+    &:hover{
+      color: white;
+      background: #dda656;;
+    }
+  }
   #fully-assembled-hovalin{
     background-image: url('../images/hovalin-product-background.png');
     background-position: center;

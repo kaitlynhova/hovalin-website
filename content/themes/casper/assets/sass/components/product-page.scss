@@ -7,6 +7,7 @@
     width: 40px;
     background-color: black;
     float: left;
+    border: 2px solid #333;
   }
   select{
     margin-top: 20px;
@@ -44,6 +45,24 @@
     &:hover{
       color: white;
       background: #dda656;;
+    }
+    p{
+      float: right;
+      padding-left: 20px;
+      position: relative;
+      top: 10px;
+    }
+  }
+  #checkout{
+    color: #000000;
+    background: transparent;
+    border: 3px solid #dda656;
+    outline: 0;
+    padding: 20px 30px;
+    margin-top: 15px;
+    transition: .5s;
+    &:hover{
+      background: #e4e4e4;
     }
     p{
       float: right;
