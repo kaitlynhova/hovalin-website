@@ -1124,6 +1124,7 @@ iframe {
 	color: $color_di_serria_approx;
 	border: 1px solid $color_di_serria_approx;
 	padding: 11px;
+	margin-bottom: 75px;
 	position: relative;
 	top: 16px;
 	//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
@@ -1760,7 +1761,7 @@ iframe {
 	}
 	.post {
 		width: auto;
-		margin-top: 15rem;
+		margin-top: 11rem;
 		margin-bottom: 2rem;
 		margin-left: 16px;
 		margin-right: 16px;
