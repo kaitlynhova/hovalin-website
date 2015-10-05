@@ -15,7 +15,7 @@
       <div class="col-sm-6">
         <h1>3D printed parts</h1>
         <p class="product-subtitle">Assemble it yourself</p>
-        <p class="price"> $300</p>
+        <p class="price"> $200</p>
 
         <p>INCLUDES</p>
         <ul>
@@ -24,11 +24,18 @@
         <p>SELECT A COLOR</p>
 
         {{> "color-selector"}}
-        <ul>
-          <button class="buy-it">
-            <span id="selected-color-box"></span>
-            <p>BUY</p>
-          </button>
+        <form style="display:none" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="T3P49PDFZQAPG">
+        <table>
+        <tr><td><input type="hidden" name="on0" value="Color">Color</td></tr><tr><td><select name="os0">
+          <option id="paypal-color" value="Black">Black </option>
+        </select> </td></tr>
+        </table>
+        <input id="paypal-submit" type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        </form>
+
       </div>
     </div>
   </div>
@@ -53,5 +60,19 @@
     </div>
   </div>
 </div>
+<script type="text/javascript" src="{{asset "js/jquery-1.11.3.min.js"}}"></script>
+<script>
+$(document).ready(function(){
+  $("#color-selector").change(function() {
+    var hex_val = $("#color-selector").val();
+    var color_text = $("#color-selector option[value='" + hex_val + "']").text();
+    $("#selected-color-box").css("background-color", hex_val);
+    $("#paypal-color").attr("value", color_text);
+  });
+  $("#checkout").click(function() {
+    $("#paypal-submit").click();
+  });
+})
+</script>
 
 {{/post}}
