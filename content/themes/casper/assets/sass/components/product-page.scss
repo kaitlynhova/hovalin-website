@@ -7,7 +7,7 @@
     width: 40px;
     background-color: black;
     float: left;
-    border: 2px solid #333;
+    border: 3px solid #dda658;
   }
   select{
     margin-top: 20px;
@@ -44,7 +44,7 @@
     transition: .5s;
     &:hover{
       color: white;
-      background: #dda656;;
+      background: #dda658;
     }
     p{
       float: right;
@@ -54,15 +54,19 @@
     }
   }
   #checkout{
-    color: #000000;
-    background: transparent;
+    color: white;
+    background: #dda658;
     border: 3px solid #dda656;
     outline: 0;
     padding: 20px 30px;
-    margin-top: 15px;
+    margin-top: 35px;
     transition: .5s;
+    font-weight: bold;
+    width: 100%;
+    max-width: 165px;
     &:hover{
-      background: #e4e4e4;
+      background: transparent;
+      color: #dda658;
     }
     p{
       float: right;
