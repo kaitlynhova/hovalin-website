@@ -1118,6 +1118,9 @@ iframe {
 	margin: 0 auto;
 	padding-bottom: 11rem;
 	word-wrap: break-word;
+	a{
+		color: inherit;
+	}
 }
 .read-more {
 	text-decoration: none;
@@ -1356,25 +1359,26 @@ iframe {
 	}
 }
 .author-image {
-	//Instead of the line below you could use @include box-sizing($bs)
-	box-sizing: border-box;
-	display: block;
-	position: absolute;
-	top: -40px;
-	left: 50%;
-	margin-left: -40px;
-	width: 80px;
-	height: 80px;
-	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
-	border-radius: 100%;
-	overflow: hidden;
-	padding: 6px;
-	background: $white;
-	z-index: 2;
+  box-sizing: border-box;
+  display: block;
+  margin: 0 auto;
+  top: 20px;
+  z-index: 99999 !important;
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  overflow: hidden;
+  padding: 6px;
+  background: #fff;
+  z-index: 2;
+	position: relative;
+	z-index: 9999;
+
 	//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
 	box-shadow: $color_aqua_squeeze_approx 0 0 0 1px;
 	.img {
 		position: relative;
+		z-index: 99999;
 		display: block;
 		width: 100%;
 		height: 100%;
