@@ -25,6 +25,21 @@ $( document ).ready(function() {
   }, 10000);
 });
 
+//ghetto fix for push menu on safari not behaving
+
+var count = 0;
+$('.toggle-menu').click(function(){
+  if (count % 2) {
+    $('#mobile-nav').css('left','0px');
+    count ++;
+  }
+  else{
+    $('#mobile-nav').css('left','-240px');
+    count ++;
+  }
+});
+
+
 
 var home_page_quotes = [
   "that your mom told you about",
