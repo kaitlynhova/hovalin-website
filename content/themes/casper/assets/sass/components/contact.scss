@@ -25,17 +25,23 @@
   input{
     width: 100%;
     margin-bottom: 20px;
+    padding: 25px;
+    border: solid 1px #ccc;
+    outline: 0;
   }
   input[type="submit"] {
     margin-top: 25px;
     background-color: #dda658;
     border: 1px solid #dda658;
     transition: .5s;
+    color: white;
     border-radius: 0;
+    outline: 0;
     &:hover {
       margin-top: 25px;
-      background-color: #dda658;
+      background-color: transparent;
       border: 1px solid #dda658;
+      color:  #dda658;
       border-radius: 0px;
     }
   }
