@@ -18,6 +18,7 @@
   -webkit-transition: all .3s ease;
   -moz-transition: all .3s ease;
   transition: all .3s ease;
+  left: 0px;
   .mobile-nav-logo {
     float: left;
     font-size: 30px;
@@ -71,6 +72,7 @@
       padding-left: 25px;
       padding-right: 25px;
       transition: .5s;
+      margin-left: -5px;
       &:hover{
         background-color: rgba(60,69,68,.9);
       }

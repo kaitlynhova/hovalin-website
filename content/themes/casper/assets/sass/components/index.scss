@@ -238,6 +238,7 @@
       display: block;
       width: 100%;
       border: 2px solid #F2B449 !important;
+      transition: .5s;
       &:hover{
         color: #3c4544 !important;
         border: 2px solid #3c4544 !important;
@@ -253,6 +254,7 @@
     border-radius: 0;
     text-transform: uppercase;
     width: 100%;
+    transition: .5s;
     &:hover{
       background-color: #3c4544;
       border-radius: 0;
