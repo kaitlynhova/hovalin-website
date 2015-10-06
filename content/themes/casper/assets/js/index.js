@@ -41,6 +41,7 @@ $('.toggle-menu').click(function(){
 
 $('.cbp-spmenu-vertical a').click(function(){
     $('#mobile-nav').css('left','0px');
+    $('.push-body-toleft').css('left','0px');
 });
 
 
