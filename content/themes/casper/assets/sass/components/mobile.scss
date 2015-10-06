@@ -1,9 +1,16 @@
 
-/*IPHONE 6 styles*/
-
-@media only screen
-and (min-device-width : 375px)
-and (max-device-width : 667px) {
+@media only screen and (min-width : 1500px) {
+  .post-template .post-title{
+    margin-bottom: 0;
+    margin-top: 400px;
+  }
+  h1.hero-title{
+    font-size: 100px;
+  }
+  .post-template .post-date {
+    margin-top: 35px;
+    font-size: 3.3rem;
+  }
 }
 
 @media only screen and (max-width: 990px) {
