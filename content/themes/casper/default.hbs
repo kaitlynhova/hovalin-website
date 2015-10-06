@@ -1,50 +1,50 @@
 <!DOCTYPE html>
 <html>
 <head>
-    {{! DOCUMENT SETTINGS }}
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  {{! Styles'n'Scripts }}
+  <link rel="stylesheet" type="text/css" href="{{asset "css/input.css"}}" />
 
-    {{! PAGE META }}
-    <title>{{meta_title}}</title>
-    <meta name="description" content="{{meta_description}}" />
+  {{! DOCUMENT SETTINGS }}
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <meta name="HandheldFriendly" content="True" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  {{! PAGE META }}
+  <title>{{meta_title}}</title>
+  <meta name="description" content="{{meta_description}}" />
 
-    <link rel="shortcut icon" href="{{asset "images/favicon.ico"}}">
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    {{! FACEBOOK META }}
-    <meta property="og:title" content="The Hovalin" />
-    <meta property="og:site_name" content="The Hovalin"/>
-    <meta property="og:description" content="Open source 3D printable violins powered by The Hovas" />
-    <meta property="og:image" content="http://www.hovalin.com/assets/images/facebook.png" />
+  <link rel="shortcut icon" href="{{asset "images/favicon.ico"}}">
 
-    {{! TWITTER META }}
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@thehovalin">
-    <meta name="twitter:creator" content="@kaitlynhova">
-    <meta name="twitter:title" content="The Hovalin">
-    <meta name="twitter:description" content="Open source 3D printable violins powered by The Hovas">
-    <meta name="twitter:image" content="http://www.hovalin.com/assets/images/twitter.png">
+  {{! FACEBOOK META }}
+  <meta property="og:title" content="The Hovalin" />
+  <meta property="og:site_name" content="The Hovalin"/>
+  <meta property="og:description" content="Open source 3D printable violins powered by The Hovas" />
+  <meta property="og:image" content="http://www.hovalin.com/assets/images/facebook.png" />
 
-    {{! GOOGLE ANALYTICS }}
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  {{! TWITTER META }}
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@thehovalin">
+  <meta name="twitter:creator" content="@kaitlynhova">
+  <meta name="twitter:title" content="The Hovalin">
+  <meta name="twitter:description" content="Open source 3D printable violins powered by The Hovas">
+  <meta name="twitter:image" content="http://www.hovalin.com/assets/images/twitter.png">
 
-      ga('create', 'UA-68143020-1', 'auto');
-      ga('send', 'pageview');
+  {{! GOOGLE ANALYTICS }}
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-    </script>
+  ga('create', 'UA-68143020-1', 'auto');
+  ga('send', 'pageview');
 
-    {{! Styles'n'Scripts }}
-    <link rel="stylesheet" type="text/css" href="{{asset "css/input.css"}}" />
+  </script>
 
-    {{! Ghost outputs important style and meta data with this tag }}
-    {{ghost_head}}
+  {{! Ghost outputs important style and meta data with this tag }}
+  {{ghost_head}}
 </head>
 <body class="{{body_class}} nav-closed">
 
@@ -57,58 +57,58 @@
     </div>
     <div class="col-sm-10 no-padding">
       <ul class="top-nav-ul">
-        <a href="/make" style="color: white !important; font-size: 18px !important;"><li><p>Make</p></li></a>
-        <a href="/buy" style="color: white !important; font-size: 18px !important;"><li><p>Buy</p></li></a>
-        <a href="/faq" style="color: white !important; font-size: 18px !important;"><li><p>FAQ</p></li></a>
-        <a href="/author/matt/" style="color: white !important; font-size: 18px !important;"><li><p>Blog</p></li></a>
-        <a href="/contact" style="color: white !important; font-size: 18px !important;"><li><p>Contact</p></li></a>
-        <a href="/#donate" style="color: white !important; font-size: 18px !important;"><li class="support-button"><p>Donate</p></li></a>
+        <a href="/make" ><li><p>Make</p></li></a>
+        <a href="/buy" ><li><p>Buy</p></li></a>
+        <a href="/faq" ><li><p>FAQ</p></li></a>
+        <a href="/author/matt/" ><li><p>Blog</p></li></a>
+        <a href="/contact" ><li><p>Contact</p></li></a>
+        <a href="/#donate"><li class="support-button"><p>Donate</p></li></a>
       </ul>
     </div>
   </div>
   <!-- /CUSTOM HOVALIN NAV FOR NON MOBILE DISPLAYS-->
 
-      {{navigation}}
+  {{navigation}}
 
-    <div class="site-wrapper">
+  <div class="site-wrapper">
 
-      <div id="mobile-nav" class="row hidden-md hidden-lg mobile-nav">
-        <h2 class="mobile-nav-logo"><a href="/">HOVALIN</a></h2>
-        <button class="toggle-menu menu-right push-body icon-menu"><i class="fa fa-bars"></i></button>
-      </div>
-
-      <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right hidden-md hidden-lg">
-      	<a href="/make">Make</a>
-      	<a href="/buy">Buy</a>
-        <a href="/faq">FAQ</a>
-        <a href="/author/matt/">Blog</a>
-      	<a href="/contact">Contact</a>
-      	<a href="/#donate">Donate</a>
-      </nav>
-
-        {{! Everything else gets inserted here }}
-        {{{body}}}
-
-        <footer class="site-footer clearfix">
-            <section class="poweredby">Powered by <a href="http://thehovas.com/">The Hovas</a></section>
-            <section class="copyright"> Website by <a href="http://www.kaitlynhova.com/" target="_blank">Kaitlyn Hova</a>&copy; {{date format="YYYY"}}</section>
-        </footer>
+    <div id="mobile-nav" class="row hidden-md hidden-lg mobile-nav">
+      <h2 class="mobile-nav-logo"><a href="/">HOVALIN</a></h2>
+      <button class="toggle-menu menu-right push-body icon-menu"><i class="fa fa-bars"></i></button>
     </div>
 
-    {{! Ghost outputs important scripts and data with this tag }}
-    {{ghost_foot}}
+    <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right hidden-md hidden-lg">
+      <a href="/make">Make</a>
+      <a href="/buy">Buy</a>
+      <a href="/faq">FAQ</a>
+      <a href="/author/matt/">Blog</a>
+      <a href="/contact">Contact</a>
+      <a href="/#donate">Donate</a>
+    </nav>
 
-    <script type="text/javascript" src="{{asset "js/jquery-1.11.3.min.js"}}"></script>
-    <script type="text/javascript" src="{{asset "js/jquery.fitvids.js"}}"></script>
-    <script type="text/javascript" src="{{asset "js/pushmenu.js"}}"></script>
-    <script type="text/javascript" src="{{asset "js/bootstrap.min.js"}}"></script>
-    {{! The main JavaScript file for Casper }}
-    <script type="text/javascript" src="{{asset "js/index.js"}}"></script>
-    <!--call jPushMenu, required-->
-    <script>
-    jQuery(document).ready(function($) {
-    	$('.toggle-menu').jPushMenu();
-    });
-    </script>
+    {{! Everything else gets inserted here }}
+    {{{body}}}
+
+    <footer class="site-footer clearfix">
+      <section class="poweredby">Powered by <a href="http://thehovas.com/">The Hovas</a></section>
+      <section class="copyright"> Website by <a href="http://www.kaitlynhova.com/" target="_blank">Kaitlyn Hova</a>&copy; {{date format="YYYY"}}</section>
+    </footer>
+  </div>
+
+  {{! Ghost outputs important scripts and data with this tag }}
+  {{ghost_foot}}
+
+  <script type="text/javascript" src="{{asset "js/jquery-1.11.3.min.js"}}"></script>
+  <script type="text/javascript" src="{{asset "js/jquery.fitvids.js"}}"></script>
+  <script type="text/javascript" src="{{asset "js/pushmenu.js"}}"></script>
+  <script type="text/javascript" src="{{asset "js/bootstrap.min.js"}}"></script>
+  {{! The main JavaScript file for Casper }}
+  <script type="text/javascript" src="{{asset "js/index.js"}}"></script>
+  <!--call jPushMenu, required-->
+  <script>
+  jQuery(document).ready(function($) {
+    $('.toggle-menu').jPushMenu();
+  });
+  </script>
 </body>
 </html>
