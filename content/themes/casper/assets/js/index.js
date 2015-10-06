@@ -39,6 +39,10 @@ $('.toggle-menu').click(function(){
   }
 });
 
+$('.cbp-spmenu-vertical a').click(function(){
+    $('#mobile-nav').css('left','0px');
+});
+
 
 
 var home_page_quotes = [
