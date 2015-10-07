@@ -19,9 +19,9 @@
     {{#author}}
 
         {{#if image}}
-        <figure class="author-image">
-            <a class="img" href="{{url}}" style="background-image: url({{image}})"><span class="hidden">{{name}}'s Picture</span></a>
-        </figure>
+          <figure class="author-image">
+              <a class="img" href="{{url}}" style="background-image: url({{image}})"><span class="hidden">{{name}}'s Picture</span></a>
+          </figure>
         {{/if}}
       {{/author}}
     <p class="post-time"><time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time> {{tags prefix=" on "}}</p>
