@@ -81,8 +81,9 @@ attributes by default, but you can also customise it to behave differently if yo
       setTimeout(function(){
         $.ajax({
           type: "POST",
-          url: "https://hova-mailgun-server.herokuapp.com/",
-          async: false,
+          //url: "https://hova-mailgun-server.herokuapp.com/",
+          url: "/mailgun_contact",
+          async: true,
           data: {
             "email": $("#form-email").val(),
             "msg": $("#form-msg").val(),
