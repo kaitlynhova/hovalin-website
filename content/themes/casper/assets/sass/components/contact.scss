@@ -103,6 +103,21 @@
   }
 }
 
+#form-feedback{
+  p.sucess{
+    background-color: #85DE9C;
+    with: 100%;
+    color: white;
+    padding: 20px;
+  }
+  p.error{
+    background-color: #D46A6A;
+    with: 100%;
+    color: white;
+    padding: 20px;
+  }
+}
+
 #faq-hero{
   color: white;
   text-align: center;
