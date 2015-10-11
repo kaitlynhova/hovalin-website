@@ -91,7 +91,7 @@ attributes by default, but you can also customise it to behave differently if yo
           },
           success: function(res) {
             if (res === "Email successfully sent") {
-              $("#form-feedback").text("<p class="sucess">Email successfully sent</p>");
+              $("#form-feedback").text('<p class="success">Email successfully sent</p>');
               $("#email-gif").attr('src','{{asset "images/email_done.png"}}');
                 //redirect the user to the homepage
                 setTimeout(function(){
