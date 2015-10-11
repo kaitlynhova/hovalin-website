@@ -1,17 +1,17 @@
 {{!< default}}
 
 {{! This is a page template. A page outputs content just like any other post, and has all the same
-    attributes by default, but you can also customise it to behave differently if you prefer. }}
+attributes by default, but you can also customise it to behave differently if you prefer. }}
 
 {{! Everything inside the #post tags pulls data from the page }}
 {{#post}}
 
 <header class="main-header post-head {{#if image}}" style="background-image: url({{image}}){{else}}no-cover{{/if}}">
-    <nav class="main-nav {{#if image}}overlay{{/if}} clearfix">
-        {{#if @blog.logo}}<a class="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="{{@blog.title}}" /></a>{{/if}}
-        {{#if @blog.navigation}}
-        {{/if}}
-    </nav>
+  <nav class="main-nav {{#if image}}overlay{{/if}} clearfix">
+    {{#if @blog.logo}}<a class="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="{{@blog.title}}" /></a>{{/if}}
+    {{#if @blog.navigation}}
+    {{/if}}
+  </nav>
 </header>
 
 <main class="content" role="main">
@@ -78,47 +78,100 @@
         <div class="row">
           <div class="col-md-6">
 
-              <div class="list-item">
-                <div class="col-xs-2">
-                  <img class="check" src="/assets/images/make-page/check.svg">
+            <div class="list-item">
+              <div class="col-xs-2">
+                <img class="check" src="/assets/images/make-page/check.svg">
+              </div>
+              <div class="col-xs-10">
+                <h3>3D PRINTER</h3>
+                <p>We recommend using a printer the size of the Dremel Idea Builer, or larger.</p>
+                <p>Here are some printers that we recommend.</p>
+                <div class="list-item">
+                  <div class="col-xs-2 no-padding">
+                    <img src="/assets/images/list-arrow.svg">
+                  </div>
+                  <div class="col-xs-10">
+                    <a href="http://www.amazon.com/gp/product/B00NA00MWS/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00NA00MWS&linkCode=as2&tag=hovalin-20&linkId=LSHARI6QEEOPPVUW">Dremel Builder</a>
+                  </div>
                 </div>
-                <div class="col-xs-10">
-                  <h3>3D PRINTER</h3>
-                  <p>We recommend using a printer the size of the Dremel Idea Builer, or larger.</p>
-                  <p>Here are some printers that we recommend.</p>
-                  <ul>
-                    <li><a href="http://www.amazon.com/gp/product/B00NA00MWS/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00NA00MWS&linkCode=as2&tag=hovalin-20&linkId=LSHARI6QEEOPPVUW">Dremel Builder</a></li>
-                    <li><a href="http://www.amazon.com/gp/product/B00FJ5KXH6/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00FJ5KXH6&linkCode=as2&tag=hovalin-20&linkId=75ADTFCN2OPXH4EP">MakerBot Rep 2</a></li>
-                    <li><a href="http://www.amazon.com/gp/product/B00NJ6AMPA/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00NJ6AMPA&linkCode=as2&tag=hovalin-20&linkId=3D42UDTPR4CXSUSK">Ultimaker 2</a></li>
-                  </ul>
-                </div>
-              </div><!--/list-item --->
 
-              <div class="list-item">
-                <div class="col-xs-2">
-                  <img class="check" src="/assets/images/make-page/check.svg">
+                <div class="list-item">
+                  <div class="col-xs-2 no-padding">
+                    <img src="/assets/images/list-arrow.svg">
+                  </div>
+                  <div class="col-xs-10">
+                    <a href="http://www.amazon.com/gp/product/B00FJ5KXH6/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00FJ5KXH6&linkCode=as2&tag=hovalin-20&linkId=75ADTFCN2OPXH4EP">MakerBot Rep 2</a>
+                  </div>
                 </div>
-                <div class="col-xs-10">
-                  <h3>PLASTIC</h3>
-                  <p>We like Hatchbox filament because of it's quality and low cost, but any filament on Amazon with a 4 star rating from more than 10 people is probably fine.</p>
-                  <p><a href="http://www.amazon.com/gp/product/B00J0ECR5I/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00J0ECR5I&linkCode=as2&tag=hovalin-20&linkId=OAJJQXYRWEBVBC6T">Hatchbox 1.75mm Black PLA Filament</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=hovalin-20&l=as2&o=1&a=B00J0ECR5I" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
-                </div>
-              </div><!--/list-item --->
 
-              <div class="list-item">
-                <div class="col-xs-2">
-                  <img class="check" src="/assets/images/make-page/check.svg">
+                <div class="list-item">
+                  <div class="col-xs-2 no-padding">
+                    <img src="/assets/images/list-arrow.svg">
+                  </div>
+                  <div class="col-xs-10">
+                    <a href="http://www.amazon.com/gp/product/B00NJ6AMPA/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00NJ6AMPA&linkCode=as2&tag=hovalin-20&linkId=3D42UDTPR4CXSUSK">Ultimaker 2</a>
+                  </div>
                 </div>
-                <div class="col-xs-10">
-                  <h3>TUNERS</h3>
-                  <p>The Hovalin is designed specifically to these tuners' dimensions</p>
-                  <ul>
-                    <li><a href="http://www.amazon.com/gp/product/B009AQIZYS/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B009AQIZYS&linkCode=as2&tag=hovalin-20&linkId=RR43FGQCYG63T4VS">Black</a></li>
-                    <li><a target="_blank" href="http://www.amazon.com/gp/product/B00BJTGILG/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00BJTGILG&linkCode=as2&tag=hovalin-20&linkId=X4L4INPTZ2DNTHGO">Chrome</a></li>
-                    <li><a href="http://www.amazon.com/gp/product/B0092M2EZQ/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B0092M2EZQ&linkCode=as2&tag=hovalin-20&linkId=QK5MVIX45BJKMD5F">Gold</a></li>
-                  </ul>
+
+              </div>
+            </div><!--/list-item --->
+
+            <div class="list-item">
+              <div class="col-xs-2">
+                <img class="check" src="/assets/images/make-page/check.svg">
+              </div>
+              <div class="col-xs-10">
+                <h3>PLASTIC</h3>
+                <p>We like Hatchbox filament because of it's quality and low cost, but any filament on Amazon with a 4 star rating from more than 10 people is probably fine.</p>
+                <div class="list-item">
+                  <div class="col-xs-2 no-padding">
+                    <img src="/assets/images/list-arrow.svg">
+                  </div>
+                  <div class="col-xs-10">
+                    <a href="http://www.amazon.com/gp/product/B00J0ECR5I/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00J0ECR5I&linkCode=as2&tag=hovalin-20&linkId=OAJJQXYRWEBVBC6T">Hatchbox 1.75mm Black PLA Filament</a>
+                  </div>
                 </div>
-              </div><!--/list-item --->            <div class="list-item">
+              </div>
+            </div><!--/list-item --->
+
+            <div class="list-item">
+              <div class="col-xs-2">
+                <img class="check" src="/assets/images/make-page/check.svg">
+              </div>
+              <div class="col-xs-10">
+                <h3>TUNERS</h3>
+                <p>The Hovalin is designed specifically to these tuners' dimensions, so please use them:</p>
+
+                <div class="list-item">
+                  <div class="col-xs-2 no-padding">
+                    <img src="/assets/images/list-arrow.svg">
+                  </div>
+                  <div class="col-xs-10">
+                    <a href="http://www.amazon.com/gp/product/B009AQIZYS/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B009AQIZYS&linkCode=as2&tag=hovalin-20&linkId=RR43FGQCYG63T4VS">Black</a>
+                  </div>
+                </div>
+
+                <div class="list-item">
+                  <div class="col-xs-2 no-padding">
+                    <img src="/assets/images/list-arrow.svg">
+                  </div>
+                  <div class="col-xs-10">
+                    <a target="_blank" href="http://www.amazon.com/gp/product/B00BJTGILG/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00BJTGILG&linkCode=as2&tag=hovalin-20&linkId=X4L4INPTZ2DNTHGO">Chrome</a>
+                  </div>
+                </div>
+
+                <div class="list-item">
+                  <div class="col-xs-2 no-padding">
+                    <img src="/assets/images/list-arrow.svg">
+                  </div>
+                  <div class="col-xs-10">
+                    <a href="http://www.amazon.com/gp/product/B0092M2EZQ/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B0092M2EZQ&linkCode=as2&tag=hovalin-20&linkId=QK5MVIX45BJKMD5F">Gold</a>
+                  </div>
+                </div>
+              </div>
+            </div><!--/list-item --->
+
+            <div class="list-item">
               <div class="col-xs-2">
                 <img class="check" src="/assets/images/make-page/check.svg">
               </div>
@@ -126,11 +179,34 @@
                 <h3>ROSIN</h3>
                 <p>Rosin helps to keep your violin from squeaking and keeps the bow on the strings.</p>
                 <p>Here are a few brands of rosin that we suggest.</p>
-                <ul>
-                  <li><a href="http://www.amazon.com/gp/product/B0064RM2IG/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B0064RM2IG&linkCode=as2&tag=hovalin-20&linkId=6IC23B5RPEXCYDLX">Bellafina Rosin</a></li>
-                  <li><a href="http://www.amazon.com/gp/product/B0087V0L9O/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B0087V0L9O&linkCode=as2&tag=hovalin-20&linkId=NK3T7EMZGCHCCHAK">Leto Rosin</a></li>
-                  <li><a href="http://www.amazon.com/gp/product/B000F3HK78/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B000F3HK78&linkCode=as2&tag=hovalin-20&linkId=JVF4UE6OTTAHZDPY" target="_blank">Bernardel Rosin</a></li>
-                </ul>
+
+                <div class="list-item">
+                  <div class="col-xs-2 no-padding">
+                    <img src="/assets/images/list-arrow.svg">
+                  </div>
+                  <div class="col-xs-10">
+                    <a href="http://www.amazon.com/gp/product/B0064RM2IG/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B0064RM2IG&linkCode=as2&tag=hovalin-20&linkId=6IC23B5RPEXCYDLX">Bellafina Rosin</a>
+                  </div>
+                </div>
+
+                <div class="list-item">
+                  <div class="col-xs-2 no-padding">
+                    <img src="/assets/images/list-arrow.svg">
+                  </div>
+                  <div class="col-xs-10">
+                    <a href="http://www.amazon.com/gp/product/B0087V0L9O/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B0087V0L9O&linkCode=as2&tag=hovalin-20&linkId=NK3T7EMZGCHCCHAK">Leto Rosin</a>
+                  </div>
+                </div>
+
+                <div class="list-item">
+                  <div class="col-xs-2 no-padding">
+                    <img src="/assets/images/list-arrow.svg">
+                  </div>
+                  <div class="col-xs-10">
+                    <a href="http://www.amazon.com/gp/product/B000F3HK78/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B000F3HK78&linkCode=as2&tag=hovalin-20&linkId=JVF4UE6OTTAHZDPY" target="_blank">Bernardel Rosin</a>
+                  </div>
+                </div>
+
               </div>
             </div><!--/list-item --->
           </div>
@@ -144,11 +220,33 @@
                 <h3>STRINGS</h3>
                 <p>Strings can be expensive. We are fans of high value, low cost.</p>
                 <p>Here are a few brands of strings that we endorse.</p>
-                <ul>
-                  <li><a href="http://www.amazon.com/gp/product/B0002Y6BJI/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B0002Y6BJI&linkCode=as2&tag=hovalin-20&linkId=RMBKSKN5ZX76LXDL" target="_blank">D'Addario Prelude</a></li>
-                  <li><a href="http://www.amazon.com/gp/product/B0002D08OI/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B0002D08OI&linkCode=as2&tag=hovalin-20&linkId=WBFF4EM3CVW3HIDM" target="_blank">D'Addario Helicore </a></li>
-                  <li><a href="http://www.amazon.com/gp/product/B001LRJ6KG/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B001LRJ6KG&linkCode=as2&tag=hovalin-20&linkId=TBPRSCOJDC5WYJXK">Thomastik Reds</a></li>
-                </ul>
+
+                <div class="list-item">
+                  <div class="col-xs-2 no-padding">
+                    <img src="/assets/images/list-arrow.svg">
+                  </div>
+                  <div class="col-xs-10">
+                    <a href="http://www.amazon.com/gp/product/B0002Y6BJI/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B0002Y6BJI&linkCode=as2&tag=hovalin-20&linkId=RMBKSKN5ZX76LXDL" target="_blank">D'Addario Prelude</a>
+                  </div>
+                </div>
+
+                <div class="list-item">
+                  <div class="col-xs-2 no-padding">
+                    <img src="/assets/images/list-arrow.svg">
+                  </div>
+                  <div class="col-xs-10">
+                    <a href="http://www.amazon.com/gp/product/B0002D08OI/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B0002D08OI&linkCode=as2&tag=hovalin-20&linkId=WBFF4EM3CVW3HIDM" target="_blank">D'Addario Helicore </a>
+                  </div>
+                </div>
+
+                <div class="list-item">
+                  <div class="col-xs-2 no-padding">
+                    <img src="/assets/images/list-arrow.svg">
+                  </div>
+                  <div class="col-xs-10">
+                    <a href="http://www.amazon.com/gp/product/B001LRJ6KG/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B001LRJ6KG&linkCode=as2&tag=hovalin-20&linkId=TBPRSCOJDC5WYJXK">Thomastik Reds</a>
+                  </div>
+                </div>
               </div>
             </div><!--/list-item --->
 
@@ -172,11 +270,33 @@
                 <h3>BOW</h3>
                 <p>Bows can also be expensive, we are fans of high value, low cost</p>
                 <p>Here are a few brands of bows that we support.</p>
-                <ul>
-                  <li><a href="http://www.amazon.com/gp/product/B000VO1EA0/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B000VO1EA0&linkCode=as2&tag=hovalin-20&linkId=FWQTVZNADTN27EOH">ViolinSmart Violin Bow</a></li>
-                  <li><a href="http://www.amazon.com/gp/product/B00DW12HR8/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00DW12HR8&linkCode=as2&tag=hovalin-20&linkId=MT5E5EDF44KDROUF">Balanced Brazilwood Bow</a></li>
-                  <li><a href="http://www.amazon.com/gp/product/B00FTSOPEK/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00FTSOPEK&linkCode=as2&tag=hovalin-20&linkId=SLYIPI5DS74SAZXG">Carbon Fiber Violin Bow</a></li>
-                </ul>
+
+                <div class="list-item">
+                  <div class="col-xs-2 no-padding">
+                    <img src="/assets/images/list-arrow.svg">
+                  </div>
+                  <div class="col-xs-10">
+                    <a href="http://www.amazon.com/gp/product/B000VO1EA0/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B000VO1EA0&linkCode=as2&tag=hovalin-20&linkId=FWQTVZNADTN27EOH">ViolinSmart Violin Bow</a>
+                  </div>
+                </div>
+
+                <div class="list-item">
+                  <div class="col-xs-2 no-padding">
+                    <img src="/assets/images/list-arrow.svg">
+                  </div>
+                  <div class="col-xs-10">
+                    <a href="http://www.amazon.com/gp/product/B00DW12HR8/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00DW12HR8&linkCode=as2&tag=hovalin-20&linkId=MT5E5EDF44KDROUF">Balanced Brazilwood Bow</a>
+                  </div>
+                </div>
+
+                <div class="list-item">
+                  <div class="col-xs-2 no-padding">
+                    <img src="/assets/images/list-arrow.svg">
+                  </div>
+                  <div class="col-xs-10">
+                    <a href="http://www.amazon.com/gp/product/B00FTSOPEK/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00FTSOPEK&linkCode=as2&tag=hovalin-20&linkId=SLYIPI5DS74SAZXG">Carbon Fiber Violin Bow</a>
+                  </div>
+                </div>
               </div>
             </div><!--/list-item --->
             <div class="list-item">
@@ -185,10 +305,24 @@
               </div>
               <div class="col-xs-10">
                 <h3>Extras</h3>
-                <ul>
-                  <li><a href="http://www.amazon.com/gp/product/B00T1MCMG8/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00T1MCMG8&linkCode=as2&tag=hovalin-20&linkId=NCO5OXAVEDGRUYQZ">100 - 600 grit sandpaper</a></li>
-                  <li><a href="http://www.amazon.com/gp/product/B00004TBL1/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00004TBL1&linkCode=as2&tag=hovalin-20&linkId=I5FGWGZEFN5MSXEJ">Socket wrench and 10mm socket</a></li>
-                </ul>
+
+                <div class="list-item">
+                  <div class="col-xs-2 no-padding">
+                    <img src="/assets/images/list-arrow.svg">
+                  </div>
+                  <div class="col-xs-10">
+                    <a href="http://www.amazon.com/gp/product/B00T1MCMG8/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00T1MCMG8&linkCode=as2&tag=hovalin-20&linkId=NCO5OXAVEDGRUYQZ">100 - 600 grit sandpaper</a>
+                  </div>
+                </div>
+
+                <div class="list-item">
+                  <div class="col-xs-2 no-padding">
+                    <img src="/assets/images/list-arrow.svg">
+                  </div>
+                  <div class="col-xs-10">
+                    <a href="http://www.amazon.com/gp/product/B00004TBL1/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00004TBL1&linkCode=as2&tag=hovalin-20&linkId=I5FGWGZEFN5MSXEJ">Socket wrench and 10mm socket</a>
+                  </div>
+                </div>
               </div>
             </div><!--/list-item --->
 
@@ -198,29 +332,29 @@
     </div>
 
     <div id="print-the-parts" class="step">
-        <div class="container">
-          <p class="number">2</p>
-          <p class="title">3D Print the parts</p>
-          <div class="row">
-            <div class="col-md-6">
-              <img class="3dprinter-icon" src="/assets/images/make-page/printer.svg">
-            </div>
-            <div class="col-md-6">
-              <h3>New to 3D printing?</h3>
-              <p>In order to make the violin we’re going to need a 3D printer. It needs to be wide enough to print the neck and tall enough to print the violin body’s 3 sections.</p>
-              <h4>First layer problems</h4>
-              <p>A majority of the problems from 3d printing can stem from the first layer not adhering properly to the print bed.</p>
-              <p>We recommend taking the following precautions when printing.</p>
-              <ul>
-                <li>Always make sure the bed is properly leveled</li>
-                <li>Put down fresh blue tape if any of the print area's tape shows signs of peeling.</li>
-              </ul>
-            </div>
+      <div class="container">
+        <p class="number">2</p>
+        <p class="title">3D Print the parts</p>
+        <div class="row">
+          <div class="col-md-6">
+            <img class="3dprinter-icon" src="/assets/images/make-page/printer.svg">
           </div>
-          <div class="row">
-            <div class="col-xs-12">
-              <p>* extra credit * Sand the blue tape with 100 grit sandpaper to help prevent warping</p>
-              <p>We're not trying to write the book on 3d printing. A great first step down the rabbit hole can be found <a href="http://reprap.org/wiki/The_incomplete_RepRap_Prusa_Mendel_beginner's_guide">here.</a>
+          <div class="col-md-6">
+            <h3>New to 3D printing?</h3>
+            <p>In order to make the violin we’re going to need a 3D printer. It needs to be wide enough to print the neck and tall enough to print the violin body’s 3 sections.</p>
+            <h4>First layer problems</h4>
+            <p>A majority of the problems from 3d printing can stem from the first layer not adhering properly to the print bed.</p>
+            <p>We recommend taking the following precautions when printing.</p>
+            <ul>
+              <li>Always make sure the bed is properly leveled</li>
+              <li>Put down fresh blue tape if any of the print area's tape shows signs of peeling.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12">
+            <p>* extra credit * Sand the blue tape with 100 grit sandpaper to help prevent warping</p>
+            <p>We're not trying to write the book on 3d printing. A great first step down the rabbit hole can be found <a href="http://reprap.org/wiki/The_incomplete_RepRap_Prusa_Mendel_beginner's_guide">here.</a>
               <p>All together, the violin will take ~500 grams of plastic to print. Assuming there aren't too many failed prints, you should be able to make the entire hovalin with a single 1kg roll of plastic.</p>
             </div>
           </div>
@@ -437,8 +571,8 @@
       </div>
     </div>
     <!--<section class="post-content">
-        {{content}}
-    </section> -->
+    {{content}}
+  </section> -->
 
 </article>
 </main>
