@@ -39,6 +39,17 @@
     background-repeat: no-repeat;
     background-position: 95%;
   }
+  .color-selector{
+    margin-top: 20px;
+  }
+  .list-item{
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    img{
+      max-width: 45px;
+    }
+  }
   ul{
     margin-bottom: 35px;
   }

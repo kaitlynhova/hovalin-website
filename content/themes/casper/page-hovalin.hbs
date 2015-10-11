@@ -17,27 +17,58 @@
         <p class="product-subtitle">Fully assembled</p>
         <p class="price"> $500</p>
 
-        <p>The fully assembled violin includes the following:</p>
-        <ul>
-          <li>3D printed parts</li>
-          <li>Carbon Fiber Rods</li>
-          <li>Tuners</li>
-          <li>Strings</li>
-        </ul>
-        <p>SELECT A COLOR</p>
+        <p>INCLUDES:</p>
 
-        {{> "color-selector"}}
-        <form style="display:none" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-        <input type="hidden" name="cmd" value="_s-xclick">
-        <input type="hidden" name="hosted_button_id" value="UU6N3ZZ65ARKE">
-        <table>
-        <tr><td><input type="hidden" name="on0" value="Color">Color</td></tr><tr><td><select name="os0">
-          <option id="paypal-color" value="Black">Black </option>
-        </select> </td></tr>
-        </table>
-        <input id="paypal-submit" type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-        </form>
+        <div class="list-item row">
+          <div class="col-xs-2 no-padding">
+            <img src="/assets/images/list-arrow.svg">
+          </div>
+          <div class="col-xs-10">
+            3D printed parts
+          </div>
+        </div>
+        <div class="list-item row">
+          <div class="col-xs-2 no-padding">
+            <img src="/assets/images/list-arrow.svg">
+          </div>
+          <div class="col-xs-10">
+            Carbon Fiber Rods
+          </div>
+        </div>
+        <div class="list-item row">
+          <div class="col-xs-2 no-padding">
+            <img src="/assets/images/list-arrow.svg">
+          </div>
+          <div class="col-xs-10">
+            Tuners
+          </div>
+        </div>
+
+        <div class="list-item row">
+          <div class="col-xs-2 no-padding">
+            <img src="/assets/images/list-arrow.svg">
+          </div>
+          <div class="col-xs-10">
+            Strings
+          </div>
+        </div>
+
+        <div class="color-selector">
+          <p>SELECT A COLOR</p>
+
+          {{> "color-selector"}}
+          <form style="display:none" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <input type="hidden" name="cmd" value="_s-xclick">
+          <input type="hidden" name="hosted_button_id" value="UU6N3ZZ65ARKE">
+          <table>
+          <tr><td><input type="hidden" name="on0" value="Color">Color</td></tr><tr><td><select name="os0">
+            <option id="paypal-color" value="Black">Black </option>
+          </select> </td></tr>
+          </table>
+          <input id="paypal-submit" type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+          <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+          </form>
+        </div>
       </div>
     </div>
   </div>

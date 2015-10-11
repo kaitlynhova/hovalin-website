@@ -1,7 +1,7 @@
 {{!< default}}
 
 {{! This is a page template. A page outputs content just like any other post, and has all the same
-    attributes by default, but you can also customise it to behave differently if you prefer. }}
+attributes by default, but you can also customise it to behave differently if you prefer. }}
 
 {{! Everything inside the #post tags pulls data from the page }}
 {{#post}}
@@ -16,28 +16,60 @@
         <p class="product-subtitle">Assemble it yourself</p>
         <p class="price"> $300</p>
 
-        <p>INCLUDES</p>
-        <ul>
-          <li>3D printed parts</li>
-          <li>Carbon Fiber Rods</li>
-          <li>Tuners</li>
-          <li>Strings</li>
-        </ul>
+        <p>INCLUDES:</p>
 
-        <p>SELECT A COLOR</p>
+        <div class="list-item row">
+          <div class="col-xs-2 no-padding">
+            <img src="/assets/images/list-arrow.svg">
+          </div>
+          <div class="col-xs-10">
+            <p>3D printed parts</p>
+          </div>
+        </div>
 
-        {{> "color-selector"}}
-        <form style="display:none" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-        <input type="hidden" name="cmd" value="_s-xclick">
-        <input type="hidden" name="hosted_button_id" value="WPJ9L8UH5JLAS">
-        <table>
-        <tr><td><input type="hidden" name="on0" value="Color">Color</td></tr><tr><td><select name="os0">
-          <option id="paypal-color" value="Black">Black </option>
-        </select> </td></tr>
-        </table>
-        <input id="paypal-submit" type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-        </form>
+        <div class="list-item row">
+          <div class="col-xs-2 no-padding">
+            <img src="/assets/images/list-arrow.svg">
+          </div>
+          <div class="col-xs-10">
+            Carbon Fiber Rods
+          </div>
+        </div>
+
+        <div class="list-item row">
+          <div class="col-xs-2 no-padding">
+            <img src="/assets/images/list-arrow.svg">
+          </div>
+          <div class="col-xs-10">
+            Tuners
+          </div>
+        </div>
+
+        <div class="list-item row">
+          <div class="col-xs-2 no-padding">
+            <img src="/assets/images/list-arrow.svg">
+          </div>
+          <div class="col-xs-10">
+            Strings
+          </div>
+        </div>
+
+        <div class="color-selector">
+          <p>SELECT A COLOR</p>
+
+          {{> "color-selector"}}
+          <form style="display:none" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="WPJ9L8UH5JLAS">
+            <table>
+              <tr><td><input type="hidden" name="on0" value="Color">Color</td></tr><tr><td><select name="os0">
+                <option id="paypal-color" value="Black">Black </option>
+              </select> </td></tr>
+            </table>
+            <input id="paypal-submit" type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+          </form>
+        </div><!--/color selector -->
 
       </div>
     </div>
