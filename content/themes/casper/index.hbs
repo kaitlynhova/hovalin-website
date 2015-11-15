@@ -4,62 +4,62 @@
 {{! The big featured header }}
 
 <header class="main-header {{#if @blog.cover}}" style="background-image: url({{@blog.cover}}){{else}}no-cover{{/if}}">
-    <nav class="main-nav overlay clearfix">
-        {{#if @blog.logo}}<a class="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="{{@blog.title}}" /></a>{{/if}}
-        {{#if @blog.navigation}}
-        {{/if}}
-    </nav>
-    <div id="hero" class="">
-      <div id="hero-text">
-        <img src="assets/images/hovalin-square.svg">
-        <h1 class="page-title">{{@blog.title}}</h1>
-        <p>3D PRINTED VIOLINS</p>
-        <p class="powered-by">powered by <a href="http://thehovas.com/" target="_blank">The Hovas</a></p>
-        <!--<h2 class="page-description">{{@blog.description}}</h2> -->
-      </div>
+  <nav class="main-nav overlay clearfix">
+    {{#if @blog.logo}}<a class="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="{{@blog.title}}" /></a>{{/if}}
+    {{#if @blog.navigation}}
+    {{/if}}
+  </nav>
+  <div id="hero" class="">
+    <div id="hero-text">
+      <img src="assets/images/hovalin-square.svg">
+      <h1 class="page-title">{{@blog.title}}</h1>
+      <p>3D PRINTED VIOLINS</p>
+      <p class="powered-by">powered by <a href="http://thehovas.com/" target="_blank">The Hovas</a></p>
+      <!--<h2 class="page-description">{{@blog.description}}</h2> -->
     </div>
-    <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
+  </div>
+  <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
 </header>
 
 {{! The main content area on the homepage }}
 <main id="content" class="content" role="main">
-    <div id="about">
-      <div class="container">
-        <div class="row">
-          <h2>An open source 3D printable acoustic violin</h2>
-          <p id="subheadline" class="subtitle">designed for desktop 3d printers</p>
-        </div>
-
-        <p>The hovalin is a functional acoustic violin that can be produced using most standard consumer 3d printers. The total cost of raw materials for the violin (4/4) is currently about $70. The hovalin was designed with <a href="http://fusion360.autodesk.com" target="_blank">Autodesk Fusion 360</a>. Its shape and dimensions are inspired by the Stradivarius violin model.</p>
-      </div>
-    </div>
-    <div id="options">
+  <div id="about">
+    <div class="container">
       <div class="row">
-        <a href="/make">
-          <div class="col-md-4 do-it no-padding">
-            <div class="do-it-area print-it">
-              <img class="option-icon" src="assets/images/home-page/options/print.svg" style="width: 120px; height: 120px;">
-              <p class="option-title">PRINT IT</p>
-              <p class="options-text">Well versed in 3D printing? Get the STL files and follow the instruction manual. </p>
-              <i class="fa fa-arrow-right"></i>
-            </div>
+        <h2>An open source 3D printable acoustic violin</h2>
+        <p id="subheadline" class="subtitle">designed for desktop 3d printers</p>
+      </div>
+
+      <p>The hovalin is a functional acoustic violin that can be produced using most standard consumer 3d printers. The total cost of raw materials for the violin (4/4) is currently about $70. The hovalin was designed with <a href="http://fusion360.autodesk.com" target="_blank">Autodesk Fusion 360</a>. Its shape and dimensions are inspired by the Stradivarius violin model.</p>
+    </div>
+  </div>
+  <div id="options">
+    <div class="row">
+      <a href="/make">
+        <div class="col-md-4 do-it no-padding">
+          <div class="do-it-area print-it">
+            <img class="option-icon" src="assets/images/home-page/options/print.svg" style="width: 120px; height: 120px;">
+            <p class="option-title">PRINT IT</p>
+            <p class="options-text">Well versed in 3D printing? Get the STL files and follow the instruction manual. </p>
+            <i class="fa fa-arrow-right"></i>
           </div>
-        </a>
-        <a href="/kit">
-          <div class="col-md-4 do-it no-padding">
-            <div class="do-it-area get-kit">
-              <img class="option-icon" src="assets/images/home-page/options/puzzle.svg" style="width: 120px; height: 120px;">
-              <p class="option-title">GET THE KIT</p>
-              <p class="options-text">A fan of lego-like activities? Buy the kit and put all of the 3d printed violin parts together yourself.</p>
-              <i class="fa fa-arrow-right"></i>
-            </div>
+        </div>
+      </a>
+      <a href="/kit">
+        <div class="col-md-4 do-it no-padding">
+          <div class="do-it-area get-kit">
+            <img class="option-icon" src="assets/images/home-page/options/puzzle.svg" style="width: 120px; height: 120px;">
+            <p class="option-title">GET THE KIT</p>
+            <p class="options-text">A fan of lego-like activities? Buy the kit and put all of the 3d printed violin parts together yourself.</p>
+            <i class="fa fa-arrow-right"></i>
           </div>
-        </a>
-        <a href="/hovalin">
-          <div class="col-md-4 do-it no-padding">
-            <div class="do-it-area buy-it">
-              <img class="option-icon" src="assets/images/home-page/options/tag.svg" style="width: 120px; height: 120px;">
-              <p class="option-title">BUY IT</h2>
+        </div>
+      </a>
+      <a href="/hovalin">
+        <div class="col-md-4 do-it no-padding">
+          <div class="do-it-area buy-it">
+            <img class="option-icon" src="assets/images/home-page/options/tag.svg" style="width: 120px; height: 120px;">
+            <p class="option-title">BUY IT</h2>
               <p class="options-text">Excited about 3D printed violins, but don't want to make one from scratch? Get it fully assembled.</p>
               <i class="fa fa-arrow-right"></i>
             </div>
@@ -111,33 +111,101 @@
         </div>
         <div class="col-sm-9">
           <!-- Begin MailChimp Signup Form -->
-            <div id="mc_embed_signup">
+          <div id="mc_embed_signup">
             <form action="//kaitlynhova.us11.list-manage.com/subscribe/post?u=f6c89e3652944c4095fdc687f&amp;id=8839b7db22" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-            <div class="row">
-              <div class="col-sm-5 col-xs-12">
-                <p >FIRST & LAST NAME</p>
-                <input type="text" value="" class="half-input" placeholder="Hansel" name="FNAME" class="" id="mce-FNAME"><input class="half-input" type="text" placeholder="Hova" value="" name="LNAME" class="" id="mce-LNAME">
-              </div>
-              <div class="col-sm-4 col-xs-12">
-                <p>EMAIL</p>
-                <input class="full-input" type="email" value="" placeholder="Awesome@email.com" name="EMAIL" class="required email" id="mce-EMAIL">
-              </div>
+              <div class="row">
+                <div class="col-sm-5 col-xs-12">
+                  <p >FIRST & LAST NAME</p>
+                  <input type="text" value="" class="half-input" placeholder="Hansel" name="FNAME" class="" id="mce-FNAME"><input class="half-input" type="text" placeholder="Hova" value="" name="LNAME" class="" id="mce-LNAME">
+                </div>
+                <div class="col-sm-4 col-xs-12">
+                  <p>EMAIL</p>
+                  <input class="full-input" type="email" value="" placeholder="Awesome@email.com" name="EMAIL" class="required email" id="mce-EMAIL">
+                </div>
 
-              <div id="mce-responses" class="clear">
-                <div class="response" id="mce-error-response" style="display:none"></div>
-                <div class="response" id="mce-success-response" style="display:none"></div>
-              </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                <div id="mce-responses" class="clear">
+                  <div class="response" id="mce-error-response" style="display:none"></div>
+                  <div class="response" id="mce-success-response" style="display:none"></div>
+                </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                 <div style="position: absolute; left: -5000px;"><input type="text" name="b_f6c89e3652944c4095fdc687f_8839b7db22" tabindex="-1" value=""></div>
-              <div class="col-sm-3 col-xs-12">
-                <div class="clear submit-button"><input class="full-input" type="submit" value="Huzzah!" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-              </div>
+                <div class="col-sm-3 col-xs-12">
+                  <div class="clear submit-button"><input class="full-input" type="submit" value="Huzzah!" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                </div>
               </div>
             </form>
-            </div>
+          </div>
 
           <!--End mc_embed_signup-->
 
         </div>
       </div>
     </div>
-</main>
+    <div id="featured-press">
+      <div class="title">
+        <h2>Featured in </h2>
+      </div>
+      <div class="row">
+
+        <div class="col-xs-4 col-sm-4 col-md-3">
+          <div class="press-image">
+            <span class="helper"></span>
+            <a href="http://3dprint.com/103361/3d-printed-hovalin-violin/" target="_blank">
+              <img class="small" src="assets/images/home-page/press-logos/3dprint.svg" height=75>
+            </a>
+          </div>
+        </div>
+        <div class="col-xs-4 col-sm-4 col-md-3">
+          <div class="press-image">
+            <span class="helper"></span>
+            <a href="http://www.thestrad.com/cpt-latests/hovalin-3d-printed-acoustic-violin-made-for-just-65/" target="_blank">
+              <img class="small" src="assets/images/home-page/press-logos/strad.svg" height=75>
+            </a>
+          </div>
+        </div>
+        <div class="col-xs-4 col-sm-4 col-md-3">
+          <div class="press-image">
+            <span class="helper"></span>
+            <a href="http://www.digitaltrends.com/cool-tech/3d-printed-violin-acoustic-quality/">
+              <img class="small square" src="assets/images/home-page/press-logos/digitaltrends.svg" height=75>
+            </a>
+          </div>
+        </div>
+        <div class="col-xs-4 col-sm-4 col-md-3">
+          <div class="press-image">
+            <span class="helper"></span>
+            <a href="http://www.techtimes.com/articles/98827/20151024/the-hovalin-is-a-3d-printed-stradivarius-inspired-violin-that-sounds-amazing.htm">
+              <img class="small square" src="assets/images/home-page/press-logos/techtimes.svg" height=75>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-xs-4 col-sm-4 col-md-4">
+          <div class="press-image">
+            <span class="helper"></span>
+            <a href="http://www.omaha.com/go/rock-candy-former-omahans-offer-free-plans-for--d/article_99793281-1cc5-58d1-b1c2-f61abb6308c8.html" target="_blank">
+              <img class="small" src="assets/images/home-page/press-logos/OWH.svg" height=75>
+            </a>
+          </div>
+        </div>
+        <div class="col-xs-4 col-sm-4 col-md-4">
+          <div class="press-image">
+            <span class="helper"></span>
+            <a href="http://hearnebraska.org/former-omaha-residents-develop-3-d-printable-hovalin-to-promote-steam-education-photos-of-sleep-sinatra-thirdeye-merchants-at-zoo-bar/">
+              <img class="small" src="assets/images/home-page/press-logos/hearNE.svg" height=75>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-xs-4 col-sm-4 col-md-4">
+          <div class="press-image">
+            <span class="helper"></span>
+            <a href="http://www.3ders.org/articles/20151015-fantastic-open-source-3d-printable-hovalin-acoustic-violin-unveiled-by-kaitlyn-and-matt-hova.html" target="blank">
+              <img class="small" src="assets/images/home-page/press-logos/3ders.svg" height=75>
+            </a>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </main>

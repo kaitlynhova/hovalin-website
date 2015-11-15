@@ -326,3 +326,43 @@
     top: 42px;
   }
 }
+
+#featured-press{
+  background-color: #27282d;
+  padding: 75px 0;
+  .title{
+    color: #555;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .press-color{
+    fill: #555555;
+  }
+  .bottom-logos{
+    display: block;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 200px;
+  }
+  .press-image {
+    height: 75px;      /* equals max image height */
+    width: 100%;
+    white-space: nowrap;
+    text-align: center; margin: 1em 0;
+    margin-bottom: 50px;
+    .helper {
+      display: inline-block;
+      height: 100%;
+      vertical-align: middle;
+    }
+    img {
+      vertical-align: middle;
+      max-height: 100px;
+      max-width: 200px;
+      transition: .2s;
+      &:hover{
+        opacity: .7;
+      }
+    }
+  }
+}
