@@ -7,13 +7,12 @@
 
 <div id="blog-page" class="row">
   {{#foreach posts}}
+
   <div class="col-md-4">
     <article class="{{post_class}} home-post">
         <section class="post-excerpt">
             <a href="{{url}}">
-              <div class="black-bg">
-                <img src="{{image}}">
-              </div>
+              <img src="{{image}}">
             </a>
             <header class="post-header">
                 <h2 class="post-title"><a href="{{url}}">{{{title}}}</a></h2>

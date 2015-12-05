@@ -1,3 +1,21 @@
 #blog-page{
   padding-top: 100px;
+
+  .col-md-4{
+    height: 800px;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 992px) {
+  #blog-page{
+    padding-top: 100px;
+
+    .col-md-4{
+      height: auto;
+    }
+    .post-date {
+    top: auto;
+    }
+  }
 }
