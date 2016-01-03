@@ -61,6 +61,25 @@
 }
 
 
+#downloads{
+  background-color: #E8E8E8;
+  padding: 100px 0;
+  .download-button{
+    background-color: #F2B449;
+    border: 2px solid #F2B449;
+    padding: 20px 60px 20px 60px;
+    transition: .5s;
+    max-width: 300px;
+    display: block;
+    margin: 0 auto;
+    color: white;
+  }
+  .extra-area{
+    text-align:center;
+  }
+}
+
+
 .step{
   padding-top:75px;
   padding-bottom: 75px;
