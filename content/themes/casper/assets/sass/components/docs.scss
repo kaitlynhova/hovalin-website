@@ -62,8 +62,14 @@
 
 
 #downloads{
-  background-color: #E8E8E8;
+  background-color: #f5f5f5;
   padding: 100px 0;
+  background-image: url("../images/make-page/cad.svg");
+  background-size: cover;
+  background-position: center;
+  a{
+    color: #6d6d6d !important;
+  }
   .download-button{
     background-color: #F2B449;
     border: 2px solid #F2B449;
@@ -73,6 +79,10 @@
     display: block;
     margin: 0 auto;
     color: white;
+    &:hover{
+      background-color: transparent;
+      color: #F2B449;
+    }
   }
   .extra-area{
     text-align:center;
