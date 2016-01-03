@@ -19,7 +19,7 @@ var _          = require('lodash'),
  */
 defaults = {
     page: 1,
-    limit: 15
+    limit: 25
 };
 
 /**
@@ -54,7 +54,7 @@ paginationUtils = {
     query: function query(itemCollection, options) {
         if (_.isNumber(options.limit)) {
             itemCollection
-                .query('limit', options.limit)
+                .query('limit', '100')
                 .query('offset', options.limit * (options.page - 1));
         }
     },

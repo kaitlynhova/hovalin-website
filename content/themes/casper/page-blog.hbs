@@ -8,8 +8,28 @@
 
 {{! The main content area on the homepage }}
 <main class="content" role="main">
-
-    {{! The tag below includes the post loop - partials/loop.hbs }}
-    {{> "loop"}}
+  {{#fetch "posts" limit="all" as |posts|}}
+    {{#foreach posts}}
+    <div class="col-md-4">
+      <article class="{{post_class}} home-post">
+          <section class="post-excerpt">
+              <a href="{{url}}">
+                <img src="{{image}}">
+              </a>
+              <header class="post-header">
+                  <h2 class="post-title"><a href="{{url}}">{{{title}}}</a></h2>
+                  <div class="post-meta-info">
+                    {{#if author.image}}<img class="author-thumb" src="{{author.image}}" alt="{{author.name}}" nopin="nopin" />{{/if}}
+                    {{author}}
+                    {{tags prefix=" on "}}
+                    <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time>
+                  </div>
+              </header>
+              <p>{{content words="30"}} <a class="read-more" href="{{url}}">read more</a></p>
+          </section>
+      </article>
+    </div>
+    {{/foreach}}
+  {{/fetch}}
 
 </main>

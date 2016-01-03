@@ -33,7 +33,7 @@
             }
         },
         "postsPerPage": {
-            "defaultValue": "5",
+            "defaultValue": "100",
             "validations": {
                 "isNull": false,
                 "isInt": true,
