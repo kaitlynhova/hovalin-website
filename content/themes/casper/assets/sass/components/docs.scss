@@ -5,7 +5,7 @@
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
-  background-image: url('../images/make-page/make-hero.jpg');
+  background-image: url('../images/make-page/make-hero-v3.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -264,6 +264,10 @@
   }
 }
 
-#install-pegs, #install-strings{
+#the-joints, #install-pegs, #install-strings{
+  background-color: #f5f5f5;
+}
+
+#sand-the-fretboard, #install-carbon{
   background-color: #E8E8E8;
 }
