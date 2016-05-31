@@ -39,4 +39,14 @@ To run our server type:
 npm start
 ```
 
+## Set up remotes
+
+```
+
+git remote add staging https://git.heroku.com/hovalin-staging.git
+
+git remote add production https://git.heroku.com/hovalin.git
+
+```
+
 Go to [localhost:8080](http://localhost:8080) to check out the site!
