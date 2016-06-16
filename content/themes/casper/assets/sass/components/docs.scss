@@ -270,3 +270,18 @@
 #sand-the-fretboard, #install-carbon{
   background-color: #E8E8E8;
 }
+
+.colored-box{
+  height: 25px;
+  width: 25px;
+  display: inline-block;
+  margin-right: 15px;
+  position: relative;
+  top: 5px;
+  &.remove{
+    background-color: #ed593b;
+  }
+  &.dontremove{
+    background-color: #090f43;
+  }
+}
